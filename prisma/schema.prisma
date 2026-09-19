@@ -1,0 +1,333 @@
+// Banco da loja Vida Natural.
+//
+// Dinheiro é sempre guardado em CENTAVOS (Int) — nunca em float. Os DTOs
+// expostos ao frontend convertem para reais.
+//
+// O provider padrão é SQLite (arquivo local, zero configuração). Para ir a
+// produção em Postgres, troque `provider` para "postgresql", aponte
+// DATABASE_URL para o servidor e rode `npx prisma migrate deploy`.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+// ---------------------------------------------------------------- catálogo
+
+model Category {
+  id       String  @id @default(cuid())
+  slug     String  @unique
+  name     String
+  /// Complemento do nome exibido no site ("Exclusivos", "Alívio Rápido")
+  tagline  String  @default("")
+  /// Rótulo curto para vitrines
+  label    String
+  /// Agrupamento: sem-ferrao | meis | propolis | outros
+  family   String  @default("outros")
+  position Int     @default(0)
+  active   Boolean @default(true)
+
+  products Product[]
+
+  @@index([position])
+}
+
+model Product {
+  id   String @id @default(cuid())
+  slug String @unique
+  /// Nome oficial, como publicado pela Vida Natural
+  name String
+  /// Linha exibida acima do título nas vitrines
+  line    String @default("")
+  /// Título curto usado nos cards
+  title   String
+  /// Complemento (sabor, florada)
+  variant String?
+
+  sku             String?
+  categoryId      String
+  category        Category @relation(fields: [categoryId], references: [id])
+  /// Blocos de descrição (heading | paragraph | feature) em JSON
+  description     String   @default("[]")
+  metaDescription String?
+
+  /// Imagem recortada (fundo transparente) usada nas vitrines
+  cutout String
+  /// Fotos oficiais do produto
+  images String @default("[]")
+  /// Tabelas nutricionais e informativos
+  infoImages String @default("[]")
+
+  priceCents          Int
+  /// Preço de referência anterior. Só preencha com um valor comercial real.
+  compareAtPriceCents Int?
+  installmentCount    Int?
+  installmentValueCents Int?
+
+  /// Peso bruto em gramas, usado no cálculo de frete
+  weightGrams Int     @default(0)
+  /// Rótulo de peso/volume exibido ("100g", "30ml")
+  sizeLabel   String?
+
+  /// Controle de estoque: quando false, o produto é sempre vendável
+  trackStock Boolean @default(false)
+  stock      Int     @default(0)
+  /// Abaixo deste valor o selo "estoque limitado" aparece (só com trackStock)
+  lowStockThreshold Int @default(5)
+
+  active     Boolean @default(true)
+  featured   Boolean @default(false)
+  /// Só marque como mais vendido com base em vendas reais
+  bestSeller Boolean @default(false)
+  isNew      Boolean @default(false)
+  position   Int     @default(0)
+
+  tiers      PriceTier[]
+  relations  ProductRelation[] @relation("ProductRelationSource")
+  relatedBy  ProductRelation[] @relation("ProductRelationTarget")
+  kitItems   KitItem[]
+  orderItems OrderItem[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([categoryId, position])
+  @@index([active])
+}
+
+/// Oferta progressiva: "3 unidades por R$ X cada".
+model PriceTier {
+  id            String  @id @default(cuid())
+  productId     String
+  product       Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+  minQuantity   Int
+  unitPriceCents Int
+  /// Destaque "melhor custo-benefício"
+  highlight     Boolean @default(false)
+  label         String?
+
+  @@unique([productId, minQuantity])
+}
+
+/// Relações editoriais entre produtos: "combine com", "você também pode gostar".
+model ProductRelation {
+  id        String  @id @default(cuid())
+  productId String
+  product   Product @relation("ProductRelationSource", fields: [productId], references: [id], onDelete: Cascade)
+  relatedId String
+  related   Product @relation("ProductRelationTarget", fields: [relatedId], references: [id], onDelete: Cascade)
+  /// cross-sell | related
+  kind      String  @default("cross-sell")
+  position  Int     @default(0)
+
+  @@unique([productId, relatedId, kind])
+}
+
+model Kit {
+  id          String  @id @default(cuid())
+  slug        String  @unique
+  name        String
+  description String  @default("")
+  /// Preço fechado do kit. Nulo = soma dos itens.
+  priceCents  Int?
+  active      Boolean @default(false)
+  position    Int     @default(0)
+
+  items KitItem[]
+}
+
+model KitItem {
+  id        String  @id @default(cuid())
+  kitId     String
+  kit       Kit     @relation(fields: [kitId], references: [id], onDelete: Cascade)
+  productId String
+  product   Product @relation(fields: [productId], references: [id])
+  quantity  Int     @default(1)
+
+  @@unique([kitId, productId])
+}
+
+// ------------------------------------------------------------------ clientes
+
+model Customer {
+  id       String  @id @default(cuid())
+  name     String
+  email    String  @unique
+  phone    String?
+  /// CPF/CNPJ, exigido por gateways brasileiros
+  document String?
+
+  addresses Address[]
+  orders    Order[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Address {
+  id         String    @id @default(cuid())
+  customerId String?
+  customer   Customer? @relation(fields: [customerId], references: [id], onDelete: SetNull)
+
+  zip        String
+  street     String
+  number     String
+  complement String?
+  district   String
+  city       String
+  state      String
+  country    String  @default("BR")
+
+  orders Order[]
+
+  createdAt DateTime @default(now())
+}
+
+// ------------------------------------------------------------------- pedidos
+
+model Order {
+  id     String @id @default(cuid())
+  /// Número curto mostrado ao cliente (VN-000123)
+  number String @unique
+  /// Token secreto para acompanhar o pedido sem login
+  token  String @unique
+
+  customerId String
+  customer   Customer @relation(fields: [customerId], references: [id])
+
+  shippingAddressId String?
+  shippingAddress   Address? @relation(fields: [shippingAddressId], references: [id])
+
+  items  OrderItem[]
+  events OrderEvent[]
+
+  couponId   String?
+  coupon     Coupon? @relation(fields: [couponId], references: [id])
+  couponCode String?
+
+  subtotalCents Int
+  discountCents Int @default(0)
+  shippingCents Int @default(0)
+  totalCents    Int
+
+  /// pix | credit_card | boleto | undefined (definido no gateway)
+  paymentMethod String?
+  /// pending | approved | in_process | rejected | cancelled | refunded
+  paymentStatus String @default("pending")
+  /// aguardando_pagamento | pago | em_separacao | enviado | entregue | cancelado
+  status        String @default("aguardando_pagamento")
+
+  /// Frete escolhido; "a_combinar" quando a loja cota manualmente
+  shippingService String @default("a_combinar")
+  shippingLabel   String?
+
+  /// Identificadores do gateway
+  gateway          String?
+  gatewayPreference String?
+  gatewayPaymentId  String?
+
+  /// Evita criar o mesmo pedido duas vezes a partir de um clique repetido
+  idempotencyKey String? @unique
+
+  notes String?
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  paidAt    DateTime?
+
+  @@index([customerId])
+  @@index([status])
+  @@index([createdAt])
+}
+
+model OrderItem {
+  id      String @id @default(cuid())
+  orderId String
+  order   Order  @relation(fields: [orderId], references: [id], onDelete: Cascade)
+
+  productId String
+  product   Product @relation(fields: [productId], references: [id])
+
+  /// Dados congelados no momento da compra
+  name           String
+  slug           String
+  imageSrc       String
+  unitPriceCents Int
+  /// Preço cheio quando houve desconto progressivo ou promoção
+  compareAtPriceCents Int?
+  quantity       Int
+  totalCents     Int
+
+  @@index([orderId])
+}
+
+/// Histórico de status do pedido.
+model OrderEvent {
+  id      String @id @default(cuid())
+  orderId String
+  order   Order  @relation(fields: [orderId], references: [id], onDelete: Cascade)
+
+  status String
+  note   String?
+  /// system | webhook | admin
+  source String @default("system")
+
+  createdAt DateTime @default(now())
+
+  @@index([orderId, createdAt])
+}
+
+// -------------------------------------------------------------------- cupons
+
+model Coupon {
+  id   String @id @default(cuid())
+  code String @unique
+
+  /// percent | fixed
+  type  String
+  /// Percentual (1-100) ou valor em centavos, conforme `type`
+  value Int
+
+  minSubtotalCents Int      @default(0)
+  startsAt         DateTime?
+  endsAt           DateTime?
+  usageLimit       Int?
+  usageCount       Int      @default(0)
+  active           Boolean  @default(false)
+  description      String?
+
+  orders Order[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// -------------------------------------------------------------------- frete
+
+/// Tabela de frete por faixa de peso e grupo de UFs.
+model ShippingRate {
+  id       String  @id @default(cuid())
+  name     String
+  /// UFs atendidas, separadas por vírgula ("SP,RJ,MG")
+  states   String
+  maxWeightGrams Int
+  priceCents     Int
+  /// Prazo estimado em dias úteis
+  days     Int
+  active   Boolean @default(true)
+  position Int     @default(0)
+
+  @@index([active, position])
+}
+
+// ----------------------------------------------------------------- ajustes
+
+/// Configurações da loja (chave/valor) — evita hardcode no frontend.
+model Setting {
+  key       String   @id
+  value     String
+  updatedAt DateTime @updatedAt
+}

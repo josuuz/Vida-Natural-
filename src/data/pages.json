@@ -1,0 +1,402 @@
+[
+  {
+    "slug": "quem-somos",
+    "source": "quem-somos",
+    "title": "Quem somos",
+    "blocks": [
+      {
+        "kind": "paragraph",
+        "text": "A Vida Natural nasceu há mais de 40 anos com uma missão clara: Transformar a filosofia de vida do nosso fundador, Edson de Rezende, em saúde acessível. Hoje, não somos apenas uma fábrica; somos o maior parceiro de terceirização do Brasil no setor."
+      },
+      {
+        "kind": "paragraph",
+        "text": "Por que nos escolher? Primeiro, pela segurança. Somos rigorosamente fiscalizados pelo SIF e operamos com 13 Programas de Auto Controle. Temos laboratório próprio para garantir a pureza e a origem de cada gota de mel."
+      },
+      {
+        "kind": "paragraph",
+        "text": "Segundo, pela escala. Temos mais de 500 produtos registrados no MAPA, cobrindo desde a tradicional Apis mellifera até as valiosas Abelhas Nativas sem Ferrão."
+      },
+      {
+        "kind": "paragraph",
+        "text": "Hoje, muitas empresas confiam suas marcas a nós. Nós não entregamos apenas o produto, entregamos o suporte de designers para sua embalagem e a garantia de que seu rótulo terá o selo de qualidade que o consumidor brasileiro respeita. Vamos levar essa excelência para o seu portfólio?"
+      }
+    ]
+  },
+  {
+    "slug": "pagamento-e-frete",
+    "source": "meios-de-pagamento-e-de-frete",
+    "title": "Meios de pagamento e de frete",
+    "blocks": [
+      {
+        "kind": "heading",
+        "text": "Política de Frete"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Os pedidos realizados em nosso site são enviados através de parceiros de logística reconhecidos no mercado para todas as regiões do Brasil, até 2 dias úteis após o recebimento da confirmação do pagamento dado pela instituição responsável pela cobrança."
+      },
+      {
+        "kind": "paragraph",
+        "text": "Para consultar o valor e prazo do frete, escolha quais itens deseja comprar e clique em “Adicionar ao Carrinho”. Em seguida, informe seu CEP, o custo e o prazo serão calculados automaticamente."
+      },
+      {
+        "kind": "paragraph",
+        "text": "Atenção:"
+      },
+      {
+        "kind": "item",
+        "text": "O prazo de entrega começa a contar após a aprovação do pagamento. Assim que seu pagamento for aprovado você será notificado por e-mail;"
+      },
+      {
+        "kind": "item",
+        "text": "Todos os pedidos estão sujeitos à análise e aprovação de dados cadastrais, o que pode demandar um tempinho maior na confirmação do pagamento;"
+      },
+      {
+        "kind": "heading",
+        "text": "Política de Pagamento"
+      },
+      {
+        "kind": "paragraph",
+        "text": "O prazo de entrega indicado no pedido começa a contar a partir da data de identificação do pagamento, que varia de acordo com a forma de pagamento:"
+      },
+      {
+        "kind": "item",
+        "text": "Cartão de Crédito entre quatro (4) e setenta e duas (72) horas úteis"
+      },
+      {
+        "kind": "item",
+        "text": "Pix em até uma hora"
+      },
+      {
+        "kind": "item",
+        "text": "Boleto Bancário: após a compensação que pode ocorrer em até 2 dias úteis"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Deste modo, caso tenha urgência no recebimento da entrega, sugerimos efetuar o pagamento via Cartão de Crédito ou Pix."
+      },
+      {
+        "kind": "paragraph",
+        "text": "As entregas ocorrem de segunda à sexta-feira das 8h às 18h. Em algumas faixas de CEP de algumas cidades, pode haver entregas aos sábados em horário comercial. Caso você esteja ausente ou havendo necessidade de confirmar endereço e/ou nome do destinatário, ou mesmo na hipótese da caixa ficar retida para análise e validação dos órgãos competentes, o prazo de entrega é pausado."
+      }
+    ]
+  },
+  {
+    "slug": "trocas-e-devolucoes",
+    "source": "politica-de-trocas-e-devolucoes",
+    "title": "Política de Trocas e Devoluções",
+    "blocks": [
+      {
+        "kind": "heading",
+        "text": "TROCAS E DEVOLUÇÕES"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Olá! Aqui temos algumas dicas se precisar fazer uma troca|devolução de um dos nossos produtos"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Veja aqui os casos em que você pode precisar realizar uma troca ou devolução:"
+      },
+      {
+        "kind": "heading",
+        "text": "Política de Devolução"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Se você recebeu um produto e não ficou satisfeito, ele não serviu ou se arrependeu da compra, é possível fazer a solicitação de devolução para estorno em até 7 (sete) dias corridos. Para isso, o pedido deverá estar em sua embalagem original, sem indícios de uso e com todos os itens recebidos. Para solicitar a troca, basta enviar um e-mail para vendas@vidanat.com.br, informando o número do seu pedido e anexar imagens do produto que demonstrem que não houve uso."
+      },
+      {
+        "kind": "heading",
+        "text": "Política de Troca"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Se você recebeu um produto diferente do comprado em nosso site, entre em contato por meio de nosso e-mail: vendas@vidanat.com.br. Esta solicitação deverá ser feita no prazo máximo de 7 (sete) dias corridos após o recebimento do produto."
+      },
+      {
+        "kind": "paragraph",
+        "text": "Para comprovar o erro, solicitamos que sejam enviadas fotos do produto recebido, bem como que seja informado o número do pedido realizado. Iremos analisar as fotografias e, comprovado o erro, iniciaremos o procedimento de troca sem custos adicionais ao cliente. Em caso de erro no tamanho, é importante fotografar também a etiqueta."
+      },
+      {
+        "kind": "heading",
+        "text": "Defeito no produto recebido"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Se você identificar algum tipo de defeito de fabricação, você terá 90 (noventa) dias corridos após a entrega para solicitar a troca ou a devolução."
+      },
+      {
+        "kind": "paragraph",
+        "text": "Para comprovar o defeito, solicitamos que sejam enviadas fotos do produto, bem como que seja informado o número do pedido realizado. Iremos analisar as fotografias e, comprovado o erro, iniciaremos o procedimento de troca sem custos adicionais ao cliente."
+      },
+      {
+        "kind": "paragraph",
+        "text": "Atenção: Caso o defeito tenha sido causado por problemas na utilização ou uso indevido, a responsabilidade é totalmente do comprador."
+      },
+      {
+        "kind": "heading",
+        "text": "Condições de Troca e Devolução"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Para que a troca ou a devolução seja efetuada, o produto deverá respeitar as seguintes exigências:"
+      },
+      {
+        "kind": "item",
+        "text": "não possuir sinais de uso, manchas, sujeira, suor ou deterioração da peça;"
+      },
+      {
+        "kind": "item",
+        "text": "preservar a embalagem interna e etiquetas originais aplicadas à peça;"
+      },
+      {
+        "kind": "item",
+        "text": "respeitar os seguintes prazos: 90 (noventa) dias corridos em caso de defeitos ou 7 (sete) dias corridos em casos de erro no pedido ou arrependimento de compra, contados a partir da data de recebimento da mercadoria."
+      },
+      {
+        "kind": "paragraph",
+        "text": "Para trocar um produto, entre em contato por meio de nosso e-mail vendas@vidanat.com.br, anexando as devidas evidências e iremos retornar com as instruções de troca no prazo de até 5 (cinco) dias úteis."
+      },
+      {
+        "kind": "heading",
+        "text": "Formas de Restituição de Valores"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Confira a seguir as opções disponíveis para restituição de valores:"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Cupom de desconto"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Você opta pelo cupom de desconto em qualquer situação referente a trocas por insatisfação."
+      },
+      {
+        "kind": "paragraph",
+        "text": "O cupom tem validade de 90 (noventa) dias e poderá ser utilizado exclusivamente pelo titular da conta na loja virtual, mediante uso de login e senha. Não é permitido vendê-lo para terceiros nem tampouco convertê-lo em dinheiro.Para utilizar o cupom, basta realizar uma nova compra e inseri-lo no momento de finalizar o pedido."
+      },
+      {
+        "kind": "paragraph",
+        "text": "Estorno parcial ou integral - pagamento por cartão de crédito"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Após o recebimento do produto em nosso Centro de Distribuição e aprovação da devolução mediante análise dos itens, a Vida Natural envia a solicitação de estorno para a administradora do cartão de crédito em até 7 (sete) dias úteis; esta por sua vez tem o prazo para processar a requisição de acordo com a política de cada administradora de cartão de crédito."
+      },
+      {
+        "kind": "paragraph",
+        "text": "Exclusivo para pagamentos em cartão de crédito, o procedimento de estorno parcial ou integral do valor pago em seu pedido seguirá as regras da administradora do cartão, podendo demorar de um a dois meses para que o valor seja devolvido, dependendo da data de vencimento de sua fatura."
+      },
+      {
+        "kind": "paragraph",
+        "text": "Estorno parcial ou integral - pagamento por pix e transferência"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Após o recebimento do produto em nosso Centro de Distribuição e aprovação da devolução mediante análise dos itens, a Vida Natural irá realizar o estorno do valor em até 30 (trinta) dias para a conta do intermediador de pagamento e você poderá solicitar o saque do mesmo."
+      },
+      {
+        "kind": "paragraph",
+        "text": "Estorno parcial ou integral - pagamento por boleto"
+      }
+    ]
+  },
+  {
+    "slug": "privacidade",
+    "source": "politica-de-privacidade",
+    "title": "Política de privacidade",
+    "blocks": [
+      {
+        "kind": "heading",
+        "text": "POLÍTICA DE PRIVACIDADE DE DADOS"
+      },
+      {
+        "kind": "paragraph",
+        "text": "A Loja Vida Natural se compromete com a segurança de seus dados e é claro que aqui na nossa loja oficial não é diferente. Mantemos suas informações no mais absoluto sigilo!"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Priorizamos a privacidade e a segurança de nossos clientes durante todo o processo de navegação e compra pelo site. Os seus dados que forem cadastrados em nossa loja durante sua visita e processo de compra nunca serão comercializados ou trocados.Utilizamos cookies e informações de sua navegação com o objetivo de traçar um perfil do público que visita o site e, assim, podermos aperfeiçoar nossos serviços, produtos e conteúdos, tudo conforme o regulamentado pela Lei Geral de Proteção de Dados. Durante todo este processo, mantemos suas informações em sigilo absoluto."
+      },
+      {
+        "kind": "heading",
+        "text": "O que é a LGPD?"
+      },
+      {
+        "kind": "paragraph",
+        "text": "A Lei Geral de Proteção de Dados (Lei nº 13.709/2018) regulamenta o tratamento de dados pessoais de clientes e usuários por parte de empresas públicas e privadas."
+      },
+      {
+        "kind": "heading",
+        "text": "O que são dados pessoais?"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Dados pessoais são quaisquer informações capazes de identificar você e/ou qualquer pessoa física. Ou seja, são considerados dados pessoais não só aqueles que identificam uma pessoa imediatamente (como nome, sobrenome, CPF, RG, CNH, Carteira de Trabalho, passaporte e título de eleitor), como também aqueles que, em conjunto com outros dados, tornam uma pessoa identificável (como por exemplo, dados como gênero, idade, telefone, e-mail, ainda que não sejam capazes de identificar alguém de imediato, em conjunto, tornam a pessoa passível de identificação)."
+      },
+      {
+        "kind": "heading",
+        "text": "O que é tratamento de dados?"
+      },
+      {
+        "kind": "paragraph",
+        "text": "É o termo utilizado pela LGPD que resume tudo o que uma empresa pode fazer com dados pessoais a que tem acesso, como coleta, qualificação, compartilhamento e exclusão."
+      },
+      {
+        "kind": "heading",
+        "text": "O que são cookies?"
+      },
+      {
+        "kind": "paragraph",
+        "text": "São pequenos arquivos de texto enviados para seu navegador, contendo registros sobre seu comportamento ao acessar um site, mas que não armazenam dados pessoais ou afetam o sistema do seu dispositivo. Utilizamos cookies, pixels e outras tecnologias para reconhecer seu navegador ou dispositivo, aprender mais sobre seus interesses, apresentar serviços essenciais, aperfeiçoar a sua experiência de navegação e, ainda, para impedir atividades fraudulentas e melhorar a sua segurança no processo de compra em nossa loja."
+      },
+      {
+        "kind": "heading",
+        "text": "Cookies da Sessão"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Cookies da sessão são cookies temporários que são utilizados para lembrar de você durante o curso da sua visita ao site, e eles perdem a validade quando você fecha o navegador."
+      },
+      {
+        "kind": "heading",
+        "text": "Cookies Persistentes"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Cookies persistentes são utilizados para medir a eficácia de nosso site, bem como lembrar suas preferências do site, e permanecem no seu desktop ou dispositivo móvel mesmo depois de você fechar o seu navegador ou efetuar uma reinicialização. Utilizamos tais cookies para analisar o comportamento do usuário e estabelecer padrões, de modo a melhorar a funcionalidade do nosso site para você e outros que o visitam. Estes cookies também nos permitem oferecer os anúncios segmentados e medir a eficácia do nosso site, além da funcionalidade de tais anúncios."
+      },
+      {
+        "kind": "heading",
+        "text": "Como os Cookies de terceiros são usados?"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Podemos utilizar cookies e outras tecnologias semelhantes em nossa loja virtual para melhorar sua experiência de navegação, personalizar conteúdos, analisar o tráfego do site e oferecer anúncios mais relevantes."
+      },
+      {
+        "kind": "paragraph",
+        "text": "Cookies são pequenos arquivos de texto que um site envia para o seu navegador e que ficam armazenados no seu dispositivo. Eles são utilizados, por exemplo, para lembrar suas preferências, manter você logado em sua conta ou medir o desempenho das nossas páginas."
+      },
+      {
+        "kind": "paragraph",
+        "text": "Os tipos de cookies que podemos utilizar incluem:"
+      },
+      {
+        "kind": "item",
+        "text": "Cookies essenciais: necessários para o funcionamento do site e para garantir funcionalidades básicas, como login e finalização de pedidos."
+      },
+      {
+        "kind": "item",
+        "text": "Cookies de desempenho: nos ajudam a entender como os visitantes interagem com o site, coletando informações de forma anônima."
+      },
+      {
+        "kind": "item",
+        "text": "Cookies de funcionalidade: permitem lembrar suas preferências e personalizar sua experiência."
+      },
+      {
+        "kind": "item",
+        "text": "Cookies de publicidade: utilizados para apresentar anúncios relevantes, com base nos seus interesses."
+      },
+      {
+        "kind": "paragraph",
+        "text": "Ao continuar navegando em nosso site, você concorda com o uso de cookies, nos termos desta Política."
+      },
+      {
+        "kind": "heading",
+        "text": "Como usamos os dados pessoais que coletamos?"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Você está ciente de que fornece informação de forma consciente e voluntária por meio de aceite dos cookies da página, bem como no momento de realização de um pedido no site e/ou cadastro em nosso site."
+      },
+      {
+        "kind": "paragraph",
+        "text": "No momento da compra, ou quando você realiza o cadastro/preenche o formulário oferecido pela Vida Natural, podemos solicitar que você forneça algumas informações necessárias para finalizar o seu pedido. Esses dados podem incluir informações pessoais comuns (como nome, CPF, endereço, telefone e dados de pagamento) e, em algumas situações, dados pessoais sensíveis, como imagem, informações de saúde ou outros dados necessários para atender corretamente ao seu pedido."
+      },
+      {
+        "kind": "paragraph",
+        "text": "Ao prosseguir com a compra e fornecer esses dados, você concorda com o tratamento dessas informações e com o compartilhamento delas com terceiros que nos ajudam a processar pagamentos, entregar produtos, atender às funcionalidades da plataforma, como auxiliar na criação e descrição de produtos, bem como prestar outros serviços essenciais à conclusão da sua compra."
+      },
+      {
+        "kind": "paragraph",
+        "text": "Para que estes dados permaneçam seguros, recomendamos que você jamais forneça seus dados de acesso ao site (login e senha) a terceiros, mesmo que sejam amigos e parentes. Em caso de suspeita ou confirmação de acesso indevido, entre imediatamente em sua área de cliente e altere a senha."
+      },
+      {
+        "kind": "heading",
+        "text": "Por quanto tempo usamos os dados pessoais que coletamos?"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Os Dados Pessoais são armazenados somente pelo tempo necessário para cumprir com as finalidades para as quais foram coletados, salvo se houver outra razão para a sua manutenção, a exemplo do cumprimento de quaisquer obrigações legais, regulatórias, contratuais, entre outras."
+      },
+      {
+        "kind": "heading",
+        "text": "Quais os seus direitos?"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Você tem direito de solicitar à Vida Natural informações referentes ao tratamento de seus dados pessoais, por meio dos pedidos abaixo:"
+      },
+      {
+        "kind": "paragraph",
+        "text": "I. Confirmação da existência de tratamento de dados pessoais seus e acesso aos dados;"
+      },
+      {
+        "kind": "paragraph",
+        "text": "II. Correção de dados incompletos, inexatos ou desatualizados - é importante que os dados pessoais sejam precisos e atuais e cabe a você mantê-los corretos e atualizados;"
+      },
+      {
+        "kind": "paragraph",
+        "text": "III. Anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade com a LGPD - você poderá solicitar o bloqueio e a eliminação de seus dados pessoais, salvo nos casos previstos em lei;"
+      },
+      {
+        "kind": "paragraph",
+        "text": "IV. Portabilidade dos dados a outro fornecedor de serviço ou produto, mediante requisição expressa, de acordo com a regulamentação da Autoridade Nacional, observados os segredos comercial e industrial - a portabilidade dos dados pessoais não inclui dados já anonimizados pela Vida Natural;"
+      },
+      {
+        "kind": "paragraph",
+        "text": "V. Informação sobre o compartilhamento de dados com entidades públicas e privadas;"
+      },
+      {
+        "kind": "paragraph",
+        "text": "VI. Informação sobre a possibilidade de não fornecer consentimento e sobre as consequências da negativa;"
+      },
+      {
+        "kind": "paragraph",
+        "text": "VII. Revogação do consentimento: você pode retirar o seu consentimento em relação às atividades de tratamento que o requerem;"
+      },
+      {
+        "kind": "paragraph",
+        "text": "Para qualquer dos pedidos elencados acima, você deverá entrar em contato com a Vida Natural por meio das informações de contato disponibilizadas."
+      },
+      {
+        "kind": "paragraph",
+        "text": "Cadastre-se e compre com tranquilidade, sem preocupações."
+      },
+      {
+        "kind": "paragraph",
+        "text": "As alterações sobre nossa política de privacidade serão devidamente informadas neste espaço."
+      },
+      {
+        "kind": "paragraph",
+        "text": "A Vida Natural garante que utiliza os seus dados pessoais de endereçamento, pagamento e conteúdo do pedido, apenas para fins de processamento dos pedidos realizados, não sendo, portanto, divulgados em hipótese alguma. Em relação à segurança no tráfego de dados, toda a navegação realizada em nosso site, bem como as transações que envolverem pagamento, seja por cartão de crédito ou não, estarão criptografadas com a tecnologia SSL (Secure Socket Layer). Isso significa que só a loja tem acesso a suas informações pessoais e mais ninguém. Quando você preenche os dados e nos envia, eles são criptografados, o que faz com que, durante o trajeto pela Internet, fiquem irreconhecíveis, assegurando a confidencialidade. Verifique, abaixo, um resumo dos nossos certificados de segurança:"
+      },
+      {
+        "kind": "heading",
+        "text": "Certificados de segurança"
+      },
+      {
+        "kind": "paragraph",
+        "text": "SELO GOOGLE SAFE BROWSING: O Google é a maior empresa de pesquisas e tecnologia do mundo. A empresa possui um sistema de avaliação de navegação segura, examinando bilhões de websites diariamente. Ao realizar a inspeção diária de nosso website, o Google atesta que o mesmo é seguro para navegação e nos concede o seu selo de segurança que consta no rodapé da página. Clique no selo para que o Google faça a verificação agora."
+      },
+      {
+        "kind": "paragraph",
+        "text": "CERTIFICADO SSL: O certificado digital SSL é o nível de segurança mais alto e obrigatório para todos os sites que realizam transmissão de dados, como, por exemplo, nos e-commerces que solicitam informações sensíveis aos clientes, como e-mail e dados do cartão de crédito. Esse certificado pode ser verificado pelo cadeado verde na barra de navegação que atesta que o site protege as informações que são enviadas pelos clientes por meio de criptografia de dados, o que praticamente elimina a possibilidade de interceptação de dados. Sites seguros são acessados pelo prefixo HTTPS, os sites que possuem acesso apenas pelo prefixo HTTP não são seguros e não criptografam as informações. Confira o cadeado verde e o prefixo HTTPS no seu navegador e verifique o nosso selo de Certificado SSL no rodapé da página."
+      }
+    ]
+  }
+]

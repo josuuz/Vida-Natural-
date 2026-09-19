@@ -1,0 +1,3324 @@
+{
+  "scrapedAt": "2026-09-19",
+  "source": "https://www.vidanat.com.br",
+  "categories": [
+    {
+      "slug": "balas",
+      "name": "Balas - Alívio Rápido"
+    },
+    {
+      "slug": "spray-bucal",
+      "name": "Spray Bucal - Frescor e Proteção Imediata"
+    },
+    {
+      "slug": "extrato-de-propolis",
+      "name": "Extrato de Própolis - Gotas de Proteção"
+    },
+    {
+      "slug": "cha",
+      "name": "Chá - Conforto Natural"
+    },
+    {
+      "slug": "composto-de-mel-e-extrato-de-propolis",
+      "name": "Composto de Mel e Extrato de Própolis - Imunidade Reforçada"
+    },
+    {
+      "slug": "meis-de-abelhas-sem-ferrao",
+      "name": "Méis de Abelhas sem Ferrão - Raros"
+    },
+    {
+      "slug": "meis-de-abelhas-apis-mellifera",
+      "name": "Méis - Energia Natural do Campo"
+    },
+    {
+      "slug": "meis-em-saches",
+      "name": "Méis em Sachês - Praticidade Diária"
+    },
+    {
+      "slug": "meis-de-abelhas-sem-ferrao-lancamentos",
+      "name": "Méis de Abelhas sem Ferrão - Exclusivos"
+    }
+  ],
+  "products": [
+    {
+      "slug": "balas-de-gengibre-40g",
+      "url": "https://www.vidanat.com.br/balas-de-gengibre-40g",
+      "sku": "0078",
+      "name": "Balas de Gengibre e Própolis - 40g",
+      "category": {
+        "slug": "balas",
+        "name": "Balas - Alívio Rápido"
+      },
+      "price": 8.99,
+      "priceFrom": null,
+      "installments": null,
+      "available": true,
+      "size": "40g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400419469/a00ac3df35ff4f94bd66dac060253b85-s0t2ri9au2.jpg"
+      ],
+      "infoImages": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400419469/balas-tabela-nutricional-cqbtjsb2u2.jpg"
+      ],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Conforto para a Garganta",
+          "text": "Traz uma deliciosa sensação de alívio e frescor para os dias de rouquidão e garganta seca."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Proteção Natural",
+          "text": "Aproveite os benefícios do própolis e do gengibre para blindar a sua rotina com mais bem-estar."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Auxílio na Imunidade",
+          "text": "Nutrição prática em compostos que apoiam o funcionamento das defesas naturais do seu corpo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍂",
+          "label": "Bem-estar Digestivo",
+          "text": "O poder do gengibre que ajuda a trazer leveza e conforto para a sua digestão a qualquer hora."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🦷",
+          "label": "Cuidado Bucal",
+          "text": "Sabor e proteção extra para o seu dia a dia, combinando ingredientes selecionados diretamente da natureza."
+        },
+        {
+          "kind": "paragraph",
+          "emoji": null,
+          "text": "Tudo isso em uma combinação nutricional completa, prática para consumir a qualquer momento e perfeita para a sua rotina!"
+        }
+      ],
+      "metaDescription": "✨ Conforto para a Garganta: Traz uma deliciosa sensação de alívio e frescor para os dias de rouquidão e garganta seca. 🛡️ Proteção Natural: Aproveite os benefícios do própolis e do gengibre para blindar a sua rotina com mais bem-estar. 💪 Auxílio na Imunidade: Nutrição prática em compostos que apoiam o funcionamento das defesas naturais do seu corpo. 🍂 Bem-estar Digestivo: O poder do gengibre que ajuda a trazer leveza e conforto para a sua digestão a qualquer hora. 🦷 Cuidado Bucal: Sabor e proteção extra para o seu dia a dia, combinando ingredientes selecionados diretamente da natureza. Tudo isso em uma combinação nutricional completa, prática para consumir a qualquer momento e perfeita para a sua rotina!",
+      "localImages": [
+        {
+          "src": "/produtos/balas-de-gengibre-40g-1.jpg",
+          "width": 1356,
+          "height": 1400
+        }
+      ],
+      "localInfoImages": [
+        {
+          "src": "/produtos/balas-de-gengibre-40g-info-1.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "cutout": {
+        "src": "/produtos/balas-de-gengibre-40g-cutout.webp",
+        "width": 706,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "balas-de-propolis-40g",
+      "url": "https://www.vidanat.com.br/balas-de-propolis-40g",
+      "sku": "0079",
+      "name": "Balas de Própolis - 40g",
+      "category": {
+        "slug": "balas",
+        "name": "Balas - Alívio Rápido"
+      },
+      "price": 8.99,
+      "priceFrom": null,
+      "installments": null,
+      "available": true,
+      "size": "40g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400420050/a9591ac7ed28442195c1ff9d9f418bfa-tgp3u2dw4a.jpg"
+      ],
+      "infoImages": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400420050/balas-tabela-nutricional-r26dlou6ke.jpg"
+      ],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Conforto para a Garganta",
+          "text": "Traz uma deliciosa sensação de alívio e frescor para os dias de rouquidão e garganta seca."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Proteção Natural",
+          "text": "Aproveite os benefícios do própolis e do gengibre para blindar a sua rotina com mais bem-estar."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Auxílio na Imunidade",
+          "text": "Nutrição prática em compostos que apoiam o funcionamento das defesas naturais do seu corpo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍂",
+          "label": "Bem-estar Digestivo",
+          "text": "O poder do gengibre que ajuda a trazer leveza e conforto para a sua digestão a qualquer hora."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🦷",
+          "label": "Cuidado Bucal",
+          "text": "Sabor e proteção extra para o seu dia a dia, combinando ingredientes selecionados diretamente da natureza."
+        },
+        {
+          "kind": "paragraph",
+          "emoji": null,
+          "text": "Tudo isso em uma combinação nutricional completa, prática para consumir a qualquer momento e perfeita para a sua rotina!"
+        }
+      ],
+      "metaDescription": "✨ Conforto para a Garganta: Traz uma deliciosa sensação de alívio e frescor para os dias de rouquidão e garganta seca. 🛡️ Proteção Natural: Aproveite os benefícios do própolis e do gengibre para blindar a sua rotina com mais bem-estar. 💪 Auxílio na Imunidade: Nutrição prática em compostos que apoiam o funcionamento das defesas naturais do seu corpo. 🍂 Bem-estar Digestivo: O poder do gengibre que ajuda a trazer leveza e conforto para a sua digestão a qualquer hora. 🦷 Cuidado Bucal: Sabor e proteção extra para o seu dia a dia, combinando ingredientes selecionados diretamente da natureza. Tudo isso em uma combinação nutricional completa, prática para consumir a qualquer momento e perfeita para a sua rotina!",
+      "localImages": [
+        {
+          "src": "/produtos/balas-de-propolis-40g-1.jpg",
+          "width": 1363,
+          "height": 1400
+        }
+      ],
+      "localInfoImages": [
+        {
+          "src": "/produtos/balas-de-propolis-40g-info-1.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "cutout": {
+        "src": "/produtos/balas-de-propolis-40g-cutout.webp",
+        "width": 685,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "balas-de-roma-40g",
+      "url": "https://www.vidanat.com.br/balas-de-roma-40g",
+      "sku": "0080",
+      "name": "Balas de Própolis, Romã e Gengibre - 40g",
+      "category": {
+        "slug": "balas",
+        "name": "Balas - Alívio Rápido"
+      },
+      "price": 8.99,
+      "priceFrom": null,
+      "installments": null,
+      "available": true,
+      "size": "40g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400420114/1357ff3ebcb04ed287e03c2a086c6139-hqne3mknvh.jpg"
+      ],
+      "infoImages": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400420114/balas-tabela-nutricional-j4e9zcab89.jpg"
+      ],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Conforto para a Garganta",
+          "text": "Traz uma deliciosa sensação de alívio e frescor para os dias de rouquidão e garganta seca."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Proteção Natural",
+          "text": "Aproveite os benefícios do própolis e do gengibre para blindar a sua rotina com mais bem-estar."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Auxílio na Imunidade",
+          "text": "Nutrição prática em compostos que apoiam o funcionamento das defesas naturais do seu corpo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍂",
+          "label": "Bem-estar Digestivo",
+          "text": "O poder do gengibre que ajuda a trazer leveza e conforto para a sua digestão a qualquer hora."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🦷",
+          "label": "Cuidado Bucal",
+          "text": "Sabor e proteção extra para o seu dia a dia, combinando ingredientes selecionados diretamente da natureza."
+        },
+        {
+          "kind": "paragraph",
+          "emoji": null,
+          "text": "Tudo isso em uma combinação nutricional completa, prática para consumir a qualquer momento e perfeita para a sua rotina!"
+        }
+      ],
+      "metaDescription": "✨ Conforto para a Garganta: Traz uma deliciosa sensação de alívio e frescor para os dias de rouquidão e garganta seca. 🛡️ Proteção Natural: Aproveite os benefícios do própolis e do gengibre para blindar a sua rotina com mais bem-estar. 💪 Auxílio na Imunidade: Nutrição prática em compostos que apoiam o funcionamento das defesas naturais do seu corpo. 🍂 Bem-estar Digestivo: O poder do gengibre que ajuda a trazer leveza e conforto para a sua digestão a qualquer hora. 🦷 Cuidado Bucal: Sabor e proteção extra para o seu dia a dia, combinando ingredientes selecionados diretamente da natureza. Tudo isso em uma combinação nutricional completa, prática para consumir a qualquer momento e perfeita para a sua rotina!",
+      "localImages": [
+        {
+          "src": "/produtos/balas-de-roma-40g-1.jpg",
+          "width": 1347,
+          "height": 1400
+        }
+      ],
+      "localInfoImages": [
+        {
+          "src": "/produtos/balas-de-roma-40g-info-1.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "cutout": {
+        "src": "/produtos/balas-de-roma-40g-cutout.webp",
+        "width": 719,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "composto-de-mel-e-extrato-de-propolis-sabor-gengibre-spray-30ml",
+      "url": "https://www.vidanat.com.br/composto-de-mel-e-extrato-de-propolis-sabor-gengibre-spray-30ml",
+      "sku": "000238",
+      "name": "Composto de Mel e Extrato de Própolis - Sabor Gengibre | Spray 30ml",
+      "category": {
+        "slug": "spray-bucal",
+        "name": "Spray Bucal - Frescor e Proteção Imediata"
+      },
+      "price": 19.29,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 5.38
+      },
+      "available": true,
+      "size": "30ml",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400420143/c8e65b2a90fd4a81a60252615c35cfa7-cuz42vr0cr.jpg"
+      ],
+      "infoImages": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400420143/tabela-u719wo0aeq.jpg"
+      ],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Conforto na Garganta",
+          "text": "Traz uma sensação rápida de alívio e bem-estar, eliminando o incômodo da garganta seca."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Proteção Natural",
+          "text": "O extrato de própolis oferece um cuidado especial e natural para toda a sua cavidade bucal."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🔥",
+          "label": "Cuidado nos Dias Frios",
+          "text": "O aliado perfeito para trazer aquecimento e bem-estar durante as mudanças de estação."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Suporte à Imunidade",
+          "text": "Composto por ingredientes que auxiliam na manutenção e no suporte das defesas do seu organismo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍃",
+          "label": "Hálito Fresco",
+          "text": "Hálito puro que limpa, purifica, deixando uma sensação duradoura."
+        }
+      ],
+      "metaDescription": "✨ Conforto na Garganta: Traz uma sensação rápida de alívio e bem-estar, eliminando o incômodo da garganta seca. 🛡️ Proteção Natural: O extrato de própolis oferece um cuidado especial e natural para toda a sua cavidade bucal. 🔥 Cuidado nos Dias Frios: O aliado perfeito para trazer aquecimento e bem-estar durante as mudanças de estação. 💪 Suporte à Imunidade: Composto por ingredientes que auxiliam na manutenção e no suporte das defesas do seu organismo. 🍃 Hálito Fresco: Hálito puro que limpa, purifica, deixando uma sensação duradoura.",
+      "localImages": [
+        {
+          "src": "/produtos/composto-de-mel-e-extrato-de-propolis-sabor-gengibre-spray-30ml-1.jpg",
+          "width": 1400,
+          "height": 1400
+        }
+      ],
+      "localInfoImages": [
+        {
+          "src": "/produtos/composto-de-mel-e-extrato-de-propolis-sabor-gengibre-spray-30ml-info-1.jpg",
+          "width": 1400,
+          "height": 1388
+        }
+      ],
+      "cutout": {
+        "src": "/produtos/composto-de-mel-e-extrato-de-propolis-sabor-gengibre-spray-30ml-cutout.webp",
+        "width": 342,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "composto-de-mel-e-extrato-de-propolis-sabor-menta-spray-30ml",
+      "url": "https://www.vidanat.com.br/composto-de-mel-e-extrato-de-propolis-sabor-menta-spray-30ml",
+      "sku": "00241",
+      "name": "Composto de Mel e Extrato de Própolis - Sabor Menta | Spray 30ml",
+      "category": {
+        "slug": "spray-bucal",
+        "name": "Spray Bucal - Frescor e Proteção Imediata"
+      },
+      "price": 19.29,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 5.38
+      },
+      "available": true,
+      "size": "30ml",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400420191/bc5665023e92432c9e8441f1ee69d846-k0dei7x9pl.jpg"
+      ],
+      "infoImages": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400420191/tabela-fcoxhfb2dy.jpg"
+      ],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Conforto na Garganta",
+          "text": "Traz uma sensação rápida de alívio e bem-estar, eliminando o incômodo da garganta seca."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Proteção Natural",
+          "text": "O extrato de própolis oferece um cuidado especial e natural para toda a sua cavidade bucal."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🔥",
+          "label": "Cuidado nos Dias Frios",
+          "text": "O aliado perfeito para trazer aquecimento e bem-estar durante as mudanças de estação."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Suporte à Imunidade",
+          "text": "Composto por ingredientes que auxiliam na manutenção e no suporte das defesas do seu organismo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍃",
+          "label": "Hálito Fresco",
+          "text": "Hálito puro que limpa, purifica, deixando uma sensação duradoura."
+        }
+      ],
+      "metaDescription": "✨ Conforto na Garganta: Traz uma sensação rápida de alívio e bem-estar, eliminando o incômodo da garganta seca. 🛡️ Proteção Natural: O extrato de própolis oferece um cuidado especial e natural para toda a sua cavidade bucal. 🔥 Cuidado nos Dias Frios: O aliado perfeito para trazer aquecimento e bem-estar durante as mudanças de estação. 💪 Suporte à Imunidade: Composto por ingredientes que auxiliam na manutenção e no suporte das defesas do seu organismo. 🍃 Hálito Fresco: Hálito puro que limpa, purifica, deixando uma sensação duradoura.",
+      "localImages": [
+        {
+          "src": "/produtos/composto-de-mel-e-extrato-de-propolis-sabor-menta-spray-30ml-1.jpg",
+          "width": 1400,
+          "height": 1400
+        }
+      ],
+      "localInfoImages": [
+        {
+          "src": "/produtos/composto-de-mel-e-extrato-de-propolis-sabor-menta-spray-30ml-info-1.jpg",
+          "width": 1400,
+          "height": 1388
+        }
+      ],
+      "cutout": {
+        "src": "/produtos/composto-de-mel-e-extrato-de-propolis-sabor-menta-spray-30ml-cutout.webp",
+        "width": 342,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "composto-de-mel-e-extrato-de-propolis-sabor-propolis-spray-30ml",
+      "url": "https://www.vidanat.com.br/composto-de-mel-e-extrato-de-propolis-sabor-propolis-spray-30ml",
+      "sku": "000248",
+      "name": "Composto de Mel e Extrato de Própolis - Sabor Própolis | Spray 30ml",
+      "category": {
+        "slug": "spray-bucal",
+        "name": "Spray Bucal - Frescor e Proteção Imediata"
+      },
+      "price": 19.29,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 5.38
+      },
+      "available": true,
+      "size": "30ml",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400420532/f246c27b2fcb4c29819c883a2f33772c-b6sr8u0q2k.jpg"
+      ],
+      "infoImages": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400420532/tabela-jkgkgl9k4c.jpg"
+      ],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Conforto na Garganta",
+          "text": "Traz uma sensação rápida de alívio e bem-estar, eliminando o incômodo da garganta seca."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Proteção Natural",
+          "text": "O extrato de própolis oferece um cuidado especial e natural para toda a sua cavidade bucal."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🔥",
+          "label": "Cuidado nos Dias Frios",
+          "text": "O aliado perfeito para trazer aquecimento e bem-estar durante as mudanças de estação."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Suporte à Imunidade",
+          "text": "Composto por ingredientes que auxiliam na manutenção e no suporte das defesas do seu organismo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍃",
+          "label": "Hálito Fresco",
+          "text": "Hálito puro que limpa, purifica, deixando uma sensação duradoura."
+        }
+      ],
+      "metaDescription": "✨ Conforto na Garganta: Traz uma sensação rápida de alívio e bem-estar, eliminando o incômodo da garganta seca. 🛡️ Proteção Natural: O extrato de própolis oferece um cuidado especial e natural para toda a sua cavidade bucal. 🔥 Cuidado nos Dias Frios: O aliado perfeito para trazer aquecimento e bem-estar durante as mudanças de estação. 💪 Suporte à Imunidade: Composto por ingredientes que auxiliam na manutenção e no suporte das defesas do seu organismo. 🍃 Hálito Fresco: Hálito puro que limpa, purifica, deixando uma sensação duradoura.",
+      "localImages": [
+        {
+          "src": "/produtos/composto-de-mel-e-extrato-de-propolis-sabor-propolis-spray-30ml-1.jpg",
+          "width": 1400,
+          "height": 1400
+        }
+      ],
+      "localInfoImages": [
+        {
+          "src": "/produtos/composto-de-mel-e-extrato-de-propolis-sabor-propolis-spray-30ml-info-1.jpg",
+          "width": 1400,
+          "height": 1388
+        }
+      ],
+      "cutout": {
+        "src": "/produtos/composto-de-mel-e-extrato-de-propolis-sabor-propolis-spray-30ml-cutout.webp",
+        "width": 341,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "composto-de-mel-e-extrato-de-propolis-sabores-malva-e-menta-spray-30ml",
+      "url": "https://www.vidanat.com.br/composto-de-mel-e-extrato-de-propolis-sabores-malva-e-menta-spray-30ml",
+      "sku": "0010",
+      "name": "Composto de Mel e Extrato de Própolis - Sabores Malva e Menta | Spray 30ml",
+      "category": {
+        "slug": "spray-bucal",
+        "name": "Spray Bucal - Frescor e Proteção Imediata"
+      },
+      "price": 19.29,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 5.38
+      },
+      "available": true,
+      "size": "30ml",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400420742/821af2601bd2493f843fa4a6b42fc7eb-e5irpvscer.jpg"
+      ],
+      "infoImages": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400420742/tabela-1nhpa40sed.jpg"
+      ],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Conforto na Garganta",
+          "text": "Traz uma sensação rápida de alívio e bem-estar, eliminando o incômodo da garganta seca."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Proteção Natural",
+          "text": "O extrato de própolis oferece um cuidado especial e natural para toda a sua cavidade bucal."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🔥",
+          "label": "Cuidado nos Dias Frios",
+          "text": "O aliado perfeito para trazer aquecimento e bem-estar durante as mudanças de estação."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Suporte à Imunidade",
+          "text": "Composto por ingredientes que auxiliam na manutenção e no suporte das defesas do seu organismo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍃",
+          "label": "Hálito Fresco",
+          "text": "Hálito puro que limpa, purifica, deixando uma sensação duradoura."
+        }
+      ],
+      "metaDescription": "✨ Conforto na Garganta: Traz uma sensação rápida de alívio e bem-estar, eliminando o incômodo da garganta seca. 🛡️ Proteção Natural: O extrato de própolis oferece um cuidado especial e natural para toda a sua cavidade bucal. 🔥 Cuidado nos Dias Frios: O aliado perfeito para trazer aquecimento e bem-estar durante as mudanças de estação. 💪 Suporte à Imunidade: Composto por ingredientes que auxiliam na manutenção e no suporte das defesas do seu organismo. 🍃 Hálito Fresco: Hálito puro que limpa, purifica, deixando uma sensação duradoura.",
+      "localImages": [
+        {
+          "src": "/produtos/composto-de-mel-e-extrato-de-propolis-sabores-malva-e-menta-spray-30ml-1.jpg",
+          "width": 1400,
+          "height": 1400
+        }
+      ],
+      "localInfoImages": [
+        {
+          "src": "/produtos/composto-de-mel-e-extrato-de-propolis-sabores-malva-e-menta-spray-30ml-info-1.jpg",
+          "width": 1400,
+          "height": 1388
+        }
+      ],
+      "cutout": {
+        "src": "/produtos/composto-de-mel-e-extrato-de-propolis-sabores-malva-e-menta-spray-30ml-cutout.webp",
+        "width": 343,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "composto-de-mel-e-extrato-de-propolis-sabores-roma-e-gengibre-spray-30ml",
+      "url": "https://www.vidanat.com.br/composto-de-mel-e-extrato-de-propolis-sabores-roma-e-gengibre-spray-30ml",
+      "sku": "0011",
+      "name": "Composto de Mel e Extrato de Própolis - Sabores Romã e Gengibre | Spray 30ml",
+      "category": {
+        "slug": "spray-bucal",
+        "name": "Spray Bucal - Frescor e Proteção Imediata"
+      },
+      "price": 19.29,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 5.38
+      },
+      "available": true,
+      "size": "30ml",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400420858/31ce235d199a45aea60885155eff1eda-mdh6mbujq1.jpg"
+      ],
+      "infoImages": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400420858/tabela-g2nkq69dii.jpg"
+      ],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Conforto na Garganta",
+          "text": "Traz uma sensação rápida de alívio e bem-estar, eliminando o incômodo da garganta seca."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Proteção Natural",
+          "text": "O extrato de própolis oferece um cuidado especial e natural para toda a sua cavidade bucal."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🔥",
+          "label": "Cuidado nos Dias Frios",
+          "text": "O aliado perfeito para trazer aquecimento e bem-estar durante as mudanças de estação."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Suporte à Imunidade",
+          "text": "Composto por ingredientes que auxiliam na manutenção e no suporte das defesas do seu organismo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍃",
+          "label": "Hálito Fresco",
+          "text": "Hálito puro que limpa, purifica, deixando uma sensação duradoura."
+        }
+      ],
+      "metaDescription": "✨ Conforto na Garganta: Traz uma sensação rápida de alívio e bem-estar, eliminando o incômodo da garganta seca. 🛡️ Proteção Natural: O extrato de própolis oferece um cuidado especial e natural para toda a sua cavidade bucal. 🔥 Cuidado nos Dias Frios: O aliado perfeito para trazer aquecimento e bem-estar durante as mudanças de estação. 💪 Suporte à Imunidade: Composto por ingredientes que auxiliam na manutenção e no suporte das defesas do seu organismo. 🍃 Hálito Fresco: Hálito puro que limpa, purifica, deixando uma sensação duradoura.",
+      "localImages": [
+        {
+          "src": "/produtos/composto-de-mel-e-extrato-de-propolis-sabores-roma-e-gengibre-spray-30ml-1.jpg",
+          "width": 1400,
+          "height": 1400
+        }
+      ],
+      "localInfoImages": [
+        {
+          "src": "/produtos/composto-de-mel-e-extrato-de-propolis-sabores-roma-e-gengibre-spray-30ml-info-1.jpg",
+          "width": 1400,
+          "height": 1388
+        }
+      ],
+      "cutout": {
+        "src": "/produtos/composto-de-mel-e-extrato-de-propolis-sabores-roma-e-gengibre-spray-30ml-cutout.webp",
+        "width": 342,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "extrato-de-propolis-propolis-verde-30ml",
+      "url": "https://www.vidanat.com.br/extrato-de-propolis-propolis-verde-30ml",
+      "sku": "009",
+      "name": "Extrato de Própolis | Própolis Verde - 30ml",
+      "category": {
+        "slug": "extrato-de-propolis",
+        "name": "Extrato de Própolis - Gotas de Proteção"
+      },
+      "price": 24.99,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 6.97
+      },
+      "available": true,
+      "size": "30ml",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400421762/050152cd13544f2187ad142bd38aca51-gdmcv2k7xp.jpg"
+      ],
+      "infoImages": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400421762/extrato-de-propolis-tabela-nutricional-jp5lo1go7p.jpg"
+      ],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": null,
+          "label": "PRÓPOLIS VERDE VN - IMUNIDADE MAXIMA COM SELO SIF",
+          "text": ". O escudo natural que seu corpo precisa, com a garantia que só a VN tem.Nosso Própolis Verde não é qualquer própolis. É extraído das abelhas que coletam a resina do Alecrim-do-Campo, no interior de Minas, e vem com o SELO SIF - Serviço de Inspeção Federal. Isso significa que cada gota tem procedência garantida, rastreabilidade total e qualidade certificada pelo Ministério da Agricultura. Sem adulteração, sem mistura, 100% puro."
+        },
+        {
+          "kind": "feature",
+          "emoji": null,
+          "label": "POR QUE O PRÓPOLIS VERDE DA VN É DIFERENTE?",
+          "text": "🛡️"
+        },
+        {
+          "kind": "feature",
+          "emoji": null,
+          "label": "SELO SIF:",
+          "text": "Seu atestado de pureza. Enquanto outros produtos não tem origem comprovada, o nosso passa por rigoroso controle federal. Você sabe EXATAMENTE o que está consumindo.🐝 ORIGEM PREMIUM: Rico em Artepillin-C, o composto mais poderoso do própolis verde brasileiro - reconhecido no mundo inteiro."
+        },
+        {
+          "kind": "heading",
+          "emoji": null,
+          "text": "5 BENEFÍCIOS QUE VÃO MUDAR SUA ROTINA:"
+        },
+        {
+          "kind": "heading",
+          "emoji": null,
+          "text": "1. BLINDAGEM DA IMUNIDADE"
+        },
+        {
+          "kind": "paragraph",
+          "emoji": null,
+          "text": "Aumenta as defesas naturais do corpo. Seu aliado diário contra mudanças de tempo, cansaço e baixa imunidade. Ideal para tomar todos os dias."
+        },
+        {
+          "kind": "heading",
+          "emoji": null,
+          "text": "2. AÇÃO ANTIOXIDANTE NATURAL"
+        },
+        {
+          "kind": "paragraph",
+          "emoji": null,
+          "text": "Combate o envelhecimento precoce das células e ajuda o corpo a se recuperar mais rápido."
+        },
+        {
+          "kind": "heading",
+          "emoji": null,
+          "text": "3. PROTEÇÃO DAS VIAS RESPIRATÓRIAS"
+        },
+        {
+          "kind": "paragraph",
+          "emoji": null,
+          "text": "Tradicionalmente usado para proteger garganta e sistema respiratório. Perfeito para o inverno e para quem fala muito ou pega friagem."
+        },
+        {
+          "kind": "heading",
+          "emoji": null,
+          "text": "4. BEM-ESTAR DE DENTRO PRA FORA"
+        },
+        {
+          "kind": "paragraph",
+          "emoji": null,
+          "text": "Auxilia no equilíbrio natural do organismo, contribuindo para mais energia e disposição no dia a dia."
+        },
+        {
+          "kind": "heading",
+          "emoji": null,
+          "text": "5. PURO, NATURAL E SEGURO"
+        },
+        {
+          "kind": "paragraph",
+          "emoji": null,
+          "text": "Sem álcool em excesso, sem corantes, sem açúcar. Apenas o que a natureza fez de melhor, com a segurança do SIF."
+        },
+        {
+          "kind": "heading",
+          "emoji": null,
+          "text": "O QUE É O SELO SIF E POR QUE IMPORTA?"
+        },
+        {
+          "kind": "paragraph",
+          "emoji": null,
+          "text": "É a certificação mais exigente do Brasil. Só produtos que passam por fiscalização federal em TODA a cadeia - da colmeia ao frasco - ganham o SIF. É a sua garantia de que está levando para casa um própolis de verdade, com laudo, origem e qualidade superior. Na VN, você não compra no escuro."
+        },
+        {
+          "kind": "feature",
+          "emoji": null,
+          "label": "COMO USAR:",
+          "text": "10 a 15 gotas diluídas em água, 1x ao dia. Ou como preferir.Contém: 30ml de extrato puro de Própolis Verde com SIF."
+        },
+        {
+          "kind": "paragraph",
+          "emoji": null,
+          "text": "Origem: Alecrim-do-Campo - MG"
+        },
+        {
+          "kind": "paragraph",
+          "emoji": null,
+          "text": "Garantia VN: Qualidade ou seu dinheiro de volta.Versão CURTA para vitrine do site (SEO):Própolis Verde com Selo SIF - Imunidade e Proteção Natural | VN"
+        },
+        {
+          "kind": "paragraph",
+          "emoji": null,
+          "text": "Própolis Verde 100% puro com Selo de Inspeção Federal (SIF). Rico em Artepillin-C, auxilia no aumento da imunidade, proteção das vias respiratórias e ação antioxidante. Procedência garantida e qualidade certificada. 30ml."
+        }
+      ],
+      "metaDescription": "PRÓPOLIS VERDE VN - IMUNIDADE MAXIMA COM SELO SIF. O escudo natural que seu corpo precisa, com a garantia que só a VN tem.Nosso Própolis Verde não é qualquer própolis. É extraído das abelhas que coletam a resina do Alecrim-do-Campo, no interior de Minas, e vem com o SELO SIF - Serviço de Inspeção Federal. Isso significa que cada gota tem procedência garantida, rastreabilidade total e qualidade certificada pelo Ministério da Agricultura. Sem adulteração, sem mistura, 100% puro. POR QUE O PRÓPOLIS VERDE DA VN É DIFERENTE?🛡️ SELO SIF: Seu atestado de pureza. Enquanto outros produtos não tem origem comprovada, o nosso passa por rigoroso controle federal. Você sabe EXATAMENTE o que está consumindo.🐝 ORIGEM PREMIUM: Rico em Artepillin-C, o composto mais poderoso do própolis verde brasileiro - reconhecido no mundo inteiro. 5 BENEFÍCIOS QUE VÃO MUDAR SUA ROTINA: 1. BLINDAGEM DA IMUNIDADE Aumenta as defesas naturais do corpo. Seu aliado diário contra mudanças de tempo, cansaço e baixa imunidade. Ideal para tomar todos os dias. 2. AÇÃO ANTIOXIDANTE NATURAL Combate o envelhecimento precoce das células e ajuda o corpo a se recuperar mais rápido. 3. PROTEÇÃO DAS VIAS RESPIRATÓRIAS Tradicionalmente usado para proteger garganta e sistema respiratório. Perfeito para ...",
+      "localImages": [
+        {
+          "src": "/produtos/extrato-de-propolis-propolis-verde-30ml-1.jpg",
+          "width": 1348,
+          "height": 1400
+        }
+      ],
+      "localInfoImages": [
+        {
+          "src": "/produtos/extrato-de-propolis-propolis-verde-30ml-info-1.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "cutout": {
+        "src": "/produtos/extrato-de-propolis-propolis-verde-30ml-cutout.webp",
+        "width": 762,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "extrato-de-propolis-propogreen-propolis-verde-30ml",
+      "url": "https://www.vidanat.com.br/extrato-de-propolis-propogreen-propolis-verde-30ml",
+      "sku": "000912",
+      "name": "Extrato de Própolis Propogreen | Própolis Verde - 30ml",
+      "category": {
+        "slug": "extrato-de-propolis",
+        "name": "Extrato de Própolis - Gotas de Proteção"
+      },
+      "price": 33.59,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 9.36
+      },
+      "available": true,
+      "size": "30ml",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400421255/2bda0022478e4a10ab48250e71435449-xrdyox2rud.jpg"
+      ],
+      "infoImages": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400421255/extrato-de-propolis-tabela-nutricional-f4o02dwcn6.jpg"
+      ],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Suporte à Imunidade",
+          "text": "Contribui para o fortalecimento das defesas naturais do organismo, auxiliando o seu corpo a se manter protegido no dia a dia."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Ação Antioxidante",
+          "text": "Ajuda a combater os radicais livres, auxiliando na proteção das células contra o estresse oxidativo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🌿",
+          "label": "Conforto para Boca e Garganta",
+          "text": "Propriedades naturais que trazem uma deliciosa sensação de alívio e bem-estar em casos de irritação leve."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🩹",
+          "label": "Proteção da Mucosa Oral",
+          "text": "Ajuda a proteger a pele e a mucosa da boca, apoiando o processo natural de manutenção e cuidado dos tecidos saudáveis."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🦷",
+          "label": "Higiene Oral Avançada",
+          "text": "Auxilia na manutenção da limpeza da cavidade oral, atuando diretamente na redução das causas do mau hálito."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Bem-Estar Geral",
+          "text": "Seus compostos bioativos atuam de forma integrada para promover o equilíbrio e a vitalidade que você precisa."
+        }
+      ],
+      "metaDescription": "✨ Suporte à Imunidade: Contribui para o fortalecimento das defesas naturais do organismo, auxiliando o seu corpo a se manter protegido no dia a dia. 🛡️ Ação Antioxidante: Ajuda a combater os radicais livres, auxiliando na proteção das células contra o estresse oxidativo. 🌿 Conforto para Boca e Garganta: Propriedades naturais que trazem uma deliciosa sensação de alívio e bem-estar em casos de irritação leve. 🩹 Proteção da Mucosa Oral: Ajuda a proteger a pele e a mucosa da boca, apoiando o processo natural de manutenção e cuidado dos tecidos saudáveis. 🦷 Higiene Oral Avançada: Auxilia na manutenção da limpeza da cavidade oral, atuando diretamente na redução das causas do mau hálito. 💪 Bem-Estar Geral: Seus compostos bioativos atuam de forma integrada para promover o equilíbrio e a vitalidade que você precisa.",
+      "localImages": [
+        {
+          "src": "/produtos/extrato-de-propolis-propogreen-propolis-verde-30ml-1.jpg",
+          "width": 1365,
+          "height": 1400
+        }
+      ],
+      "localInfoImages": [
+        {
+          "src": "/produtos/extrato-de-propolis-propogreen-propolis-verde-30ml-info-1.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "cutout": {
+        "src": "/produtos/extrato-de-propolis-propogreen-propolis-verde-30ml-cutout.webp",
+        "width": 730,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "extrato-de-propolis-propored-propolis-vermelha-30ml",
+      "url": "https://www.vidanat.com.br/extrato-de-propolis-propored-propolis-vermelha-30ml",
+      "sku": "000908",
+      "name": "Extrato de Própolis Propored | Própolis Vermelha - 30ml",
+      "category": {
+        "slug": "extrato-de-propolis",
+        "name": "Extrato de Própolis - Gotas de Proteção"
+      },
+      "price": 60,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 16.73
+      },
+      "available": true,
+      "size": "30ml",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400421645/9b1abc8e4557468c8b0a53f71f1f1ff8-mwpss4f7cl.jpg"
+      ],
+      "infoImages": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400421645/extrato-de-propolis-tabela-nutricional-7kntxzsdz3.jpg"
+      ],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Alta Ação Antioxidante",
+          "text": "Rica em compostos fenólicos exclusivos que auxiliam na proteção das células contra os danos causados pelos radicais livres."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Imunidade Reforçada",
+          "text": "Oferece suporte diário completo, auxiliando no funcionamento do seu sistema imune e no fortalecimento das defesas naturais."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🌿",
+          "label": "Cuidado Oral e da Garganta",
+          "text": "Ingredientes naturais que trazem proteção para a cavidade bucal e garantem uma deliciosa sensação de alívio e conforto."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍂",
+          "label": "Saúde Digestiva",
+          "text": "Contribui positivamente para o equilíbrio da flora intestinal e atua como um aliado natural no conforto e na leveza digestiva diária."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🩹",
+          "label": "Proteção e Bem-Estar dos Tecidos",
+          "text": "Favorece o cuidado natural da mucosa e da pele, auxiliando na nutrição e na proteção de áreas mais sensibilizadas."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Equilíbrio e Vitalidade",
+          "text": "Seus compostos nobres atuam de forma integrada para promover o bem-estar geral, a disposição e a energia em toda a sua rotina."
+        }
+      ],
+      "metaDescription": "✨ Alta Ação Antioxidante: Rica em compostos fenólicos exclusivos que auxiliam na proteção das células contra os danos causados pelos radicais livres. 🛡️ Imunidade Reforçada: Oferece suporte diário completo, auxiliando no funcionamento do seu sistema imune e no fortalecimento das defesas naturais. 🌿 Cuidado Oral e da Garganta: Ingredientes naturais que trazem proteção para a cavidade bucal e garantem uma deliciosa sensação de alívio e conforto. 🍂 Saúde Digestiva: Contribui positivamente para o equilíbrio da flora intestinal e atua como um aliado natural no conforto e na leveza digestiva diária. 🩹 Proteção e Bem-Estar dos Tecidos: Favorece o cuidado natural da mucosa e da pele, auxiliando na nutrição e na proteção de áreas mais sensibilizadas. 💪 Equilíbrio e Vitalidade: Seus compostos nobres atuam de forma integrada para promover o bem-estar geral, a disposição e a energia em toda a sua rotina.",
+      "localImages": [
+        {
+          "src": "/produtos/extrato-de-propolis-propored-propolis-vermelha-30ml-1.jpg",
+          "width": 1368,
+          "height": 1400
+        }
+      ],
+      "localInfoImages": [
+        {
+          "src": "/produtos/extrato-de-propolis-propored-propolis-vermelha-30ml-info-1.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "cutout": {
+        "src": "/produtos/extrato-de-propolis-propored-propolis-vermelha-30ml-cutout.webp",
+        "width": 719,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "meg-ervas-cha-misto-500ml",
+      "url": "https://www.vidanat.com.br/meg-ervas-cha-misto-500ml",
+      "sku": "001",
+      "name": "Meg Ervas | Chá Misto - 500ml",
+      "category": {
+        "slug": "cha",
+        "name": "Chá - Conforto Natural"
+      },
+      "price": 43.39,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 12.1
+      },
+      "available": true,
+      "size": "500ml",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400421862/b5a6248a1e214074a3bf3e5a9dd3b447-n234j6ya8n.jpg"
+      ],
+      "infoImages": [],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Digestão e Rotina Leves",
+          "text": "Atua como um excelente aliado natural para o seu bem-estar, trazendo suporte para o conforto e o bom funcionamento digestivo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Ação Renovadora e Fluidez",
+          "text": "Auxilia na eliminação de líquidos de forma natural, promovendo uma sensação de leveza e pureza para o seu corpo no dia a dia."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍂",
+          "label": "Alívio dos Desconfortos",
+          "text": "Ajuda a reduzir aquela sensação incômoda de peso e inchaço abdominal após as refeições, trazendo mais bem-estar."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💤",
+          "label": "Propriedades Relaxantes",
+          "text": "Contribui para o relaxamento e o descanso ao final do dia, auxiliando você a descompressar da rotina para uma noite tranquila."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Fonte de Antioxidantes",
+          "text": "Nutrição rica em compostos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres."
+        }
+      ],
+      "metaDescription": "✨ Digestão e Rotina Leves: Atua como um excelente aliado natural para o seu bem-estar, trazendo suporte para o conforto e o bom funcionamento digestivo. 🛡️ Ação Renovadora e Fluidez: Auxilia na eliminação de líquidos de forma natural, promovendo uma sensação de leveza e pureza para o seu corpo no dia a dia. 🍂 Alívio dos Desconfortos: Ajuda a reduzir aquela sensação incômoda de peso e inchaço abdominal após as refeições, trazendo mais bem-estar. 💤 Propriedades Relaxantes: Contribui para o relaxamento e o descanso ao final do dia, auxiliando você a descompressar da rotina para uma noite tranquila. 💪 Fonte de Antioxidantes: Nutrição rica em compostos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres.",
+      "localImages": [
+        {
+          "src": "/produtos/meg-ervas-cha-misto-500ml-1.jpg",
+          "width": 1154,
+          "height": 1400
+        }
+      ],
+      "localInfoImages": [],
+      "cutout": {
+        "src": "/produtos/meg-ervas-cha-misto-500ml-cutout.webp",
+        "width": 824,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "megmel-composto-de-mel-extrato-de-propolis-polen-apicola-e-geleia-real-sabores-agriao-e-roma-300g-",
+      "url": "https://www.vidanat.com.br/megmel-composto-de-mel-extrato-de-propolis-polen-apicola-e-geleia-real-sabores-agriao-e-roma-300g-",
+      "sku": "005",
+      "name": "MEGMEL | Composto de Mel, Extrato de Própolis, Pólen Apícola e Geleia Real - Sabores Agrião e Romã | 300g",
+      "category": {
+        "slug": "composto-de-mel-e-extrato-de-propolis",
+        "name": "Composto de Mel e Extrato de Própolis - Imunidade Reforçada"
+      },
+      "price": 31.99,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 8.92
+      },
+      "available": true,
+      "size": "300g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400422505/dedbe97478884b2b952152d8af4c5256-nn5atd91we.jpg"
+      ],
+      "infoImages": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400422505/megmel-tabela-nutricional-2ez83ea1xe.jpg"
+      ],
+      "description": [
+        {
+          "kind": "paragraph",
+          "emoji": null,
+          "text": "É uma fórmula concentrada 4 em 1 que reúne o que há de mais poderoso na colmeia para a sua saúde:"
+        },
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Mel Puro",
+          "text": "Energia natural e alívio imediato para a garganta."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🌿",
+          "label": "Extrato de Própolis",
+          "text": "O escudo natural que o seu corpo precisa."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🌼",
+          "label": "Pólen Apícola",
+          "text": "Nutrição profunda rica em antioxidantes."
+        },
+        {
+          "kind": "feature",
+          "emoji": "👑",
+          "label": "Geleia Real",
+          "text": "O tônico da longevidade e da disposição."
+        },
+        {
+          "kind": "paragraph",
+          "emoji": null,
+          "text": "Tudo isso combinado com o toque refrescante dos sabores de Agrião e Romã, tornando o consumo diário delicioso e perfeito para trazer mais conforto e afastar o cansaço da rotina."
+        }
+      ],
+      "metaDescription": "É uma fórmula concentrada 4 em 1 que reúne o que há de mais poderoso na colmeia para a sua saúde: ✨ Mel Puro: Energia natural e alívio imediato para a garganta. 🌿 Extrato de Própolis: O escudo natural que o seu corpo precisa. 🌼 Pólen Apícola: Nutrição profunda rica em antioxidantes. 👑 Geleia Real: O tônico da longevidade e da disposição. Tudo isso combinado com o toque refrescante dos sabores de Agrião e Romã, tornando o consumo diário delicioso e perfeito para trazer mais conforto e afastar o cansaço da rotina.",
+      "localImages": [
+        {
+          "src": "/produtos/megmel-composto-de-mel-extrato-de-propolis-polen-apicola-e-geleia-real-sabores-agriao-e-roma-300g--1.jpg",
+          "width": 1400,
+          "height": 1291
+        }
+      ],
+      "localInfoImages": [
+        {
+          "src": "/produtos/megmel-composto-de-mel-extrato-de-propolis-polen-apicola-e-geleia-real-sabores-agriao-e-roma-300g--info-1.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "cutout": {
+        "src": "/produtos/megmel-composto-de-mel-extrato-de-propolis-polen-apicola-e-geleia-real-sabores-agriao-e-roma-300g--cutout.webp",
+        "width": 1100,
+        "height": 500
+      }
+    },
+    {
+      "slug": "mel-de-abelhas-sem-ferrao-bora-100g",
+      "url": "https://www.vidanat.com.br/mel-de-abelhas-sem-ferrao-bora-100g",
+      "sku": "001825",
+      "name": "Mel de Abelhas sem Ferrão | Borá - 100g",
+      "category": {
+        "slug": "meis-de-abelhas-sem-ferrao-lancamentos",
+        "name": "Méis de Abelhas sem Ferrão - Exclusivos"
+      },
+      "price": 84.39,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 23.53
+      },
+      "available": true,
+      "size": "100g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401113261/8ed4b14b3eac467abae220f8f27f3a63-0ayjxidufh.jpg",
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401113261/14f2f8bc03f848b09ee7b76e6a0daa14-91ccp3btwh.jpg"
+      ],
+      "infoImages": [],
+      "description": [
+        {
+          "kind": "heading",
+          "emoji": null,
+          "text": "Mel de Borá (Tetragona clavipes) — O Exótico de Luxo"
+        },
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Complexidade Sensorial",
+          "text": "Aroma marcante e acidez pronunciada, com um retrogosto único que remete a queijos finos e especiarias."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍽️",
+          "label": "Toque de Alta Gastronomia",
+          "text": "O ingrediente perfeito para finalizar risotos de cogumelos, carpaccios, carnes de caça e tábuas de queijos azuis."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Proteção e Cuidado Natural",
+          "text": "Uma joia da nossa biodiversidade, rica em compostos vivos e propriedades biológicas nobres que apoiam o seu bem-estar."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍂",
+          "label": "Equilíbrio e Bem-Estar",
+          "text": "Atua como um tônico sofisticado que traz leveza ao organismo e auxilia no suporte à vitalidade geral de forma integrada."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Experiência Memorável",
+          "text": "A escolha definitiva para paladares altamente exigentes que buscam exclusividade, sofisticação e energia."
+        }
+      ],
+      "metaDescription": "Mel de Borá (Tetragona clavipes) — O Exótico de Luxo ✨ Complexidade Sensorial: Aroma marcante e acidez pronunciada, com um retrogosto único que remete a queijos finos e especiarias. 🍽️ Toque de Alta Gastronomia: O ingrediente perfeito para finalizar risotos de cogumelos, carpaccios, carnes de caça e tábuas de queijos azuis. 🛡️ Proteção e Cuidado Natural: Uma joia da nossa biodiversidade, rica em compostos vivos e propriedades biológicas nobres que apoiam o seu bem-estar. 🍂 Equilíbrio e Bem-Estar: Atua como um tônico sofisticado que traz leveza ao organismo e auxilia no suporte à vitalidade geral de forma integrada. 💪 Experiência Memorável: A escolha definitiva para paladares altamente exigentes que buscam exclusividade, sofisticação e energia.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-bora-100g-1.jpg",
+          "width": 1400,
+          "height": 1400
+        },
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-bora-100g-2.jpg",
+          "width": 1400,
+          "height": 1388
+        }
+      ],
+      "localInfoImages": [],
+      "cutout": {
+        "src": "/produtos/mel-de-abelhas-sem-ferrao-bora-100g-cutout.webp",
+        "width": 709,
+        "height": 709
+      }
+    },
+    {
+      "slug": "mel-de-abelhas-sem-ferrao-jandaira-100g",
+      "url": "https://www.vidanat.com.br/mel-de-abelhas-sem-ferrao-jandaira-100g",
+      "sku": "001833",
+      "name": "Mel de Abelhas sem Ferrão | Jandaira - 100g",
+      "category": {
+        "slug": "meis-de-abelhas-sem-ferrao-lancamentos",
+        "name": "Méis de Abelhas sem Ferrão - Exclusivos"
+      },
+      "price": 84.39,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 23.53
+      },
+      "available": true,
+      "size": "100g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401113293/ff16c4e2924044f5b332ef180816ec2f-dcvdsaqrq1.jpg",
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401113293/5e071c464d6a4f109a9371c770ab43ec-4jdps0wc32.jpg"
+      ],
+      "infoImages": [],
+      "description": [
+        {
+          "kind": "heading",
+          "emoji": null,
+          "text": "Mel de Jandaíra (Melipona subnitida) — O Ouro da Caatinga"
+        },
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Leveza e Brilho",
+          "text": "Sabor leve, floral sutil e com uma acidez cítrica refrescante que brilha no paladar."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍽️",
+          "label": "Harmonização Nobre",
+          "text": "O toque perfeito para adoçar chás brancos finos, acompanhar queijo coalho grelhado e finalizar sobremesas tropicais."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🔥",
+          "label": "Cuidado e Conforto Profundo",
+          "text": "Propriedades tradicionais nobres que trazem uma deliciosa sensação de alívio e suavidade para o seu dia a dia."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🌬️",
+          "label": "Sensação de Frescor",
+          "text": "O aliado ideal para proporcionar conforto respiratório, trazendo bem-estar e proteção natural para a sua rotina."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Tradição e Longevidade",
+          "text": "Uma verdadeira dose de vitalidade que une a tradição cultural nordestina com a alta gastronomia."
+        }
+      ],
+      "metaDescription": "Mel de Jandaíra (Melipona subnitida) — O Ouro da Caatinga ✨ Leveza e Brilho: Sabor leve, floral sutil e com uma acidez cítrica refrescante que brilha no paladar. 🍽️ Harmonização Nobre: O toque perfeito para adoçar chás brancos finos, acompanhar queijo coalho grelhado e finalizar sobremesas tropicais. 🔥 Cuidado e Conforto Profundo: Propriedades tradicionais nobres que trazem uma deliciosa sensação de alívio e suavidade para o seu dia a dia. 🌬️ Sensação de Frescor: O aliado ideal para proporcionar conforto respiratório, trazendo bem-estar e proteção natural para a sua rotina. 💪 Tradição e Longevidade: Uma verdadeira dose de vitalidade que une a tradição cultural nordestina com a alta gastronomia.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-jandaira-100g-1.jpg",
+          "width": 1400,
+          "height": 1400
+        },
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-jandaira-100g-2.jpg",
+          "width": 1400,
+          "height": 1388
+        }
+      ],
+      "localInfoImages": [],
+      "cutout": {
+        "src": "/produtos/mel-de-abelhas-sem-ferrao-jandaira-100g-cutout.webp",
+        "width": 717,
+        "height": 717
+      }
+    },
+    {
+      "slug": "mel-de-abelhas-sem-ferrao-jatai-100g",
+      "url": "https://www.vidanat.com.br/mel-de-abelhas-sem-ferrao-jatai-100g",
+      "sku": "001832",
+      "name": "Mel de Abelhas sem Ferrão | Jataí - 100g",
+      "category": {
+        "slug": "meis-de-abelhas-sem-ferrao-lancamentos",
+        "name": "Méis de Abelhas sem Ferrão - Exclusivos"
+      },
+      "price": 65.19,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 18.18
+      },
+      "available": true,
+      "size": "100g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401113637/ea3b7938c34f4b7fbc13ed95e080843e-gc2i01hnft.jpg",
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401113637/b36bcfb2cf7f475db535dbea257929ae-x5s2h0g3qm.jpg"
+      ],
+      "infoImages": [],
+      "description": [
+        {
+          "kind": "heading",
+          "emoji": null,
+          "text": "Mel de Jataí (Tetragonisca angustula) — O Elixir da Delicadeza"
+        },
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Harmonização Gourmet",
+          "text": "O toque perfeito para regar crepes franceses, waffles leves ou uma Pavlova de frutas vermelhas."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🧀",
+          "label": "Combinação Sofisticada",
+          "text": "Combina divinamente com queijos frescos de cabra (como o Chèvre), ricota artesanal ou sobre uma burrata com flor de sal."
+        },
+        {
+          "kind": "feature",
+          "emoji": "☕",
+          "label": "Destaque para Bebidas Finas",
+          "text": "Excelente para adoçar cafés de alta pontuação e chás florais sem anular o sabor original das bebidas."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Tradição e Proteção Nobre",
+          "text": "Um composto vivo amplamente reconhecido por sua pureza incomparável e pelo suporte diário à saúde do organismo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🩹",
+          "label": "Cuidado e Nutrição dos Tecidos",
+          "text": "Atua de forma suave trazendo bem-estar e auxiliando na proteção natural de áreas e tecidos sensibilizados do corpo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Experiência Sensorial Única",
+          "text": "A união perfeita de leveza e sofisticação para transformar receitas simples em alta gastronomia."
+        }
+      ],
+      "metaDescription": "Mel de Jataí (Tetragonisca angustula) — O Elixir da Delicadeza ✨ Harmonização Gourmet: O toque perfeito para regar crepes franceses, waffles leves ou uma Pavlova de frutas vermelhas. 🧀 Combinação Sofisticada: Combina divinamente com queijos frescos de cabra (como o Chèvre), ricota artesanal ou sobre uma burrata com flor de sal. ☕ Destaque para Bebidas Finas: Excelente para adoçar cafés de alta pontuação e chás florais sem anular o sabor original das bebidas. 🛡️ Tradição e Proteção Nobre: Um composto vivo amplamente reconhecido por sua pureza incomparável e pelo suporte diário à saúde do organismo. 🩹 Cuidado e Nutrição dos Tecidos: Atua de forma suave trazendo bem-estar e auxiliando na proteção natural de áreas e tecidos sensibilizados do corpo. 💪 Experiência Sensorial Única: A união perfeita de leveza e sofisticação para transformar receitas simples em alta gastronomia.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-jatai-100g-1.jpg",
+          "width": 1400,
+          "height": 1400
+        },
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-jatai-100g-2.jpg",
+          "width": 1400,
+          "height": 1388
+        }
+      ],
+      "localInfoImages": [],
+      "cutout": {
+        "src": "/produtos/mel-de-abelhas-sem-ferrao-jatai-100g-cutout.webp",
+        "width": 709,
+        "height": 712
+      }
+    },
+    {
+      "slug": "mel-de-abelhas-sem-ferrao-jatai-50g",
+      "url": "https://www.vidanat.com.br/mel-de-abelhas-sem-ferrao-jatai-50g",
+      "sku": "000704",
+      "name": "Mel de Abelhas sem Ferrão | Jataí - 50g",
+      "category": {
+        "slug": "meis-de-abelhas-sem-ferrao",
+        "name": "Méis de Abelhas sem Ferrão - Raros"
+      },
+      "price": 58.39,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 16.28
+      },
+      "available": true,
+      "size": "50g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400422663/bbcb6fee9b634cd3984ca9e98a0c5eb8-a87beda5tp.jpg"
+      ],
+      "infoImages": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400422663/mel-de-asf-jatai-tabela-nutricional-vlds8rg295.jpg"
+      ],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Complexidade Exótica",
+          "text": "Um perfil sensorial sofisticado com notas amadeiradas, fermentadas e uma acidez brilhante que surpreende o paladar."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍽️",
+          "label": "Harmonização Fresca",
+          "text": "O toque gastronômico perfeito para acompanhar tábuas de queijos nobres e finalizar pratos frescos com maestria."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Proteção e Cuidado Ativo",
+          "text": "Um composto natural nobre, amplamente reconhecido por sua pureza e por auxiliar no suporte diário às defesas do organismo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🌬️",
+          "label": "Conforto Respiratório",
+          "text": "O aliado ideal para trazer frescor ao peito, proporcionando uma deliciosa sensação de alívio e bem-estar nos dias frios."
+        },
+        {
+          "kind": "feature",
+          "emoji": "👁️",
+          "label": "Cuidado de Áreas Sensíveis",
+          "text": "Tradicionalmente valorizado por suas propriedades suaves, que apoiam a nutrição, o cuidado e a proteção de tecidos delicados."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Energia e Vitalidade",
+          "text": "Uma dose de energia pura e bioativa que revigora o organismo, trazendo disposição e combatendo o cansaço do dia a dia."
+        }
+      ],
+      "metaDescription": "✨ Complexidade Exótica: Um perfil sensorial sofisticado com notas amadeiradas, fermentadas e uma acidez brilhante que surpreende o paladar. 🍽️ Harmonização Fresca: O toque gastronômico perfeito para acompanhar tábuas de queijos nobres e finalizar pratos frescos com maestria. 🛡️ Proteção e Cuidado Ativo: Um composto natural nobre, amplamente reconhecido por sua pureza e por auxiliar no suporte diário às defesas do organismo. 🌬️ Conforto Respiratório: O aliado ideal para trazer frescor ao peito, proporcionando uma deliciosa sensação de alívio e bem-estar nos dias frios. 👁️ Cuidado de Áreas Sensíveis: Tradicionalmente valorizado por suas propriedades suaves, que apoiam a nutrição, o cuidado e a proteção de tecidos delicados. 💪 Energia e Vitalidade: Uma dose de energia pura e bioativa que revigora o organismo, trazendo disposição e combatendo o cansaço do dia a dia.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-jatai-50g-1.jpg",
+          "width": 1370,
+          "height": 1400
+        }
+      ],
+      "localInfoImages": [
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-jatai-50g-info-1.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "cutout": {
+        "src": "/produtos/mel-de-abelhas-sem-ferrao-jatai-50g-cutout.webp",
+        "width": 642,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "mel-de-abelhas-sem-ferrao-jupara-100g",
+      "url": "https://www.vidanat.com.br/mel-de-abelhas-sem-ferrao-jupara-100g",
+      "sku": "001840",
+      "name": "Mel de Abelhas sem Ferrão | Jupará - 100g",
+      "category": {
+        "slug": "meis-de-abelhas-sem-ferrao-lancamentos",
+        "name": "Méis de Abelhas sem Ferrão - Exclusivos"
+      },
+      "price": 84.39,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 23.53
+      },
+      "available": true,
+      "size": "100g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401113856/dd6d7cb954e84f27acc5ac9afa82d0ca-felj8uk0xd.jpg",
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401113856/2e577db1e0244692bdeb10d3090abc46-moc8fv9ygs.jpg"
+      ],
+      "infoImages": [],
+      "description": [
+        {
+          "kind": "heading",
+          "emoji": null,
+          "text": "Mel de Jupará (Melipona interrupta) — O Tesouro da Amazônia"
+        },
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Intensidade Gastronômica",
+          "text": "O ingrediente perfeito para criar molhos agridoces marcantes e regar doces com castanhas, nozes ou chocolates intensos."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🧀",
+          "label": "Harmonização de Peso",
+          "text": "Combina perfeitamente com queijos azuis intensos (como Gorgonzola e Roquefort) ou queijos maduros (como o Parmesão artesanal)."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Ação Antioxidante Máxima",
+          "text": "Riquíssimo em compostos naturais que auxiliam na proteção das células contra os danos causados pelos radicais livres."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Escudo para a Imunidade",
+          "text": "Uma dose diária potente que auxilia no funcionamento adequado e no suporte ao sistema de defesa do seu corpo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🌲",
+          "label": "Poder Ancestral",
+          "text": "Um alimento sagrado que traz em sua essência as notas silvestres e a força viva da maior floresta tropical do planeta."
+        }
+      ],
+      "metaDescription": "Mel de Jupará (Melipona interrupta) — O Tesouro da Amazônia ✨ Intensidade Gastronômica: O ingrediente perfeito para criar molhos agridoces marcantes e regar doces com castanhas, nozes ou chocolates intensos. 🧀 Harmonização de Peso: Combina perfeitamente com queijos azuis intensos (como Gorgonzola e Roquefort) ou queijos maduros (como o Parmesão artesanal). 🛡️ Ação Antioxidante Máxima: Riquíssimo em compostos naturais que auxiliam na proteção das células contra os danos causados pelos radicais livres. 💪 Escudo para a Imunidade: Uma dose diária potente que auxilia no funcionamento adequado e no suporte ao sistema de defesa do seu corpo. 🌲 Poder Ancestral: Um alimento sagrado que traz em sua essência as notas silvestres e a força viva da maior floresta tropical do planeta.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-jupara-100g-1.jpg",
+          "width": 1400,
+          "height": 1400
+        },
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-jupara-100g-2.jpg",
+          "width": 1400,
+          "height": 1388
+        }
+      ],
+      "localInfoImages": [],
+      "cutout": {
+        "src": "/produtos/mel-de-abelhas-sem-ferrao-jupara-100g-cutout.webp",
+        "width": 722,
+        "height": 728
+      }
+    },
+    {
+      "slug": "mel-de-abelhas-sem-ferrao-mandacaia-100g",
+      "url": "https://www.vidanat.com.br/mel-de-abelhas-sem-ferrao-mandacaia-100g",
+      "sku": "001828",
+      "name": "Mel de Abelhas sem Ferrão | Mandaçaia - 100g",
+      "category": {
+        "slug": "meis-de-abelhas-sem-ferrao-lancamentos",
+        "name": "Méis de Abelhas sem Ferrão - Exclusivos"
+      },
+      "price": 84.39,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 23.53
+      },
+      "available": true,
+      "size": "100g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401113885/344a2bffbe0e47589f954a3e0cb15a38-o81qicjc8x.jpg",
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401113885/1b252e9838a44f5682cd1b1c6f88732f-wozd7i5afb.jpg"
+      ],
+      "infoImages": [],
+      "description": [
+        {
+          "kind": "heading",
+          "emoji": null,
+          "text": "Mel de Mandaçaia (Melipona quadrifasciata) — O Frescor Frutado da Mata Atlântica"
+        },
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Harmonia Cítrica",
+          "text": "O equilíbrio perfeito entre a doçura e as notas cítricas, ideal para compor molhos de saladas sofisticadas com folhas amargas."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🧀",
+          "label": "Contraste Perfeito",
+          "text": "Harmoniza divinamente com queijos cremosos e untuosos (como Brie e Camembert), limpando o paladar e equilibrando a gordura."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🌿",
+          "label": "Leve Fermentação Natural",
+          "text": "Atua de forma benéfica na microbiota intestinal, servindo como um excelente facilitador da digestão diária."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🗣️",
+          "label": "Alívio Suave",
+          "text": "Possui propriedades naturais que ajudam a suavizar irritações na garganta de maneira rápida e gentil."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Vitalidade e Bem-Estar",
+          "text": "Seus compostos bioativos agem diretamente no organismo, auxiliando na reposição de energia e no suporte ao vigor físico do dia a dia."
+        }
+      ],
+      "metaDescription": "Mel de Mandaçaia (Melipona quadrifasciata) — O Frescor Frutado da Mata Atlântica ✨ Harmonia Cítrica: O equilíbrio perfeito entre a doçura e as notas cítricas, ideal para compor molhos de saladas sofisticadas com folhas amargas. 🧀 Contraste Perfeito: Harmoniza divinamente com queijos cremosos e untuosos (como Brie e Camembert), limpando o paladar e equilibrando a gordura. 🌿 Leve Fermentação Natural: Atua de forma benéfica na microbiota intestinal, servindo como um excelente facilitador da digestão diária. 🗣️ Alívio Suave: Possui propriedades naturais que ajudam a suavizar irritações na garganta de maneira rápida e gentil. 💪 Vitalidade e Bem-Estar: Seus compostos bioativos agem diretamente no organismo, auxiliando na reposição de energia e no suporte ao vigor físico do dia a dia.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-mandacaia-100g-1.jpg",
+          "width": 1400,
+          "height": 1400
+        },
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-mandacaia-100g-2.jpg",
+          "width": 1400,
+          "height": 1388
+        }
+      ],
+      "localInfoImages": [],
+      "cutout": {
+        "src": "/produtos/mel-de-abelhas-sem-ferrao-mandacaia-100g-cutout.webp",
+        "width": 715,
+        "height": 722
+      }
+    },
+    {
+      "slug": "mel-de-abelhas-sem-ferrao-mandacaia-50g",
+      "url": "https://www.vidanat.com.br/mel-de-abelhas-sem-ferrao-mandacaia-50g",
+      "sku": "00560",
+      "name": "Mel de Abelhas sem Ferrão | Mandaçaia - 50g",
+      "category": {
+        "slug": "meis-de-abelhas-sem-ferrao",
+        "name": "Méis de Abelhas sem Ferrão - Raros"
+      },
+      "price": 58.39,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 16.28
+      },
+      "available": true,
+      "size": "50g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400423062/face9eb6471d4a1dae2d21c508f1f0d2-fcjsvxl0lc.jpg"
+      ],
+      "infoImages": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400423062/mel-de-asf-mandacaia-tabela-nutricional-05nwc3svp0.jpg"
+      ],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Notas de Abacaxi:",
+          "text": "Um perfil sensorial inovador, combinando uma acidez média brilhante com um toque frutado irresistível."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍹",
+          "label": "Máxima Versatilidade:",
+          "text": "O ingrediente secreto perfeito para elevar o nível de drinks autorais, molhos de saladas e pratos da alta gastronomia."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Antibacteriano Potente:",
+          "text": "Propriedades medicinais naturais que auxiliam o corpo no combate direto a microrganismos e infecções."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🌬️",
+          "label": "Escudo Pulmonar:",
+          "text": "O aliado ideal no manejo e alívio de males pulmonares, ajudando a afastar os sintomas de gripes e resfriados."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Fim da Fraqueza:",
+          "text": "Uma fonte de energia pura e de rápida absorção que revigora o organismo e combate o cansaço físico."
+        }
+      ],
+      "metaDescription": "✨ Notas de Abacaxi: Um perfil sensorial inovador, combinando uma acidez média brilhante com um toque frutado irresistível. 🍹 Máxima Versatilidade: O ingrediente secreto perfeito para elevar o nível de drinks autorais, molhos de saladas e pratos da alta gastronomia. 🛡️ Antibacteriano Potente: Propriedades medicinais naturais que auxiliam o corpo no combate direto a microrganismos e infecções. 🌬️ Escudo Pulmonar: O aliado ideal no manejo e alívio de males pulmonares, ajudando a afastar os sintomas de gripes e resfriados. 💪 Fim da Fraqueza: Uma fonte de energia pura e de rápida absorção que revigora o organismo e combate o cansaço físico.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-mandacaia-50g-1.jpg",
+          "width": 1376,
+          "height": 1400
+        }
+      ],
+      "localInfoImages": [
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-mandacaia-50g-info-1.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "cutout": {
+        "src": "/produtos/mel-de-abelhas-sem-ferrao-mandacaia-50g-cutout.webp",
+        "width": 641,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "mel-de-abelhas-sem-ferrao-mombucao-100g",
+      "url": "https://www.vidanat.com.br/mel-de-abelhas-sem-ferrao-mombucao-100g",
+      "sku": "001830",
+      "name": "Mel de Abelhas sem Ferrão | Mombucão - 100g",
+      "category": {
+        "slug": "meis-de-abelhas-sem-ferrao-lancamentos",
+        "name": "Méis de Abelhas sem Ferrão - Exclusivos"
+      },
+      "price": 100.79,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 28.11
+      },
+      "available": true,
+      "size": "100g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401114456/34ec32014feb4dcbaf5466e2085ccfc1-keazv8eu36.jpg",
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401114456/78d7849338ca47519709a258c57079a9-qpdft556el.jpg"
+      ],
+      "infoImages": [],
+      "description": [
+        {
+          "kind": "heading",
+          "emoji": null,
+          "text": "Mel de Mombucão (Cephalotrigona capitata) — A Joia Rara Sensorial"
+        },
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Harmonização Sublime",
+          "text": "O toque definitivo para finalizar com perfeição peixes brancos grelhados, ceviches tropicais ou tartares de salmão."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🧀",
+          "label": "Contraste de Ouro",
+          "text": "Cria um contraste inesquecível ao regar queijos curados de textura firme (como o Queijo do Serro ou Canastra meia-cura)."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Escudo Celular Potente",
+          "text": "Riquíssimo em compostos fenólicos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Suporte à Vitalidade",
+          "text": "Propriedades naturais nobres que atuam para revigorar as suas energias físicas e trazer mais disposição no dia a dia."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍽️",
+          "label": "Alta Culinária Exclusiva",
+          "text": "A escolha ideal para quem exige o máximo de personalidade e quer transformar pratos simples em criações inesquecíveis."
+        }
+      ],
+      "metaDescription": "Mel de Mombucão (Cephalotrigona capitata) — A Joia Rara Sensorial ✨ Harmonização Sublime: O toque definitivo para finalizar com perfeição peixes brancos grelhados, ceviches tropicais ou tartares de salmão. 🧀 Contraste de Ouro: Cria um contraste inesquecível ao regar queijos curados de textura firme (como o Queijo do Serro ou Canastra meia-cura). 🛡️ Escudo Celular Potente: Riquíssimo em compostos fenólicos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres. 💪 Suporte à Vitalidade: Propriedades naturais nobres que atuam para revigorar as suas energias físicas e trazer mais disposição no dia a dia. 🍽️ Alta Culinária Exclusiva: A escolha ideal para quem exige o máximo de personalidade e quer transformar pratos simples em criações inesquecíveis.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-mombucao-100g-1.jpg",
+          "width": 1400,
+          "height": 1400
+        },
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-mombucao-100g-2.jpg",
+          "width": 1400,
+          "height": 1388
+        }
+      ],
+      "localInfoImages": [],
+      "cutout": {
+        "src": "/produtos/mel-de-abelhas-sem-ferrao-mombucao-100g-cutout.webp",
+        "width": 711,
+        "height": 716
+      }
+    },
+    {
+      "slug": "mel-de-abelhas-sem-ferrao-tubuna-100g",
+      "url": "https://www.vidanat.com.br/mel-de-abelhas-sem-ferrao-tubuna-100g",
+      "sku": "001829",
+      "name": "Mel de Abelhas sem Ferrão | Tubuna - 100g",
+      "category": {
+        "slug": "meis-de-abelhas-sem-ferrao-lancamentos",
+        "name": "Méis de Abelhas sem Ferrão - Exclusivos"
+      },
+      "price": 84.39,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 23.53
+      },
+      "available": true,
+      "size": "100g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401114522/51cc84eab32b4fba89de863659ad58ae-mov3j1ygxk.jpg",
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401114522/575cd5a3676948a081626f6fc8f7cad7-2iet247k6d.jpg"
+      ],
+      "infoImages": [],
+      "description": [
+        {
+          "kind": "heading",
+          "emoji": null,
+          "text": "Mel de Tubuna (Scaptotrigona bipunctata) — A Explosão Cítrica da Biodiversidade"
+        },
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Crosta Agridose Perfeita",
+          "text": "O ingrediente ideal para pincelar costelinhas suínas, cordeiro ou peito de pato grelhado, garantindo uma finalização impecável."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🧀",
+          "label": "Quebra de Sal Brilhante",
+          "text": "Harmoniza perfeitamente com queijos maturados e salgados (como Parmesão, Pecorino ou Grana Padano), equilibrando o paladar."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Riqueza em Resinas Naturais",
+          "text": "Carrega a potência protetora do própolis e das resinas coletadas pela abelha Tubuna, oferecendo um cuidado nobre para o organismo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🔥",
+          "label": "Conforto e Bem-Estar Ativo",
+          "text": "Atua trazendo uma deliciosa sensação de alívio e suavidade, sendo o aliado ideal para o equilíbrio do seu dia a dia."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Escudo Antioxidante",
+          "text": "Uma dose diária potente rica em compostos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres."
+        }
+      ],
+      "metaDescription": "Mel de Tubuna (Scaptotrigona bipunctata) — A Explosão Cítrica da Biodiversidade ✨ Crosta Agridose Perfeita: O ingrediente ideal para pincelar costelinhas suínas, cordeiro ou peito de pato grelhado, garantindo uma finalização impecável. 🧀 Quebra de Sal Brilhante: Harmoniza perfeitamente com queijos maturados e salgados (como Parmesão, Pecorino ou Grana Padano), equilibrando o paladar. 🛡️ Riqueza em Resinas Naturais: Carrega a potência protetora do própolis e das resinas coletadas pela abelha Tubuna, oferecendo um cuidado nobre para o organismo. 🔥 Conforto e Bem-Estar Ativo: Atua trazendo uma deliciosa sensação de alívio e suavidade, sendo o aliado ideal para o equilíbrio do seu dia a dia. 💪 Escudo Antioxidante: Uma dose diária potente rica em compostos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-tubuna-100g-1.jpg",
+          "width": 1400,
+          "height": 1400
+        },
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-tubuna-100g-2.jpg",
+          "width": 1400,
+          "height": 1388
+        }
+      ],
+      "localInfoImages": [],
+      "cutout": {
+        "src": "/produtos/mel-de-abelhas-sem-ferrao-tubuna-100g-cutout.webp",
+        "width": 713,
+        "height": 720
+      }
+    },
+    {
+      "slug": "mel-de-abelhas-sem-ferrao-urucu-amarela-100g",
+      "url": "https://www.vidanat.com.br/mel-de-abelhas-sem-ferrao-urucu-amarela-100g",
+      "sku": "001826",
+      "name": "Mel de Abelhas sem Ferrão | Uruçu Amarela - 100g",
+      "category": {
+        "slug": "meis-de-abelhas-sem-ferrao-lancamentos",
+        "name": "Méis de Abelhas sem Ferrão - Exclusivos"
+      },
+      "price": 84.39,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 23.53
+      },
+      "available": true,
+      "size": "100g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401114564/8c5941800a374ce287f253efec5e48e7-qwyzgeloop.jpg",
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401114564/40a0444fff774ebf8591a3e8dbfbff62-cxltactx66.jpg"
+      ],
+      "infoImages": [],
+      "description": [
+        {
+          "kind": "heading",
+          "emoji": null,
+          "text": "Mel de Uruçu-Amarela (Melipona rufiventris) — A Realeza Licorosa das Florestas"
+        },
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Harmonização de Realeza",
+          "text": "Excelente para regar sobremesas sofisticadas (como Petit Gâteau e Mil-Folhas) e acompanhar carnes nobres de sabor marcante (como javali e cordeiro)."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🧀",
+          "label": "Contraste Intenso",
+          "text": "A combinação perfeita para queijos duros e intensos de cura prolongada, elevando qualquer tábua gourmet."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🌬️",
+          "label": "Conforto e Frescor Respiratório",
+          "text": "Atua trazendo uma deliciosa sensação de alívio e suavidade para a garganta, sendo o aliado ideal nos dias de rouquidão e secura."
+        },
+        {
+          "kind": "feature",
+          "emoji": "⚡",
+          "label": "Aporte de Vitalidade",
+          "text": "Naturalmente rico em minerais essenciais, atuando como um excelente tônico natural para apoiar e revigorar as energias físicas e mentais."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Escudo Celular Avançado",
+          "text": "Concentra altos níveis de flavonoides e compostos fenólicos que auxiliam na proteção das células contra os danos causados pelos radicais livres."
+        }
+      ],
+      "metaDescription": "Mel de Uruçu-Amarela (Melipona rufiventris) — A Realeza Licorosa das Florestas ✨ Harmonização de Realeza: Excelente para regar sobremesas sofisticadas (como Petit Gâteau e Mil-Folhas) e acompanhar carnes nobres de sabor marcante (como javali e cordeiro). 🧀 Contraste Intenso: A combinação perfeita para queijos duros e intensos de cura prolongada, elevando qualquer tábua gourmet. 🌬️ Conforto e Frescor Respiratório: Atua trazendo uma deliciosa sensação de alívio e suavidade para a garganta, sendo o aliado ideal nos dias de rouquidão e secura. ⚡ Aporte de Vitalidade: Naturalmente rico em minerais essenciais, atuando como um excelente tônico natural para apoiar e revigorar as energias físicas e mentais. 💪 Escudo Celular Avançado: Concentra altos níveis de flavonoides e compostos fenólicos que auxiliam na proteção das células contra os danos causados pelos radicais livres.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-urucu-amarela-100g-1.jpg",
+          "width": 1400,
+          "height": 1400
+        },
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-urucu-amarela-100g-2.jpg",
+          "width": 1400,
+          "height": 1388
+        }
+      ],
+      "localInfoImages": [],
+      "cutout": {
+        "src": "/produtos/mel-de-abelhas-sem-ferrao-urucu-amarela-100g-cutout.webp",
+        "width": 725,
+        "height": 729
+      }
+    },
+    {
+      "slug": "mel-de-abelhas-sem-ferrao-urucu-amarela-50g",
+      "url": "https://www.vidanat.com.br/mel-de-abelhas-sem-ferrao-urucu-amarela-50g",
+      "sku": "000705",
+      "name": "Mel de Abelhas sem Ferrão | Uruçu Amarela - 50g",
+      "category": {
+        "slug": "meis-de-abelhas-sem-ferrao",
+        "name": "Méis de Abelhas sem Ferrão - Raros"
+      },
+      "price": 58.39,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 16.28
+      },
+      "available": true,
+      "size": "50g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400425723/4da31d5eaed049ef9783fb348a8a0e5f-p49qwdl5h1.jpg"
+      ],
+      "infoImages": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400425723/mel-de-asf-urucu-amarela-tabela-nutricional-daboglyqup.jpg"
+      ],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Textura Licorosa",
+          "text": "Um perfil encorpado e rústico com uma acidez fermentada que confere uma personalidade única a cada gota."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍹",
+          "label": "Destaque na Coquetelaria",
+          "text": "O ingrediente perfeito e de alta sofisticação para criar drinks inesquecíveis, harmonizar com queijos nobres e brilhar na alta gastronomia."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Potência e Cuidado Ativo",
+          "text": "Carrega propriedades biológicas nobres e compostos vivos naturais que oferecem um suporte diário e proteção para o organismo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🔥",
+          "label": "Conforto e Bem-Estar",
+          "text": "Atua trazendo uma deliciosa sensação de alívio e suavidade, sendo o aliado ideal para manter o corpo em equilíbrio na sua rotina."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Escudo Antioxidante",
+          "text": "Riquíssimo em compostos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres."
+        }
+      ],
+      "metaDescription": "✨ Textura Licorosa: Um perfil encorpado e rústico com uma acidez fermentada que confere uma personalidade única a cada gota. 🍹 Destaque na Coquetelaria: O ingrediente perfeito e de alta sofisticação para criar drinks inesquecíveis, harmonizar com queijos nobres e brilhar na alta gastronomia. 🛡️ Potência e Cuidado Ativo: Carrega propriedades biológicas nobres e compostos vivos naturais que oferecem um suporte diário e proteção para o organismo. 🔥 Conforto e Bem-Estar: Atua trazendo uma deliciosa sensação de alívio e suavidade, sendo o aliado ideal para manter o corpo em equilíbrio na sua rotina. 💪 Escudo Antioxidante: Riquíssimo em compostos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-urucu-amarela-50g-1.jpg",
+          "width": 1370,
+          "height": 1400
+        }
+      ],
+      "localInfoImages": [
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-urucu-amarela-50g-info-1.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "cutout": {
+        "src": "/produtos/mel-de-abelhas-sem-ferrao-urucu-amarela-50g-cutout.webp",
+        "width": 643,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "mel-de-abelhas-sem-ferrao-urucu-cinzenta-100g",
+      "url": "https://www.vidanat.com.br/mel-de-abelhas-sem-ferrao-urucu-cinzenta-100g",
+      "sku": "001827",
+      "name": "Mel de Abelhas sem Ferrão | Uruçu Cinzenta - 100g",
+      "category": {
+        "slug": "meis-de-abelhas-sem-ferrao-lancamentos",
+        "name": "Méis de Abelhas sem Ferrão - Exclusivos"
+      },
+      "price": 84.39,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 23.53
+      },
+      "available": true,
+      "size": "100g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401114607/b3134a165b394fd1a88a48e4dde8f7ce-0619q5c94q.jpg",
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401114607/38c96d98aa0d48f7a81e3d38a3384d48-ogh6vp1867.jpg"
+      ],
+      "infoImages": [],
+      "description": [
+        {
+          "kind": "heading",
+          "emoji": null,
+          "text": "Mel de Uruçu-Cinzenta (Melipona fasciculata) — O Esplendor Amadeirado das Matas"
+        },
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Toque de Mestre",
+          "text": "Excelente para adoçar cafés de torra média e o ingrediente secreto perfeito para coquetéis finos com Bourbon ou Cachaça envelhecida."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🧀",
+          "label": "Harmonização Defumada",
+          "text": "Combina perfeitamente com o nosso tradicional Queijo de Coalho ou com um Provolone artesanal defumado."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💤",
+          "label": "Bem-Estar e Descanso Noturno",
+          "text": "Reconhecido por suas propriedades relaxantes naturais, sendo o aliado ideal para o consumo noturno e para trazer leveza e conforto ao final do dia."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🔥",
+          "label": "Conforto e Proteção Ativa",
+          "text": "Rico em enzimas vivas e compostos bioativos naturais que auxiliam no cuidado, na suavidade e no alívio de irritações na garganta."
+        },
+        {
+          "kind": "feature",
+          "emoji": "⚡",
+          "label": "Energia de Rápida Absorção",
+          "text": "Açúcares naturais perfeitamente equilibrados que funcionam como um excelente combustível saudável e imediato para o seu corpo."
+        }
+      ],
+      "metaDescription": "Mel de Uruçu-Cinzenta (Melipona fasciculata) — O Esplendor Amadeirado das Matas ✨ Toque de Mestre: Excelente para adoçar cafés de torra média e o ingrediente secreto perfeito para coquetéis finos com Bourbon ou Cachaça envelhecida. 🧀 Harmonização Defumada: Combina perfeitamente com o nosso tradicional Queijo de Coalho ou com um Provolone artesanal defumado. 💤 Bem-Estar e Descanso Noturno: Reconhecido por suas propriedades relaxantes naturais, sendo o aliado ideal para o consumo noturno e para trazer leveza e conforto ao final do dia. 🔥 Conforto e Proteção Ativa: Rico em enzimas vivas e compostos bioativos naturais que auxiliam no cuidado, na suavidade e no alívio de irritações na garganta. ⚡ Energia de Rápida Absorção: Açúcares naturais perfeitamente equilibrados que funcionam como um excelente combustível saudável e imediato para o seu corpo.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-urucu-cinzenta-100g-1.jpg",
+          "width": 1400,
+          "height": 1400
+        },
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-urucu-cinzenta-100g-2.jpg",
+          "width": 1400,
+          "height": 1388
+        }
+      ],
+      "localInfoImages": [],
+      "cutout": {
+        "src": "/produtos/mel-de-abelhas-sem-ferrao-urucu-cinzenta-100g-cutout.webp",
+        "width": 720,
+        "height": 723
+      }
+    },
+    {
+      "slug": "mel-de-abelhas-sem-ferrao-urucu-cinzenta-50g",
+      "url": "https://www.vidanat.com.br/mel-de-abelhas-sem-ferrao-urucu-cinzenta-50g",
+      "sku": "000703",
+      "name": "Mel de Abelhas sem Ferrão | Uruçu Cinzenta - 50g",
+      "category": {
+        "slug": "meis-de-abelhas-sem-ferrao",
+        "name": "Méis de Abelhas sem Ferrão - Raros"
+      },
+      "price": 58.39,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 16.28
+      },
+      "available": true,
+      "size": "50g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400425864/aa9b82ac3fed4d928cd827ab3015d2c5-y1uv2wfxu4.jpg"
+      ],
+      "infoImages": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400425864/mel-de-asf-urucu-cinzenta-tabela-nutricional-uqerikhl64.jpg"
+      ],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Dulçor Amadeirado",
+          "text": "Uma textura licorosa e encorpada que equilibra um perfil rústico muito doce com notas suaves de madeira e fermentação."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍽️",
+          "label": "Alta Culinária e Queijos",
+          "text": "O toque de ouro perfeito para elevar pratos sofisticados e harmonizar divinamente com queijos leves e frescos."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🩸",
+          "label": "Energia Inteligente e Natural",
+          "text": "Uma alternativa sofisticada, naturalmente hidratada, ideal para quem busca uma fonte de energia saudável e equilibrada para o organismo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Proteção e Cuidado Diário",
+          "text": "Carrega propriedades biológicas nobres que oferecem suporte natural para o organismo, auxiliando na manutenção da sua defesa diária."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Combustível Energético",
+          "text": "Riquíssimo em compostos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres, devolvendo o vigor ao seu corpo."
+        }
+      ],
+      "metaDescription": "✨ Dulçor Amadeirado: Uma textura licorosa e encorpada que equilibra um perfil rústico muito doce com notas suaves de madeira e fermentação. 🍽️ Alta Culinária e Queijos: O toque de ouro perfeito para elevar pratos sofisticados e harmonizar divinamente com queijos leves e frescos. 🩸 Energia Inteligente e Natural: Uma alternativa sofisticada, naturalmente hidratada, ideal para quem busca uma fonte de energia saudável e equilibrada para o organismo. 🛡️ Proteção e Cuidado Diário: Carrega propriedades biológicas nobres que oferecem suporte natural para o organismo, auxiliando na manutenção da sua defesa diária. 💪 Combustível Energético: Riquíssimo em compostos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres, devolvendo o vigor ao seu corpo.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-urucu-cinzenta-50g-1.jpg",
+          "width": 1378,
+          "height": 1400
+        }
+      ],
+      "localInfoImages": [
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-urucu-cinzenta-50g-info-1.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "cutout": {
+        "src": "/produtos/mel-de-abelhas-sem-ferrao-urucu-cinzenta-50g-cutout.webp",
+        "width": 643,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "mel-de-abelhas-sem-ferrao-urucu-nordestina-100g",
+      "url": "https://www.vidanat.com.br/mel-de-abelhas-sem-ferrao-urucu-nordestina-100g",
+      "sku": "001831",
+      "name": "Mel de Abelhas sem Ferrão | Uruçu Nordestina - 100g",
+      "category": {
+        "slug": "meis-de-abelhas-sem-ferrao-lancamentos",
+        "name": "Méis de Abelhas sem Ferrão - Exclusivos"
+      },
+      "price": 84.39,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 23.53
+      },
+      "available": true,
+      "size": "100g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401114648/f626bf31b415493e985ff9032d1bbaf1-fw91jgb6hx.jpg",
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401114648/8e5c184cb3cd4791a382cd6307b20935-uoxrxgq2tk.jpg"
+      ],
+      "infoImages": [],
+      "description": [
+        {
+          "kind": "heading",
+          "emoji": null,
+          "text": "Mel de Uruçu-Nordestina (Melipona scutellaris) — A Majestade da Mata Atlântica"
+        },
+        {
+          "kind": "paragraph",
+          "emoji": null,
+          "text": "Produzido por uma das abelhas mais imponentes do país, este mel é sinônimo de exuberância, um néctar de prestígio internacional, denso e de coloração dourada."
+        },
+        {
+          "kind": "paragraph",
+          "emoji": null,
+          "text": "Perfeito para caldas de sobremesas finas, alta confeitaria, foie gras e harmonizações com queijos de mofo branco (como Brie e Camembert). Excelente base para a criação de molhos agridoces para acompanhar carnes nobres de aves (como pato e codorna) ou lombo suíno."
+        },
+        {
+          "kind": "paragraph",
+          "emoji": null,
+          "text": "Riquíssimo em açúcares naturais de altíssima qualidade e minerais essenciais, funcionando como um excelente tônico natural para revigorar as energias e apoiar a vitalidade do corpo no dia a dia."
+        },
+        {
+          "kind": "paragraph",
+          "emoji": null,
+          "text": "Concentra altos índices de compostos bioativos que proporcionam uma deliciosa sensação de alívio e conforto para a garganta, auxiliando no funcionamento do seu sistema imune e na proteção das células contra os danos causados pelos radicais livres."
+        }
+      ],
+      "metaDescription": "Mel de Uruçu-Nordestina (Melipona scutellaris) — A Majestade da Mata Atlântica Produzido por uma das abelhas mais imponentes do país, este mel é sinônimo de exuberância, um néctar de prestígio internacional, denso e de coloração dourada. Perfeito para caldas de sobremesas finas, alta confeitaria, foie gras e harmonizações com queijos de mofo branco (como Brie e Camembert). Excelente base para a criação de molhos agridoces para acompanhar carnes nobres de aves (como pato e codorna) ou lombo suíno. Riquíssimo em açúcares naturais de altíssima qualidade e minerais essenciais, funcionando como um excelente tônico natural para revigorar as energias e apoiar a vitalidade do corpo no dia a dia. Concentra altos índices de compostos bioativos que proporcionam uma deliciosa sensação de alívio e conforto para a garganta, auxiliando no funcionamento do seu sistema imune e na proteção das células contra os danos causados pelos radicais livres.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-urucu-nordestina-100g-1.jpg",
+          "width": 1400,
+          "height": 1400
+        },
+        {
+          "src": "/produtos/mel-de-abelhas-sem-ferrao-urucu-nordestina-100g-2.jpg",
+          "width": 1400,
+          "height": 1388
+        }
+      ],
+      "localInfoImages": [],
+      "cutout": {
+        "src": "/produtos/mel-de-abelhas-sem-ferrao-urucu-nordestina-100g-cutout.webp",
+        "width": 720,
+        "height": 729
+      }
+    },
+    {
+      "slug": "mel-de-flores-de-acai",
+      "url": "https://www.vidanat.com.br/mel-de-flores-de-acai",
+      "sku": "001838",
+      "name": "Mel de Flores de Açaí - 300g",
+      "category": {
+        "slug": "meis-de-abelhas-apis-mellifera",
+        "name": "Méis - Energia Natural do Campo"
+      },
+      "price": 61.79,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 17.23
+      },
+      "available": true,
+      "size": "300g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401032973/b1d6b2f45b6644e6aaeb0e25b35365b1-l0qmph8zls.jpg",
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401032973/febb4b21a7d341798e769c4019cddb2a-h9xid65zf5.jpg"
+      ],
+      "infoImages": [],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Alto Poder Antioxidante",
+          "text": "Riquíssimo em compostos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Suporte à Imunidade",
+          "text": "Composto natural nobre que atua diretamente no suporte e no bom funcionamento do seu sistema de defesa."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🔥",
+          "label": "Potencial Protetor e Vitalidade",
+          "text": "Concentra bioativos raros da nossa biodiversidade que trazem mais equilíbrio, energia e vigor para o organismo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "❤️",
+          "label": "Equilíbrio e Bem-Estar",
+          "text": "Suas propriedades naturais nobres atuam de forma integrada para promover a leveza e a harmonia que o seu corpo precisa no dia a dia."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🦠",
+          "label": "Cuidado e Purificação Natural",
+          "text": "Auxilia na manutenção da higiene e da proteção natural da cavidade oral, garantindo bem-estar a cada consumo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "☕",
+          "label": "Diferencial Gastronômico",
+          "text": "Apresenta um sabor menos doce que o mel tradicional, com notas sensoriais incríveis que lembram café, perfeito para a alta culinária."
+        }
+      ],
+      "metaDescription": "✨ Alto Poder Antioxidante: Riquíssimo em compostos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres. 🛡️ Suporte à Imunidade: Composto natural nobre que atua diretamente no suporte e no bom funcionamento do seu sistema de defesa. 🔥 Potencial Protetor e Vitalidade: Concentra bioativos raros da nossa biodiversidade que trazem mais equilíbrio, energia e vigor para o organismo. ❤️ Equilíbrio e Bem-Estar: Suas propriedades naturais nobres atuam de forma integrada para promover a leveza e a harmonia que o seu corpo precisa no dia a dia. 🦠 Cuidado e Purificação Natural: Auxilia na manutenção da higiene e da proteção natural da cavidade oral, garantindo bem-estar a cada consumo. ☕ Diferencial Gastronômico: Apresenta um sabor menos doce que o mel tradicional, com notas sensoriais incríveis que lembram café, perfeito para a alta culinária.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-flores-de-acai-1.jpg",
+          "width": 1400,
+          "height": 1400
+        },
+        {
+          "src": "/produtos/mel-de-flores-de-acai-2.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "localInfoImages": [],
+      "cutout": {
+        "src": "/produtos/mel-de-flores-de-acai-cutout.webp",
+        "width": 479,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "mel-de-flores-de-assa-paixe",
+      "url": "https://www.vidanat.com.br/mel-de-flores-de-assa-paixe",
+      "sku": "001725",
+      "name": "Mel de Flores de Assa-Peixe - 300g",
+      "category": {
+        "slug": "meis-de-abelhas-apis-mellifera",
+        "name": "Méis - Energia Natural do Campo"
+      },
+      "price": 41.89,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 11.68
+      },
+      "available": true,
+      "size": "300g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401033375/0422eba688a74910a4a4a763ff43f783-xsl8i4fq35.jpg",
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401033375/708525772f9e4b60abe50e743779f0c2-lez6yeu83y.jpg"
+      ],
+      "infoImages": [],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Néctar de Assa-Peixe e Conforto",
+          "text": "Um composto natural nobre, produzido a partir da floração nativa, ideal para trazer uma deliciosa sensação de alívio e bem-estar nos dias frios."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🔥",
+          "label": "Cuidado e Proteção Suave",
+          "text": "Auxilia diretamente no bem-estar do organismo, trazendo suavidade para a rotina e ajudando a afastar o mal-estar do dia a dia."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Imunidade Apoiada",
+          "text": "Ajuda no funcionamento do seu sistema imune e traz suporte diário às defesas do corpo devido às suas propriedades antioxidantes naturais."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍃",
+          "label": "Alívio e Suavidade Imediata",
+          "text": "Sua textura macia e aveludada acalma instantaneamente a sensação de secura e irritação na garganta, prolongando o frescor."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Riqueza Nutricional",
+          "text": "Produzido a partir das flores da planta assa-peixe, ele é naturalmente rico em minerais essenciais para apoiar a vitalidade e a energia do seu corpo."
+        }
+      ],
+      "metaDescription": "✨ Néctar de Assa-Peixe e Conforto: Um composto natural nobre, produzido a partir da floração nativa, ideal para trazer uma deliciosa sensação de alívio e bem-estar nos dias frios. 🔥 Cuidado e Proteção Suave: Auxilia diretamente no bem-estar do organismo, trazendo suavidade para a rotina e ajudando a afastar o mal-estar do dia a dia. 🛡️ Imunidade Apoiada: Ajuda no funcionamento do seu sistema imune e traz suporte diário às defesas do corpo devido às suas propriedades antioxidantes naturais. 🍃 Alívio e Suavidade Imediata: Sua textura macia e aveludada acalma instantaneamente a sensação de secura e irritação na garganta, prolongando o frescor. 💪 Riqueza Nutricional: Produzido a partir das flores da planta assa-peixe, ele é naturalmente rico em minerais essenciais para apoiar a vitalidade e a energia do seu corpo.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-flores-de-assa-paixe-1.jpg",
+          "width": 1400,
+          "height": 1400
+        },
+        {
+          "src": "/produtos/mel-de-flores-de-assa-paixe-2.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "localInfoImages": [],
+      "cutout": {
+        "src": "/produtos/mel-de-flores-de-assa-paixe-cutout.webp",
+        "width": 482,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "mel-de-flores-de-cafe",
+      "url": "https://www.vidanat.com.br/mel-de-flores-de-cafe",
+      "sku": "001834",
+      "name": "Mel de Flores de Café - 300g",
+      "category": {
+        "slug": "meis-de-abelhas-apis-mellifera",
+        "name": "Méis - Energia Natural do Campo"
+      },
+      "price": 39,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 10.87
+      },
+      "available": true,
+      "size": "300g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401033503/7307b9232eb84fc594a89410454e5ac4-tjzsdf0rf5.jpg",
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401033503/aa55ddde42814fcbb231eea57d1b5f7d-aam3ibgpsi.jpg"
+      ],
+      "infoImages": [],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Apoio ao Dinamismo Diário",
+          "text": "Excelente aliado para quem busca mais disposição na rotina, complementando um estilo de vida ativo e saudável."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Proteção e Cuidado Ativo",
+          "text": "Carrega propriedades biológicas naturais nobres que oferecem um suporte diário e proteção para o organismo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🔥",
+          "label": "Conforto e Suavidade",
+          "text": "Atua trazendo uma deliciosa sensação de alívio e bem-estar, sendo o parceiro ideal para os dias de garganta seca."
+        },
+        {
+          "kind": "feature",
+          "emoji": "⚡",
+          "label": "Energia e Vitalidade",
+          "text": "Fonte de carboidratos de absorção equilibrada que fornece energia rápida e natural, sendo o favorito de atletas."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🌬️",
+          "label": "Frescor Respiratório",
+          "text": "Auxilia no conforto das vias aéreas de forma natural, proporcionando uma agradável sensação de alívio e leveza na respiração."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Riqueza em Antioxidantes",
+          "text": "Concentra flavonoides e compostos fenólicos que auxiliam na proteção das células contra os danos causados pelos radicais livres."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💆‍♀️",
+          "label": "Cuidado e Nutrição da Pele",
+          "text": "Perfeito para rituais de autocuidado caseiros; quando combinado a ingredientes naturais, auxilia na nutrição, suavidade e viço da pele."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍽️",
+          "label": "Destaque na Culinária",
+          "text": "Possui consistência densa que harmoniza perfeitamente com queijos fortes, iogurtes e adoça cafés sem mascarar a bebida."
+        }
+      ],
+      "metaDescription": "✨ Apoio ao Dinamismo Diário: Excelente aliado para quem busca mais disposição na rotina, complementando um estilo de vida ativo e saudável. 🛡️ Proteção e Cuidado Ativo: Carrega propriedades biológicas naturais nobres que oferecem um suporte diário e proteção para o organismo. 🔥 Conforto e Suavidade: Atua trazendo uma deliciosa sensação de alívio e bem-estar, sendo o parceiro ideal para os dias de garganta seca. ⚡ Energia e Vitalidade: Fonte de carboidratos de absorção equilibrada que fornece energia rápida e natural, sendo o favorito de atletas. 🌬️ Frescor Respiratório: Auxilia no conforto das vias aéreas de forma natural, proporcionando uma agradável sensação de alívio e leveza na respiração. 💪 Riqueza em Antioxidantes: Concentra flavonoides e compostos fenólicos que auxiliam na proteção das células contra os danos causados pelos radicais livres. 💆‍♀️ Cuidado e Nutrição da Pele: Perfeito para rituais de autocuidado caseiros; quando combinado a ingredientes naturais, auxilia na nutrição, suavidade e viço da pele. 🍽️ Destaque na Culinária: Possui consistência densa que harmoniza perfeitamente com queijos fortes, iogurtes e adoça cafés sem mascarar a bebida.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-flores-de-cafe-1.jpg",
+          "width": 1400,
+          "height": 1400
+        },
+        {
+          "src": "/produtos/mel-de-flores-de-cafe-2.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "localInfoImages": [],
+      "cutout": {
+        "src": "/produtos/mel-de-flores-de-cafe-cutout.webp",
+        "width": 478,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "mel-de-flores-de-cipo-uva",
+      "url": "https://www.vidanat.com.br/mel-de-flores-de-cipo-uva",
+      "sku": "001836",
+      "name": "Mel de Flores de Cipó-Uva - 300g",
+      "category": {
+        "slug": "meis-de-abelhas-apis-mellifera",
+        "name": "Méis - Energia Natural do Campo"
+      },
+      "price": 39,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 10.87
+      },
+      "available": true,
+      "size": "300g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401033688/a797982c669f40cf94e4dad19366c4b9-xgy3tt4g94.jpg",
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401033688/c258505ed1964801a113918222d26e1c-y738sr7lju.jpg"
+      ],
+      "infoImages": [],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Equilíbrio e Leveza",
+          "text": "Um excelente aliado natural que auxilia no bem-estar geral do organismo, trazendo suporte para o conforto e o bom funcionamento digestivo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Bem-Estar e Fluidez",
+          "text": "Contribui positivamente para o equilíbrio do corpo no dia a dia, promovendo uma deliciosa sensação de conforto e suavidade."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍂",
+          "label": "Suporte Digestivo Nutritivo",
+          "text": "Auxilia na sensação de leveza após as refeições e apoia o aproveitamento inteligente dos nutrientes essenciais na sua rotina alimentar."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Suporte Imunológico",
+          "text": "Riquíssimo em compostos naturais que auxiliam no funcionamento do seu sistema imune e na proteção das células contra os danos causados pelos radicais livres."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🌬️",
+          "label": "Conforto Respiratório",
+          "text": "Proporciona uma agradável sensação de frescor e alívio para a garganta, sendo o parceiro ideal para os dias de tempo seco."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍹",
+          "label": "Adoçante Natural Perfeito",
+          "text": "Por sua cor quase transparente e sabor suave, ele é perfeito para adoçar sucos, frutas e preparos sem alterar o sabor original dos alimentos."
+        }
+      ],
+      "metaDescription": "✨ Equilíbrio e Leveza: Um excelente aliado natural que auxilia no bem-estar geral do organismo, trazendo suporte para o conforto e o bom funcionamento digestivo. 🛡️ Bem-Estar e Fluidez: Contribui positivamente para o equilíbrio do corpo no dia a dia, promovendo uma deliciosa sensação de conforto e suavidade. 🍂 Suporte Digestivo Nutritivo: Auxilia na sensação de leveza após as refeições e apoia o aproveitamento inteligente dos nutrientes essenciais na sua rotina alimentar. 💪 Suporte Imunológico: Riquíssimo em compostos naturais que auxiliam no funcionamento do seu sistema imune e na proteção das células contra os danos causados pelos radicais livres. 🌬️ Conforto Respiratório: Proporciona uma agradável sensação de frescor e alívio para a garganta, sendo o parceiro ideal para os dias de tempo seco. 🍹 Adoçante Natural Perfeito: Por sua cor quase transparente e sabor suave, ele é perfeito para adoçar sucos, frutas e preparos sem alterar o sabor original dos alimentos.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-flores-de-cipo-uva-1.jpg",
+          "width": 1400,
+          "height": 1400
+        },
+        {
+          "src": "/produtos/mel-de-flores-de-cipo-uva-2.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "localInfoImages": [],
+      "cutout": {
+        "src": "/produtos/mel-de-flores-de-cipo-uva-cutout.webp",
+        "width": 480,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "mel-de-flores-de-laranjeira",
+      "url": "https://www.vidanat.com.br/mel-de-flores-de-laranjeira",
+      "sku": "001835",
+      "name": "Mel de Flores de Laranjeira - 300g",
+      "category": {
+        "slug": "meis-de-abelhas-apis-mellifera",
+        "name": "Méis - Energia Natural do Campo"
+      },
+      "price": 38.79,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 10.81
+      },
+      "available": true,
+      "size": "300g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401033826/6c16f8e0de0f47e28f0c27396f67973b-d1xxzzo44l.jpg",
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401033826/08e0631bdc194f7f81cd26fb12586b0e-qx4cgom80p.jpg"
+      ],
+      "infoImages": [],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Bem-Estar e Relaxamento Natural",
+          "text": "O aliado perfeito para trazer leveza e tranquilidade para a sua rotina, agindo como um reconfortante natural ao final do dia."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍂",
+          "label": "Saúde Digestiva Leve",
+          "text": "Auxilia no suporte ao bom funcionamento do sistema digestivo, trazendo conforto e bem-estar de forma muito leve e gentil para o estômago."
+        },
+        {
+          "kind": "feature",
+          "emoji": "⚡",
+          "label": "Suporte Mineral para Atletas",
+          "text": "Riquíssimo em potássio e minerais essenciais, tornando-se o combustível ideal para apoiar o rendimento e a energia em suas atividades físicas."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Ação Antioxidante",
+          "text": "Atua auxiliando na proteção das células do organismo contra os danos causados pelos radicais livres."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Conforto e Proteção Ativa",
+          "text": "Possui propriedades naturais nobres que auxiliam na deliciosa sensação de alívio e suavidade em dias de garganta seca."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍊",
+          "label": "Frescor Floral e Vigor",
+          "text": "Traz as notas aromáticas e a energia do néctar da flor de laranjeira para devolver o vigor físico e apoiar o funcionamento da sua imunidade."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🥞",
+          "label": "Textura Cremosa Irresistível",
+          "text": "Por cristalizar rápido de forma natural, ele ganha uma consistência perfeita para passar em torradas ou comer com iogurtes e queijos brancos."
+        }
+      ],
+      "metaDescription": "✨ Bem-Estar e Relaxamento Natural: O aliado perfeito para trazer leveza e tranquilidade para a sua rotina, agindo como um reconfortante natural ao final do dia. 🍂 Saúde Digestiva Leve: Auxilia no suporte ao bom funcionamento do sistema digestivo, trazendo conforto e bem-estar de forma muito leve e gentil para o estômago. ⚡ Suporte Mineral para Atletas: Riquíssimo em potássio e minerais essenciais, tornando-se o combustível ideal para apoiar o rendimento e a energia em suas atividades físicas. 💪 Ação Antioxidante: Atua auxiliando na proteção das células do organismo contra os danos causados pelos radicais livres. 🛡️ Conforto e Proteção Ativa: Possui propriedades naturais nobres que auxiliam na deliciosa sensação de alívio e suavidade em dias de garganta seca. 🍊 Frescor Floral e Vigor: Traz as notas aromáticas e a energia do néctar da flor de laranjeira para devolver o vigor físico e apoiar o funcionamento da sua imunidade. 🥞 Textura Cremosa Irresistível: Por cristalizar rápido de forma natural, ele ganha uma consistência perfeita para passar em torradas ou comer com iogurtes e queijos brancos.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-flores-de-laranjeira-1.jpg",
+          "width": 1400,
+          "height": 1400
+        },
+        {
+          "src": "/produtos/mel-de-flores-de-laranjeira-2.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "localInfoImages": [],
+      "cutout": {
+        "src": "/produtos/mel-de-flores-de-laranjeira-cutout.webp",
+        "width": 478,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "mel-de-flores-de-uva-do-japao",
+      "url": "https://www.vidanat.com.br/mel-de-flores-de-uva-do-japao",
+      "sku": "001839",
+      "name": "Mel de Flores de Uva-do-Japão - 300g",
+      "category": {
+        "slug": "meis-de-abelhas-apis-mellifera",
+        "name": "Méis - Energia Natural do Campo"
+      },
+      "price": 37.79,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 10.54
+      },
+      "available": true,
+      "size": "300g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401034005/6fcdca09c0a34c8bbe329e19ec02bbd0-5j476jnkdf.jpg",
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401034005/24f2e2faa9c245caacfd501dfb7b7172-a2x6cst3yc.jpg"
+      ],
+      "infoImages": [],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Equilíbrio e Renovação",
+          "text": "Rico em flavonoides naturais nobres que auxiliam no bem-estar geral e oferecem suporte ao funcionamento equilibrado do organismo após a rotina."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡",
+          "label": "Proteção e Cuidado Ativo",
+          "text": "Componentes biológicos vivos que atuam de forma suave na cavidade oral, trazendo suporte diário e proteção para o seu corpo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍂",
+          "label": "Digestivo e Diurético",
+          "text": "Auxilia diretamente no bom funcionamento do sistema digestivo e ajuda a reduzir a sensação de inchaço no corpo, promovendo leveza."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Escudo Antioxidante",
+          "text": "Riquíssimo em compostos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres e no fortalecimento da saúde geral."
+        },
+        {
+          "kind": "feature",
+          "emoji": "⚡",
+          "label": "Energia Pura e Preservada",
+          "text": "Mel cru que serve como uma excelente fonte de energia natural para o desempenho físico, preservando minerais essenciais como cálcio e ferro."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💧",
+          "label": "Textura Fluida por Mais Tempo",
+          "text": "Possui uma cristalização naturalmente muito lenta, mantendo sua textura líquida e fluida por longos períodos na sua despensa."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍵",
+          "label": "Tônico Matinal Perfeito",
+          "text": "Por sua extrema suavidade, é o ingrediente ideal para adoçar chás finos, iogurtes ou para ser consumido puro em jejum."
+        }
+      ],
+      "metaDescription": "✨ Equilíbrio e Renovação: Rico em flavonoides naturais nobres que auxiliam no bem-estar geral e oferecem suporte ao funcionamento equilibrado do organismo após a rotina. 🛡 Proteção e Cuidado Ativo: Componentes biológicos vivos que atuam de forma suave na cavidade oral, trazendo suporte diário e proteção para o seu corpo. 🍂 Digestivo e Diurético: Auxilia diretamente no bom funcionamento do sistema digestivo e ajuda a reduzir a sensação de inchaço no corpo, promovendo leveza. 💪 Escudo Antioxidante: Riquíssimo em compostos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres e no fortalecimento da saúde geral. ⚡ Energia Pura e Preservada: Mel cru que serve como uma excelente fonte de energia natural para o desempenho físico, preservando minerais essenciais como cálcio e ferro. 💧 Textura Fluida por Mais Tempo: Possui uma cristalização naturalmente muito lenta, mantendo sua textura líquida e fluida por longos períodos na sua despensa. 🍵 Tônico Matinal Perfeito: Por sua extrema suavidade, é o ingrediente ideal para adoçar chás finos, iogurtes ou para ser consumido puro em jejum.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-flores-de-uva-do-japao-1.jpg",
+          "width": 1400,
+          "height": 1400
+        },
+        {
+          "src": "/produtos/mel-de-flores-de-uva-do-japao-2.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "localInfoImages": [],
+      "cutout": {
+        "src": "/produtos/mel-de-flores-de-uva-do-japao-cutout.webp",
+        "width": 478,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "mel-de-flores-silvestres",
+      "url": "https://www.vidanat.com.br/mel-de-flores-silvestres",
+      "sku": "001307",
+      "name": "Mel de Flores Silvestres - 300g",
+      "category": {
+        "slug": "meis-de-abelhas-apis-mellifera",
+        "name": "Méis - Energia Natural do Campo"
+      },
+      "price": 31.09,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 8.67
+      },
+      "available": true,
+      "size": "300g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401034116/be45a5d52709431ca54269cc0724ed8d-2ivantvqnm.jpg",
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401034116/bda52d4b542144aaafd368f446dadf9c-nctxoyvva8.jpg"
+      ],
+      "infoImages": [],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Pureza e Cuidado Diário",
+          "text": "Consumido em sua forma crua, traz toda a riqueza da flora local diretamente para a sua rotina, oferecendo um suporte natural para o bem-estar do seu corpo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Fortalecimento da Imunidade",
+          "text": "Uma rica variedade de pólens ativos que auxiliam no suporte diário e na blindagem do seu sistema de defesa natural."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍂",
+          "label": "Ambiente Intestinal Saudável",
+          "text": "Propriedades naturais nobres que atuam para promover o equilíbrio da microbiota, garantindo conforto e uma digestão leve."
+        },
+        {
+          "kind": "feature",
+          "emoji": "⚡",
+          "label": "Energia e Vigor Renovados",
+          "text": "Fonte de carboidratos saudáveis que entrega uma energia equilibrada e constante para encarar os desafios do dia a dia."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🔥",
+          "label": "Escudo Antioxidante Ativo",
+          "text": "Riquíssimo em compostos fenólicos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres."
+        }
+      ],
+      "metaDescription": "✨ Pureza e Cuidado Diário: Consumido em sua forma crua, traz toda a riqueza da flora local diretamente para a sua rotina, oferecendo um suporte natural para o bem-estar do seu corpo. 🛡️ Fortalecimento da Imunidade: Uma rica variedade de pólens ativos que auxiliam no suporte diário e na blindagem do seu sistema de defesa natural. 🍂 Ambiente Intestinal Saudável: Propriedades naturais nobres que atuam para promover o equilíbrio da microbiota, garantindo conforto e uma digestão leve. ⚡ Energia e Vigor Renovados: Fonte de carboidratos saudáveis que entrega uma energia equilibrada e constante para encarar os desafios do dia a dia. 🔥 Escudo Antioxidante Ativo: Riquíssimo em compostos fenólicos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-flores-silvestres-1.jpg",
+          "width": 1400,
+          "height": 1400
+        },
+        {
+          "src": "/produtos/mel-de-flores-silvestres-2.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "localInfoImages": [],
+      "cutout": {
+        "src": "/produtos/mel-de-flores-silvestres-cutout.webp",
+        "width": 478,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "mel-de-flores-silvestres-400g",
+      "url": "https://www.vidanat.com.br/mel-de-flores-silvestres-400g",
+      "sku": "006",
+      "name": "Mel de Flores Silvestres - 400g",
+      "category": {
+        "slug": "meis-de-abelhas-apis-mellifera",
+        "name": "Méis - Energia Natural do Campo"
+      },
+      "price": 32.79,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 9.14
+      },
+      "available": true,
+      "size": "400g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400425924/f186f7fda70c4b798456887c686df6c7-2hecxsjhen.jpg"
+      ],
+      "infoImages": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400425924/mel-de-flores-silvestres-400g-tabela-nutricional-z7xklscbme.jpg"
+      ],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Pureza e Cuidado Diário",
+          "text": "Consumido em sua forma crua, traz toda a riqueza da flora local diretamente para a sua rotina, oferecendo um suporte natural para o bem-estar do seu corpo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Fortalecimento da Imunidade",
+          "text": "Uma rica variedade de pólens ativos que auxiliam no suporte diário e na blindagem do seu sistema de defesa natural."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍂",
+          "label": "Ambiente Intestinal Saudável",
+          "text": "Propriedades naturais nobres que atuam para promover o equilíbrio da microbiota, garantindo conforto e uma digestão leve."
+        },
+        {
+          "kind": "feature",
+          "emoji": "⚡",
+          "label": "Energia e Vigor Renovados",
+          "text": "Fonte de carboidratos saudáveis que entrega uma energia equilibrada e constante para encarar os desafios do dia a dia."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🔥",
+          "label": "Escudo Antioxidante Ativo",
+          "text": "Riquíssimo em compostos fenólicos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres."
+        }
+      ],
+      "metaDescription": "✨ Pureza e Cuidado Diário: Consumido em sua forma crua, traz toda a riqueza da flora local diretamente para a sua rotina, oferecendo um suporte natural para o bem-estar do seu corpo. 🛡️ Fortalecimento da Imunidade: Uma rica variedade de pólens ativos que auxiliam no suporte diário e na blindagem do seu sistema de defesa natural. 🍂 Ambiente Intestinal Saudável: Propriedades naturais nobres que atuam para promover o equilíbrio da microbiota, garantindo conforto e uma digestão leve. ⚡ Energia e Vigor Renovados: Fonte de carboidratos saudáveis que entrega uma energia equilibrada e constante para encarar os desafios do dia a dia. 🔥 Escudo Antioxidante Ativo: Riquíssimo em compostos fenólicos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-flores-silvestres-400g-1.jpg",
+          "width": 1400,
+          "height": 1400
+        }
+      ],
+      "localInfoImages": [
+        {
+          "src": "/produtos/mel-de-flores-silvestres-400g-info-1.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "cutout": {
+        "src": "/produtos/mel-de-flores-silvestres-400g-cutout.webp",
+        "width": 650,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "mel-de-flores-silvestres-730g",
+      "url": "https://www.vidanat.com.br/mel-de-flores-silvestres-730g",
+      "sku": "007",
+      "name": "Mel de Flores Silvestres - 730g",
+      "category": {
+        "slug": "meis-de-abelhas-apis-mellifera",
+        "name": "Méis - Energia Natural do Campo"
+      },
+      "price": 53.99,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 15.05
+      },
+      "available": true,
+      "size": "730g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400426120/05027056ac3e42e0bfc435b461140a19-mtefs13woq.jpg"
+      ],
+      "infoImages": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400426120/mel-de-flores-silvestres-730g-tabela-nutricional-34d24gp8l2.jpg"
+      ],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Pureza e Cuidado Diário",
+          "text": "Consumido em sua forma crua, traz toda a riqueza da flora local diretamente para a sua rotina, oferecendo um suporte natural para o bem-estar do seu corpo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Fortalecimento da Imunidade",
+          "text": "Uma rica variedade de pólens ativos que auxiliam no suporte diário e na blindagem do seu sistema de defesa natural."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍂",
+          "label": "Ambiente Intestinal Saudável",
+          "text": "Propriedades naturais nobres que atuam para promover o equilíbrio da microbiota, garantindo conforto e uma digestão leve."
+        },
+        {
+          "kind": "feature",
+          "emoji": "⚡",
+          "label": "Energia e Vigor Renovados",
+          "text": "Fonte de carboidratos saudáveis que entrega uma energia equilibrada e constante para encarar os desafios do dia a dia."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🔥",
+          "label": "Escudo Antioxidante Ativo",
+          "text": "Riquíssimo em compostos fenólicos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres."
+        }
+      ],
+      "metaDescription": "✨ Pureza e Cuidado Diário: Consumido em sua forma crua, traz toda a riqueza da flora local diretamente para a sua rotina, oferecendo um suporte natural para o bem-estar do seu corpo. 🛡️ Fortalecimento da Imunidade: Uma rica variedade de pólens ativos que auxiliam no suporte diário e na blindagem do seu sistema de defesa natural. 🍂 Ambiente Intestinal Saudável: Propriedades naturais nobres que atuam para promover o equilíbrio da microbiota, garantindo conforto e uma digestão leve. ⚡ Energia e Vigor Renovados: Fonte de carboidratos saudáveis que entrega uma energia equilibrada e constante para encarar os desafios do dia a dia. 🔥 Escudo Antioxidante Ativo: Riquíssimo em compostos fenólicos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-flores-silvestres-730g-1.jpg",
+          "width": 1392,
+          "height": 1400
+        }
+      ],
+      "localInfoImages": [
+        {
+          "src": "/produtos/mel-de-flores-silvestres-730g-info-1.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "cutout": {
+        "src": "/produtos/mel-de-flores-silvestres-730g-cutout.webp",
+        "width": 650,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "mel-de-melato-bracatinga",
+      "url": "https://www.vidanat.com.br/mel-de-melato-bracatinga",
+      "sku": "001837",
+      "name": "Mel de Melato | Bracatinga - 300g",
+      "category": {
+        "slug": "meis-de-abelhas-apis-mellifera",
+        "name": "Méis - Energia Natural do Campo"
+      },
+      "price": 38.29,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 10.67
+      },
+      "available": true,
+      "size": "300g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401034228/8320282b31bd4ae59f83aa75131ef41b-fmc8b2a5i5.jpg",
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/401034228/87e45a3e1197442a91dfa7f3ff47ec9a-wkszzqb49g.jpg"
+      ],
+      "infoImages": [],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "📊",
+          "label": "Explosão de Minerais",
+          "text": "Contém teores elevadíssimos de minerais essenciais, como potássio (até cinco vezes mais), magnésio, cálcio e ferro em comparação aos méis tradicionais."
+        },
+        {
+          "kind": "feature",
+          "emoji": "⚡",
+          "label": "Combustível para Atletas",
+          "text": "Riquíssimo em aminoácidos e nitrogênio, atuando como o suplemento natural perfeito para apoiar a recuperação e repor as energias após exercícios físicos."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Potente Ação Antioxidante",
+          "text": "Rico em compostos fenólicos e flavonoides exclusivos que auxiliam na proteção das células contra os danos causados pelos radicais livres."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🔥",
+          "label": "Suporte e Proteção Ativa",
+          "text": "Propriedades naturais nobres que auxiliam no bom funcionamento do organismo e garantem um fortalecimento profundo do seu sistema de defesa."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💧",
+          "label": "Textura Fluida por Muito Mais Tempo",
+          "text": "Devido à sua composição química única e puramente natural, ele não cristaliza facilmente, mantendo-se líquido por longos períodos."
+        },
+        {
+          "kind": "feature",
+          "emoji": "☕",
+          "label": "Energia Inteligente e Natural",
+          "text": "Uma alternativa sofisticada e naturalmente hidratada, ideal para quem busca uma fonte de energia nobre e equilibrada para o organismo no dia a dia."
+        }
+      ],
+      "metaDescription": "📊 Explosão de Minerais: Contém teores elevadíssimos de minerais essenciais, como potássio (até cinco vezes mais), magnésio, cálcio e ferro em comparação aos méis tradicionais. ⚡ Combustível para Atletas: Riquíssimo em aminoácidos e nitrogênio, atuando como o suplemento natural perfeito para apoiar a recuperação e repor as energias após exercícios físicos. 🛡️ Potente Ação Antioxidante: Rico em compostos fenólicos e flavonoides exclusivos que auxiliam na proteção das células contra os danos causados pelos radicais livres. 🔥 Suporte e Proteção Ativa: Propriedades naturais nobres que auxiliam no bom funcionamento do organismo e garantem um fortalecimento profundo do seu sistema de defesa. 💧 Textura Fluida por Muito Mais Tempo: Devido à sua composição química única e puramente natural, ele não cristaliza facilmente, mantendo-se líquido por longos períodos. ☕ Energia Inteligente e Natural: Uma alternativa sofisticada e naturalmente hidratada, ideal para quem busca uma fonte de energia nobre e equilibrada para o organismo no dia a dia.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-de-melato-bracatinga-1.jpg",
+          "width": 1400,
+          "height": 1400
+        },
+        {
+          "src": "/produtos/mel-de-melato-bracatinga-2.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "localInfoImages": [],
+      "cutout": {
+        "src": "/produtos/mel-de-melato-bracatinga-cutout.webp",
+        "width": 479,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "mel-em-saches-mel-de-flores-silvestres-500g",
+      "url": "https://www.vidanat.com.br/mel-em-saches-mel-de-flores-silvestres-500g",
+      "sku": "000348",
+      "name": "Mel em Sachês | Mel de Flores Silvestres - 500g",
+      "category": {
+        "slug": "meis-em-saches",
+        "name": "Méis em Sachês - Praticidade Diária"
+      },
+      "price": 72.54,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 20.23
+      },
+      "available": true,
+      "size": "500g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400426343/bcd106c7fc4448e9a961cd1028610737-hwzqngvdom.jpg"
+      ],
+      "infoImages": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400426343/mel-stick-tabela-nutricional-d00kdan5ze.jpg"
+      ],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Pureza e Cuidado Diário",
+          "text": "Consumido em sua forma crua, traz toda a riqueza da flora local diretamente para a sua rotina, oferecendo um suporte natural para o bem-estar do seu corpo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Fortalecimento da Imunidade",
+          "text": "Uma rica variedade de pólens ativos que auxiliam no suporte diário e na blindagem do seu sistema de defesa natural."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍂",
+          "label": "Ambiente Intestinal Saudável",
+          "text": "Propriedades naturais nobres que atuam para promover o equilíbrio da microbiota, garantindo conforto e uma digestão leve."
+        },
+        {
+          "kind": "feature",
+          "emoji": "⚡",
+          "label": "Energia e Vigor Renovados",
+          "text": "Fonte de carboidratos saudáveis que entrega uma energia equilibrada e constante para encarar os desafios do dia a dia."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🔥",
+          "label": "Escudo Antioxidante Ativo",
+          "text": "Riquíssimo em compostos fenólicos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres."
+        }
+      ],
+      "metaDescription": "✨ Pureza e Cuidado Diário: Consumido em sua forma crua, traz toda a riqueza da flora local diretamente para a sua rotina, oferecendo um suporte natural para o bem-estar do seu corpo. 🛡️ Fortalecimento da Imunidade: Uma rica variedade de pólens ativos que auxiliam no suporte diário e na blindagem do seu sistema de defesa natural. 🍂 Ambiente Intestinal Saudável: Propriedades naturais nobres que atuam para promover o equilíbrio da microbiota, garantindo conforto e uma digestão leve. ⚡ Energia e Vigor Renovados: Fonte de carboidratos saudáveis que entrega uma energia equilibrada e constante para encarar os desafios do dia a dia. 🔥 Escudo Antioxidante Ativo: Riquíssimo em compostos fenólicos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-em-saches-mel-de-flores-silvestres-500g-1.jpg",
+          "width": 1400,
+          "height": 1219
+        }
+      ],
+      "localInfoImages": [
+        {
+          "src": "/produtos/mel-em-saches-mel-de-flores-silvestres-500g-info-1.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "cutout": {
+        "src": "/produtos/mel-em-saches-mel-de-flores-silvestres-500g-cutout.webp",
+        "width": 1100,
+        "height": 923
+      }
+    },
+    {
+      "slug": "mel-em-saches-mel-de-flores-silvestres-80g",
+      "url": "https://www.vidanat.com.br/mel-em-saches-mel-de-flores-silvestres-80g",
+      "sku": "000357",
+      "name": "Mel em Sachês | Mel de Flores Silvestres - 80g",
+      "category": {
+        "slug": "meis-em-saches",
+        "name": "Méis em Sachês - Praticidade Diária"
+      },
+      "price": 18.99,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 5.29
+      },
+      "available": true,
+      "size": "80g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400426435/1778833b109c4858b81ffb0554a6414d-6f4q867gr9.jpg"
+      ],
+      "infoImages": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400426435/mel-em-sache-tabela-nutricional-flgjfgiqa2.jpg"
+      ],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Pureza e Cuidado Diário",
+          "text": "Consumido em sua forma crua, traz toda a riqueza da flora local diretamente para a sua rotina, oferecendo um suporte natural para o bem-estar do seu corpo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Fortalecimento da Imunidade",
+          "text": "Uma rica variedade de pólens ativos que auxiliam no suporte diário e na blindagem do seu sistema de defesa natural."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍂",
+          "label": "Ambiente Intestinal Saudável",
+          "text": "Propriedades naturais nobres que atuam para promover o equilíbrio da microbiota, garantindo conforto e uma digestão leve."
+        },
+        {
+          "kind": "feature",
+          "emoji": "⚡",
+          "label": "Energia e Vigor Renovados",
+          "text": "Fonte de carboidratos saudáveis que entrega uma energia equilibrada e constante para encarar os desafios do dia a dia."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🔥",
+          "label": "Escudo Antioxidante Ativo",
+          "text": "Riquíssimo em compostos fenólicos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres."
+        }
+      ],
+      "metaDescription": "✨ Pureza e Cuidado Diário: Consumido em sua forma crua, traz toda a riqueza da flora local diretamente para a sua rotina, oferecendo um suporte natural para o bem-estar do seu corpo. 🛡️ Fortalecimento da Imunidade: Uma rica variedade de pólens ativos que auxiliam no suporte diário e na blindagem do seu sistema de defesa natural. 🍂 Ambiente Intestinal Saudável: Propriedades naturais nobres que atuam para promover o equilíbrio da microbiota, garantindo conforto e uma digestão leve. ⚡ Energia e Vigor Renovados: Fonte de carboidratos saudáveis que entrega uma energia equilibrada e constante para encarar os desafios do dia a dia. 🔥 Escudo Antioxidante Ativo: Riquíssimo em compostos fenólicos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-em-saches-mel-de-flores-silvestres-80g-1.jpg",
+          "width": 1400,
+          "height": 1400
+        }
+      ],
+      "localInfoImages": [
+        {
+          "src": "/produtos/mel-em-saches-mel-de-flores-silvestres-80g-info-1.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "cutout": {
+        "src": "/produtos/mel-em-saches-mel-de-flores-silvestres-80g-cutout.webp",
+        "width": 466,
+        "height": 1100
+      }
+    },
+    {
+      "slug": "mel-estudante-mel-de-flores-silvestres-300g",
+      "url": "https://www.vidanat.com.br/mel-estudante-mel-de-flores-silvestres-300g",
+      "sku": "000354",
+      "name": "Mel Estudante | Mel de Flores Silvestres - 300g",
+      "category": {
+        "slug": "meis-em-saches",
+        "name": "Méis em Sachês - Praticidade Diária"
+      },
+      "price": 29.9,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 8.33
+      },
+      "available": true,
+      "size": "300g",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400426578/fdf9f7e5cfe64bc99ac148ae82866097-picww86b3m.jpg"
+      ],
+      "infoImages": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400426578/mel-estudante-tabela-nutricional-oozkgs84z0.jpg"
+      ],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Pureza e Cuidado Diário",
+          "text": "Consumido em sua forma crua, traz toda a riqueza da flora local diretamente para a sua rotina, oferecendo um suporte natural para o bem-estar do seu corpo."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Fortalecimento da Imunidade",
+          "text": "Uma rica variedade de pólens ativos que auxiliam no suporte diário e na blindagem do seu sistema de defesa natural."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🍂",
+          "label": "Ambiente Intestinal Saudável",
+          "text": "Propriedades naturais nobres que atuam para promover o equilíbrio da microbiota, garantindo conforto e uma digestão leve."
+        },
+        {
+          "kind": "feature",
+          "emoji": "⚡",
+          "label": "Energia e Vigor Renovados",
+          "text": "Fonte de carboidratos saudáveis que entrega uma energia equilibrada e constante para encarar os desafios do dia a dia."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🔥",
+          "label": "Escudo Antioxidante Ativo",
+          "text": "Riquíssimo em compostos fenólicos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres."
+        }
+      ],
+      "metaDescription": "✨ Pureza e Cuidado Diário: Consumido em sua forma crua, traz toda a riqueza da flora local diretamente para a sua rotina, oferecendo um suporte natural para o bem-estar do seu corpo. 🛡️ Fortalecimento da Imunidade: Uma rica variedade de pólens ativos que auxiliam no suporte diário e na blindagem do seu sistema de defesa natural. 🍂 Ambiente Intestinal Saudável: Propriedades naturais nobres que atuam para promover o equilíbrio da microbiota, garantindo conforto e uma digestão leve. ⚡ Energia e Vigor Renovados: Fonte de carboidratos saudáveis que entrega uma energia equilibrada e constante para encarar os desafios do dia a dia. 🔥 Escudo Antioxidante Ativo: Riquíssimo em compostos fenólicos ativos que auxiliam na proteção das células contra os danos causados pelos radicais livres.",
+      "localImages": [
+        {
+          "src": "/produtos/mel-estudante-mel-de-flores-silvestres-300g-1.jpg",
+          "width": 1400,
+          "height": 1344
+        }
+      ],
+      "localInfoImages": [
+        {
+          "src": "/produtos/mel-estudante-mel-de-flores-silvestres-300g-info-1.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "cutout": {
+        "src": "/produtos/mel-estudante-mel-de-flores-silvestres-300g-cutout.webp",
+        "width": 1100,
+        "height": 341
+      }
+    },
+    {
+      "slug": "propolgim-composto-de-mel-e-extrato-de-propolis-sabores-alho-gengibre-e-limao-30ml",
+      "url": "https://www.vidanat.com.br/propolgim-composto-de-mel-e-extrato-de-propolis-sabores-alho-gengibre-e-limao-30ml",
+      "sku": "008",
+      "name": "Propolgim | Composto de Mel e Extrato de Própolis - Sabores Alho, Gengibre e Limão | 30ml",
+      "category": {
+        "slug": "composto-de-mel-e-extrato-de-propolis",
+        "name": "Composto de Mel e Extrato de Própolis - Imunidade Reforçada"
+      },
+      "price": 25.9,
+      "priceFrom": null,
+      "installments": {
+        "count": 4,
+        "value": 7.22
+      },
+      "available": true,
+      "size": "30ml",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400426631/44e304a24393420e898b68764536e059-akb23ees2z.jpg"
+      ],
+      "infoImages": [
+        "https://cdn.awsli.com.br/2500x2500/2983/2983914/produto/400426631/propolgim-tabela-nutricional-1hh9jie936.jpg"
+      ],
+      "description": [
+        {
+          "kind": "feature",
+          "emoji": "✨",
+          "label": "Conforto e Bem-Estar Respiratório",
+          "text": "O aliado tradicional ideal para trazer uma deliciosa sensação de alívio, frescor e suavidade para os dias de garganta seca."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🛡️",
+          "label": "Proteção e Cuidado Ativo",
+          "text": "Propriedades naturais nobres que atuam de forma suave na cavidade oral, trazendo suporte diário, alívio e conforto para a sua rotina."
+        },
+        {
+          "kind": "feature",
+          "emoji": "💪",
+          "label": "Fortalecimento da Imunidade",
+          "text": "O uso regular auxilia no bom funcionamento do seu sistema imune, tornando as defesas naturais do seu organismo muito mais preparadas."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🌬️",
+          "label": "Sensação de Alívio Imediato",
+          "text": "Sua textura macia contribui ativamente para acalmar instantaneamente a sensação incômoda de \"arranhado\" e irritação na garganta."
+        },
+        {
+          "kind": "feature",
+          "emoji": "🌿",
+          "label": "Poder Natural Integrado",
+          "text": "Cinco ingredientes consagrados pela sabedoria popular e pela ciência, trabalhando juntos em perfeita harmonia para devolver a sua vitalidade."
+        }
+      ],
+      "metaDescription": "✨ Conforto e Bem-Estar Respiratório: O aliado tradicional ideal para trazer uma deliciosa sensação de alívio, frescor e suavidade para os dias de garganta seca. 🛡️ Proteção e Cuidado Ativo: Propriedades naturais nobres que atuam de forma suave na cavidade oral, trazendo suporte diário, alívio e conforto para a sua rotina. 💪 Fortalecimento da Imunidade: O uso regular auxilia no bom funcionamento do seu sistema imune, tornando as defesas naturais do seu organismo muito mais preparadas. 🌬️ Sensação de Alívio Imediato: Sua textura macia contribui ativamente para acalmar instantaneamente a sensação incômoda de \"arranhado\" e irritação na garganta. 🌿 Poder Natural Integrado: Cinco ingredientes consagrados pela sabedoria popular e pela ciência, trabalhando juntos em perfeita harmonia para devolver a sua vitalidade.",
+      "localImages": [
+        {
+          "src": "/produtos/propolgim-composto-de-mel-e-extrato-de-propolis-sabores-alho-gengibre-e-limao-30ml-1.jpg",
+          "width": 1400,
+          "height": 1400
+        }
+      ],
+      "localInfoImages": [
+        {
+          "src": "/produtos/propolgim-composto-de-mel-e-extrato-de-propolis-sabores-alho-gengibre-e-limao-30ml-info-1.jpg",
+          "width": 1400,
+          "height": 1392
+        }
+      ],
+      "cutout": {
+        "src": "/produtos/propolgim-composto-de-mel-e-extrato-de-propolis-sabores-alho-gengibre-e-limao-30ml-cutout.webp",
+        "width": 562,
+        "height": 1100
+      }
+    }
+  ]
+}

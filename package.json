@@ -1,0 +1,45 @@
+{
+  "name": "vida-natural",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "scrape": "node scripts/scrape-catalog.mjs",
+    "test:commerce": "node scripts/test-commerce.mjs",
+    "test:ui": "node scripts/test-ui.mjs",
+    "test:responsivo": "node scripts/test-responsivo.mjs",
+    "test:links": "node scripts/test-links.mjs",
+    "db:seed": "prisma db seed",
+    "db:studio": "prisma studio"
+  },
+  "dependencies": {
+    "@prisma/adapter-better-sqlite3": "^7.10.0",
+    "@prisma/client": "^7.10.0",
+    "framer-motion": "^13.4.0",
+    "next": "^16.3.5",
+    "prisma": "^7.10.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "server-only": "^0.0.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "cheerio": "^1.2.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.5",
+    "playwright": "^1.63.0",
+    "postcss": "^8.5.28",
+    "sharp": "^0.35.4",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.13",
+    "typescript": "^6.0.3"
+  }
+}

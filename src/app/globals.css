@@ -1,0 +1,251 @@
+@import 'tailwindcss';
+
+/* ------------------------------------------------------------------
+   Design tokens — Vida Natural
+   Paleta extraída das referências visuais: verde-floresta profundo,
+   creme de cera de abelha e dourado de mel.
+------------------------------------------------------------------- */
+@theme {
+  /* creme / fundos */
+  --color-cream-50: #fdfbf6;
+  --color-cream-100: #f9f4e9;
+  --color-cream-200: #f3ebdb;
+  --color-cream-300: #e9dcc4;
+  --color-cream-400: #ddcba9;
+
+  /* verde-floresta / blocos escuros */
+  --color-forest-950: #0f1a14;
+  --color-forest-900: #14211a;
+  --color-forest-800: #1b2c21;
+  --color-forest-700: #23392b;
+  --color-forest-600: #2e4a37;
+  --color-forest-500: #3d6048;
+  --color-forest-400: #5a7f66;
+
+  /* mel / dourado */
+  --color-honey-700: #9a6a15;
+  --color-honey-600: #b5801f;
+  --color-honey-500: #c89733;
+  --color-honey-400: #ddb05a;
+  --color-honey-300: #ebcb8c;
+  --color-honey-200: #f6e3bc;
+
+  /* tinta */
+  --color-ink: #1f2420;
+  --color-ink-soft: #4a4d44;
+  --color-ink-muted: #6e6a5c;
+
+  --color-line: #e5dac4;
+  --color-line-soft: #efe6d5;
+
+  /* tipografia */
+  --font-display: var(--font-fraunces), Georgia, 'Times New Roman', serif;
+  --font-sans: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+
+  --text-display-sm: 2.25rem;
+  --text-display: 3.25rem;
+  --text-display-lg: 4.5rem;
+
+  /* raios */
+  --radius-xs: 0.375rem;
+  --radius-sm: 0.625rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-xl: 2rem;
+  --radius-2xl: 2.75rem;
+
+  /* sombras quentes */
+  --shadow-soft: 0 1px 2px rgb(62 45 15 / 0.04), 0 8px 24px -12px rgb(62 45 15 / 0.12);
+  --shadow-lift: 0 2px 4px rgb(62 45 15 / 0.05), 0 18px 40px -18px rgb(62 45 15 / 0.22);
+  --shadow-deep: 0 30px 70px -30px rgb(20 33 26 / 0.45);
+
+  /* transições */
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ------------------------------------------------------------------ base */
+@layer base {
+  :root {
+    --header-height: 4.5rem;
+    color-scheme: light;
+  }
+
+  * {
+    border-color: var(--color-line);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-cream-50);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-feature-settings: 'ss01', 'cv05';
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* e-mails e nomes longos nunca devem estourar a largura da tela */
+  p,
+  li,
+  a,
+  h1,
+  h2,
+  h3,
+  h4 {
+    overflow-wrap: break-word;
+  }
+
+  ::selection {
+    background: var(--color-honey-300);
+    color: var(--color-forest-900);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-honey-600);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  input,
+  select,
+  button,
+  textarea {
+    font: inherit;
+  }
+}
+
+/* ------------------------------------------------------------- utilitários */
+@utility container-page {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 1rem;
+  max-width: 90rem;
+
+  @media (min-width: 640px) {
+    padding-inline: 2rem;
+  }
+
+  @media (min-width: 1280px) {
+    padding-inline: 3.5rem;
+  }
+}
+
+/* rótulo em versalete usado nas aberturas de seção */
+@utility eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+/* ------------------------------------------------------------------ texturas
+   Camadas de profundidade, não estampas. Todas são ruído SVG gerado inline e
+   devem ficar num <span> sobreposto com opacidade baixa — o produto é que
+   precisa aparecer, não o fundo.
+--------------------------------------------------------------------------- */
+
+/* grão fino de impressão — para fundos claros */
+@utility texture-grain {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23g)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+  mix-blend-mode: multiply;
+}
+
+/* mesmo grão, clareando — para blocos escuros */
+@utility texture-grain-light {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23g)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+  mix-blend-mode: screen;
+}
+
+/* fibra de papel artesanal de alta gramatura */
+@utility texture-paper {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='turbulence' baseFrequency='0.022 0.55' numOctaves='4' seed='7' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23p)'/%3E%3C/svg%3E");
+  background-size: 300px 300px;
+  mix-blend-mode: multiply;
+}
+
+/* manchas orgânicas largas, lembrando cera derramada */
+@utility texture-wax {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='700' height='700'%3E%3Cfilter id='w'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.0055' numOctaves='2' seed='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3CfeComponentTransfer%3E%3CfeFuncA type='linear' slope='1.6' intercept='-0.35'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='700' height='700' filter='url(%23w)'/%3E%3C/svg%3E");
+  background-size: 700px 700px;
+  mix-blend-mode: multiply;
+}
+
+/* linhas de colmeia — mantidas para uso pontual, nunca no site inteiro */
+@utility honeycomb {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='97' viewBox='0 0 56 97'%3E%3Cpath d='M28 0L56 16.17v32.33L28 64.66 0 48.5V16.17z' fill='none' stroke='%23000' stroke-opacity='.08' stroke-width='1.2'/%3E%3Cpath d='M28 64.66l28 16.17V97M28 64.66L0 80.83V97M56 16.17L84 0M0 16.17L-28 0' fill='none' stroke='%23000' stroke-opacity='.08' stroke-width='1.2'/%3E%3C/svg%3E");
+  background-size: 56px 97px;
+}
+
+@utility honeycomb-light {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='97' viewBox='0 0 56 97'%3E%3Cpath d='M28 0L56 16.17v32.33L28 64.66 0 48.5V16.17z' fill='none' stroke='%23fff' stroke-opacity='.10' stroke-width='1.2'/%3E%3Cpath d='M28 64.66l28 16.17V97M28 64.66L0 80.83V97' fill='none' stroke='%23fff' stroke-opacity='.10' stroke-width='1.2'/%3E%3C/svg%3E");
+  background-size: 56px 97px;
+}
+
+/* brilho quente atrás dos produtos */
+@utility honey-glow {
+  background: radial-gradient(
+    60% 60% at 50% 45%,
+    rgb(221 176 90 / 0.4) 0%,
+    rgb(233 220 196 / 0.28) 45%,
+    transparent 72%
+  );
+}
+
+@utility link-underline {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.4s var(--ease-out-soft);
+
+  &:hover {
+    background-size: 100% 1px;
+  }
+}
+
+/* rolagem horizontal sem barra visível (carrosséis mobile) */
+@utility no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* ---------------------------------------------------- acessibilidade motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
