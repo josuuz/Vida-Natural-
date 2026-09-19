@@ -1,14 +1,14 @@
 /**
  * Testes do fluxo de compra contra o servidor rodando.
  *
- *   BASE=http://localhost:3100 node scripts/test-commerce.mjs
+ *   BASE=http://localhost:3100 npm run test:commerce
  *
  * Cobre: recálculo do carrinho, oferta progressiva, cupom, criação de pedido,
  * idempotência, assinatura do webhook, baixa de estoque e histórico.
  */
 import { createHmac, randomUUID } from 'node:crypto';
 import { PrismaBetterSqlite3 } from '@prisma/adapter-better-sqlite3';
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient } from '../src/generated/prisma/client.ts';
 
 const BASE = process.env.BASE ?? 'http://localhost:3100';
 const ADMIN = process.env.ADMIN_API_TOKEN ?? 'token-de-teste';

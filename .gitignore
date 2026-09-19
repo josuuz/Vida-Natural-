@@ -10,3 +10,6 @@ next-env.d.ts
 prisma/*.db
 prisma/*.db-journal
 scripts/.shots
+
+# Prisma Client gerado (recriado por postinstall/build)
+src/generated/prisma/
