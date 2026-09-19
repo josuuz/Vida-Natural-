@@ -199,22 +199,22 @@ async function main() {
   await prisma.productRelation.deleteMany();
   for (const product of all) {
     const sameCategory = all
-      .filter((other) => other.id !== product.id && other.categoryId === product.categoryId)
+      .filter((other: typeof all[number]) => other.id !== product.id && other.categoryId === product.categoryId)
       .slice(0, 4);
 
     const complementaryFamily = product.category.family === 'propolis' ? 'meis' : 'propolis';
     const complementary = (byFamily.get(complementaryFamily) ?? [])
-      .filter((other) => other.id !== product.id)
+      .filter((other: typeof all[number]) => other.id !== product.id)
       .slice(0, 3);
 
     const rows = [
-      ...sameCategory.map((other, position) => ({
+      ...sameCategory.map((other: typeof sameCategory[number], position: number) => ({
         productId: product.id,
         relatedId: other.id,
         kind: 'related',
         position,
       })),
-      ...complementary.map((other, position) => ({
+      ...complementary.map((other: typeof complementary[number], position: number) => ({
         productId: product.id,
         relatedId: other.id,
         kind: 'cross-sell',
@@ -255,7 +255,7 @@ async function main() {
     });
     await prisma.kitItem.deleteMany({ where: { kitId: created.id } });
     for (const item of kit.items) {
-      const product = all.find((candidate) => candidate.slug === item.slug);
+      const product = all.find((candidate: typeof all[number]) => candidate.slug === item.slug);
       if (!product) continue;
       await prisma.kitItem.create({
         data: { kitId: created.id, productId: product.id, quantity: item.quantity },

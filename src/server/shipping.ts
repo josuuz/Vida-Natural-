@@ -89,10 +89,10 @@ export async function getShippingQuotes(params: {
     orderBy: [{ position: 'asc' }, { priceCents: 'asc' }],
   });
 
-  const matching = rates.filter((rate) =>
+  const matching = rates.filter((rate: typeof rates[number]) =>
     rate.states
       .split(',')
-      .map((state) => state.trim().toUpperCase())
+      .map((state: string) => state.trim().toUpperCase())
       .includes(params.state!.toUpperCase())
   );
 
@@ -110,7 +110,7 @@ export async function getShippingQuotes(params: {
 
   return {
     mode: 'table',
-    options: matching.map((rate) => ({
+    options: matching.map((rate: typeof matching[number]) => ({
       id: rate.id,
       label: rate.name,
       priceCents: qualifiesForFree ? 0 : rate.priceCents,

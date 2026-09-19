@@ -21,7 +21,7 @@ export const revalidate = 60;
 
 export async function generateStaticParams() {
   const slugs = await getProductSlugs();
-  return slugs.map((slug) => ({ slug }));
+  return slugs.map((slug: string) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {

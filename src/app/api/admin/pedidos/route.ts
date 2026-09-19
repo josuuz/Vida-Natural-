@@ -44,7 +44,7 @@ export async function GET(request: Request) {
   });
 
   return NextResponse.json({
-    orders: orders.map((order) => ({
+    orders: orders.map((order: typeof orders[number]) => ({
       number: order.number,
       token: order.token,
       customer: order.customer.email,
@@ -52,7 +52,7 @@ export async function GET(request: Request) {
       paymentStatus: order.paymentStatus,
       total: order.totalCents / 100,
       createdAt: order.createdAt.toISOString(),
-      items: order.items.map((item) => ({ slug: item.slug, quantity: item.quantity })),
+      items: order.items.map((item: typeof order['items'][number]) => ({ slug: item.slug, quantity: item.quantity })),
     })),
   });
 }

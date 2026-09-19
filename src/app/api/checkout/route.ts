@@ -96,7 +96,7 @@ export async function POST(request: Request) {
       const message = [
         `Olá! Acabei de fazer o pedido ${order.number} no site.`,
         '',
-        ...order.items.map((item) => `• ${item.quantity}x ${item.name}`),
+        ...order.items.map((item: typeof order['items'][number]) => `• ${item.quantity}x ${item.name}`),
         '',
         `Total: R$ ${(order.totalCents / 100).toFixed(2).replace('.', ',')}`,
       ].join('\n');
@@ -127,7 +127,7 @@ export async function POST(request: Request) {
     const preference = await createPreference({
       orderId: order.id,
       orderNumber: order.number,
-      items: order.items.map((item) => ({
+      items: order.items.map((item: typeof order['items'][number]) => ({
         id: item.slug,
         title: item.name,
         quantity: item.quantity,

@@ -44,8 +44,8 @@ function buildTiers(row: ProductRow): PriceTier[] {
   const tiers = row.tiers ?? [];
   return tiers
     .slice()
-    .sort((a, b) => a.minQuantity - b.minQuantity)
-    .map((tier) => ({
+    .sort((a: typeof tiers[number], b: typeof tiers[number]) => a.minQuantity - b.minQuantity)
+    .map((tier: typeof tiers[number]) => ({
       minQuantity: tier.minQuantity,
       unitPrice: toReais(tier.unitPriceCents),
       total: toReais(tier.unitPriceCents * tier.minQuantity),
@@ -103,7 +103,7 @@ export const getCategories = cache(async (): Promise<CategorySummary[]> => {
     include: { _count: { select: { products: { where: { active: true } } } } },
   });
 
-  return rows.map((row) => ({
+  return rows.map((row: typeof rows[number]) => ({
     slug: row.slug,
     name: row.name,
     label: row.label,
@@ -154,7 +154,7 @@ export const getProduct = cache(async (slug: string): Promise<ProductDetail | nu
 
 export const getProductSlugs = cache(async () => {
   const rows = await prisma.product.findMany({ where: { active: true }, select: { slug: true } });
-  return rows.map((row) => row.slug);
+  return rows.map((row: typeof rows[number]) => row.slug);
 });
 
 /** Recomendações editoriais salvas no banco. */
@@ -169,7 +169,7 @@ export const getRelatedProducts = cache(
       take: limit,
       include: { related: { include } },
     });
-    return rows.map((row) => toSummary(row.related));
+    return rows.map((row: typeof rows[number]) => toSummary(row.related));
   }
 );
 
@@ -187,9 +187,9 @@ export const getSpecies = cache(async (): Promise<Species[]> => {
   });
 
   return rows
-    .map((row) => {
+    .map((row: typeof rows[number]) => {
       const blocks = parseJson<DescriptionBlock[]>(row.description, []);
-      const heading = blocks.find((block) => block.kind === 'heading')?.text ?? '';
+      const heading = blocks.find((block: DescriptionBlock) => block.kind === 'heading')?.text ?? '';
       const match = heading.match(/^Mel de ([^(]+)\(([^)]+)\)\s*[—-]\s*(.+)$/);
       if (!match) return null;
       return {
@@ -199,7 +199,7 @@ export const getSpecies = cache(async (): Promise<Species[]> => {
         product: toSummary(row),
       };
     })
-    .filter((entry): entry is Species => Boolean(entry));
+    .filter((entry: Species | null): entry is Species => Boolean(entry));
 });
 
 /** Kits que contêm o produto informado. */
@@ -210,10 +210,10 @@ export const getKitsForProduct = cache(async (slug: string): Promise<KitSummary[
     include: { items: { include: { product: { include } } } },
   });
 
-  return rows.map((kit) => {
-    const items = kit.items.map((item) => ({ product: toSummary(item.product), quantity: item.quantity }));
+  return rows.map((kit: typeof rows[number]) => {
+    const items = kit.items.map((item: typeof kit['items'][number]) => ({ product: toSummary(item.product), quantity: item.quantity }));
     const itemsTotalCents = kit.items.reduce(
-      (sum, item) => sum + item.product.priceCents * item.quantity,
+      (sum: number, item: typeof kit['items'][number]) => sum + item.product.priceCents * item.quantity,
       0
     );
     const price = kit.priceCents ? toReais(kit.priceCents) : null;
@@ -236,12 +236,12 @@ export const getSearchIndex = cache(async () => {
     orderBy: { position: 'asc' },
     include,
   });
-  return rows.map((row) => {
+  return rows.map((row: typeof rows[number]) => {
     const summary = toSummary(row);
     const blocks = parseJson<DescriptionBlock[]>(row.description, []);
     return {
       ...summary,
-      haystack: [row.name, row.title, row.line, row.sku ?? '', blocks.map((block) => block.text).join(' ')]
+      haystack: [row.name, row.title, row.line, row.sku ?? '', blocks.map((block: DescriptionBlock) => block.text).join(' ')]
         .join(' ')
         .toLowerCase(),
     };

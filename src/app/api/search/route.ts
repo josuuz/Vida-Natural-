@@ -19,9 +19,9 @@ export async function GET(request: Request) {
 
   const words = normalize(term).split(/\s+/).filter(Boolean);
   const results = index
-    .filter((entry) => words.every((word) => normalize(entry.haystack).includes(word)))
+    .filter((entry: typeof index[number]) => words.every((word: string) => normalize(entry.haystack).includes(word)))
     .slice(0, limit)
-    .map((entry) => {
+    .map((entry: typeof index[number]) => {
       const { haystack, ...product } = entry;
       void haystack;
       return product;

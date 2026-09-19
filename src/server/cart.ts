@@ -92,7 +92,7 @@ export async function buildCart(input: CartInput): Promise<CartSummary & { coupo
   let weightGrams = 0;
 
   for (const line of requested) {
-    const product = products.find((candidate) => candidate.slug === line.slug);
+    const product = products.find((candidate: typeof products[number]) => candidate.slug === line.slug);
     if (!product) {
       removed.push({ slug: line.slug, reason: 'Produto não encontrado' });
       continue;
@@ -114,7 +114,7 @@ export async function buildCart(input: CartInput): Promise<CartSummary & { coupo
       }
     }
 
-    const tiers = product.tiers.map((tier) => ({
+    const tiers = product.tiers.map((tier: typeof product['tiers'][number]) => ({
       minQuantity: tier.minQuantity,
       unitPriceCents: tier.unitPriceCents,
       highlight: tier.highlight,
@@ -173,7 +173,7 @@ export async function buildCart(input: CartInput): Promise<CartSummary & { coupo
         include: { related: { include: { category: true, tiers: true } } },
       })
     : [];
-  const suggestions = suggestionRows.map((row) => toSummary(row.related));
+  const suggestions = suggestionRows.map((row: typeof suggestionRows[number]) => toSummary(row.related));
 
   const freeRule = await getFreeShippingRule();
   const afterDiscount = subtotalCents - couponDiscountCents;

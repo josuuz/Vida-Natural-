@@ -129,7 +129,7 @@ export async function createOrder(input: CreateOrderInput) {
       notes: input.notes ?? null,
       items: {
         create: summary.lines.map((line) => {
-          const product = products.find((candidate) => candidate.slug === line.product.slug)!;
+          const product = products.find((candidate: typeof products[number]) => candidate.slug === line.product.slug)!;
           return {
             productId: product.id,
             name: product.name,
@@ -277,7 +277,7 @@ export async function getOrderByToken(token: string): Promise<OrderSummary | nul
           state: order.shippingAddress.state,
         }
       : null,
-    items: order.items.map((item) => ({
+    items: order.items.map((item: typeof order['items'][number]) => ({
       slug: item.slug,
       name: item.name,
       image: item.imageSrc,
@@ -285,7 +285,7 @@ export async function getOrderByToken(token: string): Promise<OrderSummary | nul
       unitPrice: toReais(item.unitPriceCents),
       total: toReais(item.totalCents),
     })),
-    events: order.events.map((event) => ({
+    events: order.events.map((event: typeof order['events'][number]) => ({
       status: event.status,
       note: event.note,
       createdAt: event.createdAt.toISOString(),
@@ -301,13 +301,13 @@ export async function getOrdersByEmail(email: string) {
   });
   if (!customer) return [];
 
-  return customer.orders.map((order) => ({
+  return customer.orders.map((order: typeof customer['orders'][number]) => ({
     number: order.number,
     token: order.token,
     status: order.status as OrderStatus,
     paymentStatus: order.paymentStatus as PaymentStatus,
     total: toReais(order.totalCents),
     createdAt: order.createdAt.toISOString(),
-    itemCount: order.items.reduce((sum, item) => sum + item.quantity, 0),
+    itemCount: order.items.reduce((sum: number, item: typeof order['items'][number]) => sum + item.quantity, 0),
   }));
 }
