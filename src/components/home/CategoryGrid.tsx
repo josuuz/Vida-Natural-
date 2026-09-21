@@ -46,7 +46,7 @@ const tiles: Tile[] = [
   { slug: 'meis-em-saches', image: 'mel-em-saches-mel-de-flores-silvestres-80g', span: '', tone: 'cream', size: 'md' },
   { slug: 'spray-bucal', image: 'composto-de-mel-e-extrato-de-propolis-sabor-propolis-spray-30ml', span: '', tone: 'cream', size: 'md' },
   { slug: 'balas', image: 'balas-de-roma-40g', span: '', tone: 'cream', size: 'md' },
-  { slug: 'cha', image: 'meg-ervas-cha-misto-500ml', span: '', tone: 'cream', size: 'md' },
+  { slug: 'cha', image: 'meg-ervas-cha-misto-500ml', span: 'col-span-2 lg:col-span-4', tone: 'cream', size: 'md' },
 ];
 
 const toneStyles = {
@@ -80,7 +80,7 @@ export async function CategoryGrid() {
         className="mb-12"
       />
 
-      <div className="grid auto-rows-[11rem] grid-cols-2 gap-3.5 sm:auto-rows-[12.5rem] sm:gap-4 lg:auto-rows-[14.5rem] lg:grid-cols-4">
+      <div className="grid auto-rows-[13.5rem] grid-cols-2 gap-3.5 sm:auto-rows-[12.5rem] sm:gap-4 lg:auto-rows-[14.5rem] lg:grid-cols-4">
         {tiles.map((tile, index) => {
           const category = findCategory(tile.slug);
           const product = findProduct(tile.image);
@@ -117,7 +117,7 @@ export async function CategoryGrid() {
                       ? 'right-[4%] top-[5%] h-[42%] w-[48%] drop-shadow-[0_26px_40px_rgba(0,0,0,0.3)] sm:top-1/2 sm:h-[66%] sm:w-[46%] sm:-translate-y-1/2'
                       : tile.size === 'lg'
                         ? 'right-[5%] top-[8%] h-[46%] w-[38%] drop-shadow-[0_20px_32px_rgba(62,45,15,0.22)] sm:top-1/2 sm:h-[76%] sm:-translate-y-1/2'
-                        : 'right-[4%] top-[6%] h-[38%] w-[42%] drop-shadow-[0_16px_26px_rgba(62,45,15,0.18)] sm:h-[42%] lg:top-1/2 lg:h-[56%] lg:w-[40%] lg:-translate-y-1/2'
+                        : 'right-[5%] top-[6%] h-[28%] w-[36%] drop-shadow-[0_16px_26px_rgba(62,45,15,0.18)] sm:right-[4%] sm:h-[42%] sm:w-[42%] lg:top-1/2 lg:h-[56%] lg:w-[40%] lg:-translate-y-1/2 lg:object-right'
                   }`}
                 />
 
@@ -139,7 +139,7 @@ export async function CategoryGrid() {
                   </h3>
                   {category.tagline ? (
                     <p
-                      className={`mt-1.5 text-[0.7rem] uppercase tracking-[0.14em] ${
+                      className={`mt-1.5 text-[0.66rem] uppercase tracking-[0.1em] sm:text-[0.7rem] sm:tracking-[0.14em] ${
                         tile.tone === 'dark' ? 'text-honey-300' : 'text-honey-700'
                       }`}
                     >

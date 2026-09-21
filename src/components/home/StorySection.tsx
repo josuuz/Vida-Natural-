@@ -62,7 +62,7 @@ export async function StorySection() {
                 className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-honey-400/15 blur-3xl"
                 aria-hidden
               />
-              <blockquote className="relative max-w-sm">
+              <blockquote className="relative z-10 max-w-sm">
                 <p className="font-display text-[1.6rem] leading-[1.25] sm:text-[2rem]">
                   “Transformar a filosofia de vida do nosso fundador em saúde acessível.”
                 </p>
@@ -72,7 +72,7 @@ export async function StorySection() {
               </blockquote>
 
               {jar ? (
-                <Parallax distance={26} className="pointer-events-none absolute -bottom-6 right-2 w-[46%] sm:right-6 sm:w-[42%]">
+                <Parallax distance={26} className="pointer-events-none absolute -bottom-6 right-2 w-[36%] sm:right-6 sm:w-[42%] lg:w-[36%]">
                   <Image
                     src={jar.image.src}
                     alt=""
@@ -84,11 +84,11 @@ export async function StorySection() {
                 </Parallax>
               ) : null}
 
-              <div className="relative mt-16 max-w-[52%]">
+              <div className="relative z-10 mt-24 max-w-[60%] sm:mt-16 sm:max-w-[52%]">
                 <p className="text-[0.85rem] leading-relaxed text-cream-200/70">
                   Da colmeia ao pote, tudo acontece dentro de casa: recebimento, análise, envase e rotulagem.
                 </p>
-                <ButtonLink href="/sobre" variant="light" size="sm" className="mt-6" arrow>
+                <ButtonLink href="/sobre" variant="light" size="sm" className="mt-6 whitespace-nowrap" arrow>
                   Conhecer a fábrica
                 </ButtonLink>
               </div>

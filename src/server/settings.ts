@@ -1,6 +1,6 @@
 import 'server-only';
 import { cache } from 'react';
-import { prisma } from './db';
+import { fromDatabase, prisma } from './db';
 
 /**
  * Configurações da loja em chave/valor. Nada de regra comercial hardcoded no
@@ -17,7 +17,7 @@ export const DEFAULTS = {
 export type SettingKey = keyof typeof DEFAULTS;
 
 export const getSettings = cache(async (): Promise<Record<string, string>> => {
-  const rows = await prisma.setting.findMany();
+  const rows = await fromDatabase(() => prisma.setting.findMany(), () => []);
   const values: Record<string, string> = { ...DEFAULTS };
   for (const row of rows) values[row.key] = row.value;
   return values;

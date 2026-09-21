@@ -1,6 +1,6 @@
 import 'server-only';
 import { cache } from 'react';
-import { prisma } from './db';
+import { fromDatabase, prisma } from './db';
 import {
   KITS,
   crossSellSlugsFor,
@@ -109,40 +109,21 @@ da vitrine respondem a partir de `src/data/catalog-source.ts`, a mesma fonte
 que alimenta o seed. Pedido, checkout e admin continuam exigindo banco de
 verdade e não usam este caminho.                                            */
 
-/** Erros que significam "ainda não há banco", não "a consulta está errada". */
-const NO_DATABASE_CODES = new Set(['P1000', 'P1001', 'P1003', 'P1010', 'P2021', 'P2022']);
-
-let warned = false;
-
-function isDatabaseMissing(error: unknown): boolean {
-  const code = (error as { code?: unknown })?.code;
-  if (typeof code === 'string' && NO_DATABASE_CODES.has(code)) return true;
-  // o adapter do SQLite não repassa o código quando o arquivo não existe
-  const message = error instanceof Error ? error.message : '';
-  return /does not exist|no such table|unable to open database/i.test(message);
-}
-
-/**
- * Consulta o banco; se ele ainda não existe, devolve o catálogo em arquivo.
- * Sem DATABASE_URL nem tentamos conectar, para não criar um SQLite vazio.
- */
-async function fromDatabase<T>(query: () => Promise<T>, fallback: () => T): Promise<T> {
-  if (!process.env.DATABASE_URL) return fallback();
-  try {
-    return await query();
-  } catch (error) {
-    if (!isDatabaseMissing(error)) throw error;
-    if (!warned) {
-      warned = true;
-      console.warn('[catalogo] banco indisponivel — servindo o catalogo local de src/data/catalog-source.ts');
-    }
-    return fallback();
-  }
-}
-
 const localRows = sourceProducts as unknown as ProductRow[];
 const localBySlug = new Map(localRows.map((row) => [row.slug, row]));
 const localActive = () => localRows.filter((row) => row.active);
+
+/** Linhas cruas para o recálculo do carrinho, inclusive inativas — o carrinho reporta o motivo. */
+export async function getCartRows(slugs: string[]) {
+  const query = () => prisma.product.findMany({ where: { slug: { in: slugs } }, include });
+  return fromDatabase(
+    query,
+    () =>
+      slugs
+        .map((slug) => localBySlug.get(slug))
+        .filter((row): row is ProductRow => Boolean(row)) as unknown as Awaited<ReturnType<typeof query>>
+  );
+}
 
 function toDetail(row: ProductRow): ProductDetail {
   return {

@@ -1,6 +1,6 @@
 import 'server-only';
-import { prisma } from './db';
-import { toSummary } from './catalog';
+import { fromDatabase, prisma } from './db';
+import { getCartRows, getRelatedProducts, toSummary } from './catalog';
 import { getFreeShippingRule, getShippingQuotes } from './shipping';
 import type { AppliedCoupon, CartLineInput, CartSummary, CouponError, PriceTier } from '@/lib/types';
 
@@ -36,7 +36,10 @@ export function resolveUnitPriceCents(
 
 /** Valida o cupom contra o banco. Nunca confie no que o navegador enviou. */
 export async function validateCoupon(code: string, subtotalCents: number): Promise<CouponResult> {
-  const coupon = await prisma.coupon.findUnique({ where: { code: code.trim().toUpperCase() } });
+  const coupon = await fromDatabase(
+    () => prisma.coupon.findUnique({ where: { code: code.trim().toUpperCase() } }),
+    () => null
+  );
   if (!coupon) return { ok: false, error: 'nao_encontrado' };
   if (!coupon.active) return { ok: false, error: 'inativo' };
 
@@ -78,12 +81,7 @@ export async function buildCart(input: CartInput): Promise<CartSummary & { coupo
     .map((line) => ({ slug: line.slug, quantity: Math.max(0, Math.min(99, Math.floor(line.quantity))) }))
     .filter((line) => line.quantity > 0);
 
-  const products = requested.length
-    ? await prisma.product.findMany({
-        where: { slug: { in: requested.map((line) => line.slug) } },
-        include: { category: true, tiers: true },
-      })
-    : [];
+  const products = requested.length ? await getCartRows(requested.map((line) => line.slug)) : [];
 
   const removed: { slug: string; reason: string }[] = [];
   const lines: CartSummary['lines'] = [];
@@ -161,19 +159,9 @@ export async function buildCart(input: CartInput): Promise<CartSummary & { coupo
   // recomendações complementares do primeiro item, sem repetir o carrinho
   const inCart = new Set(lines.map((line) => line.product.slug));
   const firstSlug = lines[0]?.product.slug;
-  const suggestionRows = firstSlug
-    ? await prisma.productRelation.findMany({
-        where: {
-          kind: 'cross-sell',
-          product: { slug: firstSlug },
-          related: { active: true, slug: { notIn: [...inCart] } },
-        },
-        orderBy: { position: 'asc' },
-        take: 2,
-        include: { related: { include: { category: true, tiers: true } } },
-      })
+  const suggestions = firstSlug
+    ? (await getRelatedProducts(firstSlug, 'cross-sell', 8)).filter((item) => !inCart.has(item.slug)).slice(0, 2)
     : [];
-  const suggestions = suggestionRows.map((row: typeof suggestionRows[number]) => toSummary(row.related));
 
   const freeRule = await getFreeShippingRule();
   const afterDiscount = subtotalCents - couponDiscountCents;

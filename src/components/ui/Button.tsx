@@ -5,7 +5,7 @@ type Variant = 'primary' | 'outline' | 'ghost' | 'honey' | 'light';
 type Size = 'sm' | 'md' | 'lg';
 
 const base =
-  'group/btn inline-flex items-center justify-center gap-2 rounded-full font-medium tracking-[0.01em] transition-all duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] disabled:cursor-not-allowed disabled:opacity-50';
+  'group/btn inline-flex select-none items-center justify-center gap-2 rounded-full font-medium tracking-[0.01em] transition-[background-color,border-color,color,box-shadow,transform] duration-200 ease-[cubic-bezier(0.22,1,0.36,1)] active:translate-y-0 active:scale-[0.97] disabled:pointer-events-none disabled:opacity-50';
 
 const variants: Record<Variant, string> = {
   primary:
@@ -39,7 +39,7 @@ function inner(children: ReactNode, arrow?: boolean) {
     <>
       {children}
       {arrow ? (
-        <svg viewBox="0 0 20 20" className="h-4 w-4 transition-transform duration-300 group-hover/btn:translate-x-1" aria-hidden>
+        <svg viewBox="0 0 20 20" className="h-4 w-4 transition-transform duration-200 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover/btn:translate-x-0.5" aria-hidden>
           <path d="M4 10h11M11 5.5 15.5 10 11 14.5" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       ) : null}

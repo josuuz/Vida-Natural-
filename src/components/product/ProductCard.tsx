@@ -74,7 +74,7 @@ export function ProductCard({ product, index = 0, priority = false }: ProductCar
           ) : null}
 
           {/* ação rápida no hover (desktop) */}
-          <div className="absolute inset-x-3 bottom-3 translate-y-3 opacity-0 transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover/card:translate-y-0 group-hover/card:opacity-100 max-sm:hidden">
+          <div className="absolute inset-x-3 bottom-3 translate-y-2 opacity-0 transition-[opacity,transform] duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover/card:translate-y-0 group-hover/card:opacity-100 max-sm:hidden">
             <AddToCartButton product={product} variant="soft" className="w-full" label="Adicionar ao carrinho" />
           </div>
         </div>
@@ -89,7 +89,7 @@ export function ProductCard({ product, index = 0, priority = false }: ProductCar
             {product.variant ? <span className="truncate">· {product.variant}</span> : null}
           </div>
 
-          <div className="mt-auto pt-4">
+          <div className="mt-auto min-h-[3.75rem] pt-4">
             <PriceTag product={product} size="sm" showSavings />
             {bestTier ? (
               <p className="mt-1.5 text-[0.76rem] text-forest-600">

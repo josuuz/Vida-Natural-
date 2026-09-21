@@ -179,7 +179,7 @@ function Suggestion({ product }: { product: ProductSummary }) {
 }
 
 export function CartDrawer() {
-  const { isOpen, close, summary, count, status, remove } = useCart();
+  const { isOpen, close, summary, count, status, remove, intent, refresh } = useCart();
   const lines = summary?.lines ?? [];
 
   return (
@@ -252,6 +252,36 @@ export function CartDrawer() {
                     </div>
                   ) : null}
 
+                  {!summary && status === 'error' ? (
+                    <div className="flex flex-col items-center gap-4 py-14 text-center">
+                      <p className="max-w-[16rem] text-sm leading-relaxed text-ink-muted">
+                        Não conseguimos carregar os seus itens agora.
+                      </p>
+                      <button
+                        type="button"
+                        onClick={refresh}
+                        className="h-10 rounded-full border border-forest-700/30 px-5 text-[0.8rem] text-forest-800 transition-colors hover:bg-forest-700 hover:text-cream-50 active:scale-[0.97]"
+                      >
+                        Tentar novamente
+                      </button>
+                    </div>
+                  ) : null}
+
+                  {!summary && status !== 'error' ? (
+                    <ul className="divide-y divide-line-soft" aria-label="Carregando itens">
+                      {intent.lines.map((line) => (
+                        <li key={line.slug} className="flex gap-4 py-5">
+                          <div className="h-24 w-20 shrink-0 animate-pulse rounded-md bg-cream-200" />
+                          <div className="flex flex-1 flex-col gap-2 pt-1">
+                            <div className="h-2.5 w-16 animate-pulse rounded-full bg-cream-200" />
+                            <div className="h-4 w-4/5 animate-pulse rounded-full bg-cream-200" />
+                            <div className="mt-auto h-8 w-24 animate-pulse rounded-full bg-cream-200" />
+                          </div>
+                        </li>
+                      ))}
+                    </ul>
+                  ) : null}
+
                   <ul className="divide-y divide-line-soft">
                     {lines.map((line) => (
                       <li key={line.product.slug} className="flex gap-4 py-5">
@@ -265,7 +295,7 @@ export function CartDrawer() {
                             alt={line.product.name}
                             width={160}
                             height={160}
-                            className="h-[85%] w-auto object-contain"
+                            className="absolute inset-0 h-full w-full object-contain p-2"
                             sizes="80px"
                           />
                         </Link>
@@ -337,7 +367,7 @@ export function CartDrawer() {
                   <dl className="mt-4 flex flex-col gap-1.5 text-[0.85rem]">
                     <div className="flex justify-between">
                       <dt className="text-ink-soft">Subtotal</dt>
-                      <dd className="tabular-nums text-forest-900">{formatPrice(summary?.subtotal ?? 0)}</dd>
+                      <dd className="tabular-nums text-forest-900">{summary ? formatPrice(summary.subtotal) : '—'}</dd>
                     </div>
                     {summary && summary.couponDiscount > 0 ? (
                       <div className="flex justify-between text-forest-600">
@@ -354,7 +384,7 @@ export function CartDrawer() {
                     <div className="flex justify-between">
                       <dt className="text-ink-soft">Frete</dt>
                       <dd className="tabular-nums text-ink-muted">
-                        {summary?.shipping === null ? 'a combinar' : formatPrice(summary?.shipping ?? 0)}
+                        {!summary ? '—' : summary.shipping === null ? 'a combinar' : formatPrice(summary.shipping)}
                       </dd>
                     </div>
                   </dl>
@@ -365,7 +395,7 @@ export function CartDrawer() {
                       data-testid="cart-total"
                       className="font-display text-2xl tabular-nums text-forest-900"
                     >
-                      {status === 'syncing' && !summary ? '…' : formatPrice(summary?.total ?? 0)}
+                      {summary ? formatPrice(summary.total) : status === 'error' ? '—' : '…'}
                     </span>
                   </div>
 

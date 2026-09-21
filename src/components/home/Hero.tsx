@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef } from 'react';
+import { useRef, useSyncExternalStore } from 'react';
 import Image from 'next/image';
 import { motion, useReducedMotion, useScroll, useTransform } from 'framer-motion';
 import { ButtonLink } from '@/components/ui/Button';
@@ -8,6 +8,16 @@ import { Blob, Texture } from '@/components/ui/Texture';
 import type { ProductSummary } from '@/lib/types';
 
 const EASE = [0.22, 1, 0.36, 1] as const;
+
+// no mobile as colunas empilham: texto descendo e potes subindo se cruzariam
+const DESKTOP = '(min-width: 1024px)';
+function subscribeDesktop(onChange: () => void) {
+  const query = window.matchMedia(DESKTOP);
+  query.addEventListener('change', onChange);
+  return () => query.removeEventListener('change', onChange);
+}
+const useDesktop = () =>
+  useSyncExternalStore(subscribeDesktop, () => window.matchMedia(DESKTOP).matches, () => false);
 
 export function Hero({
   products,
@@ -19,14 +29,16 @@ export function Hero({
 }) {
   const ref = useRef<HTMLElement>(null);
   const reduced = useReducedMotion();
+  const desktop = useDesktop();
+  const still = reduced || !desktop;
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start start', 'end start'] });
 
-  const textY = useTransform(scrollYProgress, [0, 1], [0, reduced ? 0 : 90]);
-  const textOpacity = useTransform(scrollYProgress, [0, 0.75], [1, reduced ? 1 : 0.15]);
-  const frontY = useTransform(scrollYProgress, [0, 1], [0, reduced ? 0 : -70]);
-  const midY = useTransform(scrollYProgress, [0, 1], [0, reduced ? 0 : -130]);
-  const backY = useTransform(scrollYProgress, [0, 1], [0, reduced ? 0 : -190]);
-  const glowScale = useTransform(scrollYProgress, [0, 1], [1, reduced ? 1 : 1.25]);
+  const textY = useTransform(scrollYProgress, [0, 1], [0, still ? 0 : 90]);
+  const textOpacity = useTransform(scrollYProgress, [0, 0.75], [1, still ? 1 : 0.15]);
+  const frontY = useTransform(scrollYProgress, [0, 1], [0, still ? 0 : -70]);
+  const midY = useTransform(scrollYProgress, [0, 1], [0, still ? 0 : -130]);
+  const backY = useTransform(scrollYProgress, [0, 1], [0, still ? 0 : -190]);
+  const glowScale = useTransform(scrollYProgress, [0, 1], [1, still ? 1 : 1.25]);
 
   const [mainProduct, sideProduct, thirdProduct] = products;
 
@@ -54,7 +66,7 @@ export function Hero({
             transition={{ duration: 0.8, ease: EASE, delay: 0.05 }}
             className="eyebrow flex items-center gap-2.5 text-honey-700"
           >
-            <span className="h-px w-8 bg-honey-600/50" aria-hidden />
+            <span className="hidden h-px w-8 bg-honey-600/50 sm:block" aria-hidden />
             Fábrica própria · há mais de 40 anos
           </motion.p>
 
