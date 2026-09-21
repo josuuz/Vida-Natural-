@@ -61,6 +61,30 @@
 
   /* transições */
   --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* cena dos cards de categoria: o produto respira e as folhas balançam */
+  --animate-scene-float: scene-float 6.5s ease-in-out infinite;
+  --animate-scene-sway: scene-sway 7s ease-in-out infinite;
+
+  @keyframes scene-float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-3.5%);
+    }
+  }
+
+  @keyframes scene-sway {
+    0%,
+    100% {
+      transform: rotate(-3deg);
+    }
+    50% {
+      transform: rotate(3.5deg);
+    }
+  }
 }
 
 /* ------------------------------------------------------------------ base */

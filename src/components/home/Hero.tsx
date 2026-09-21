@@ -1,8 +1,8 @@
 'use client';
 
-import { useRef, useSyncExternalStore } from 'react';
+import { useEffect, useRef, useState, useSyncExternalStore } from 'react';
 import Image from 'next/image';
-import { motion, useReducedMotion, useScroll, useTransform } from 'framer-motion';
+import { motion, useInView, useReducedMotion, useScroll, useTransform } from 'framer-motion';
 import { ButtonLink } from '@/components/ui/Button';
 import { Blob, Texture } from '@/components/ui/Texture';
 import type { ProductSummary } from '@/lib/types';
@@ -18,6 +18,83 @@ function subscribeDesktop(onChange: () => void) {
 }
 const useDesktop = () =>
   useSyncExternalStore(subscribeDesktop, () => window.matchMedia(DESKTOP).matches, () => false);
+const noop = () => () => {};
+const useHydrated = () => useSyncExternalStore(noop, () => true, () => false);
+
+/*
+ * Luz ambiente do hero mobile: loop gerado no Higgsfield pelo agente
+ * .claude/agents/higgsfield-hero.md a partir do fundo da própria seção, SEM os
+ * produtos — vídeo de IA redesenha o texto dos rótulos. Os potes continuam
+ * sendo as fotos reais, animadas em código por cima. Fica `null` enquanto não
+ * houver um loop aprovado, e aí nada é baixado.
+ */
+const HERO_AMBIENT: string | null = null;
+
+// o quadro traz o fundo da seção: só as bordas se dissolvem nele
+const EDGE_FADE =
+  'linear-gradient(to right, transparent, #000 8%, #000 92%, transparent), linear-gradient(to bottom, transparent, #000 10%, #000 90%, transparent)';
+const edgeMask = {
+  maskImage: EDGE_FADE,
+  WebkitMaskImage: EDGE_FADE,
+  maskComposite: 'intersect',
+  WebkitMaskComposite: 'source-in',
+} as const;
+
+function HeroAmbient({ active }: { active: boolean }) {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [playing, setPlaying] = useState(false);
+  // só no cliente: o HTML do servidor não leva o vídeo, então o desktop e
+  // quem pede menos movimento nunca chegam a baixá-lo
+  const playable = useHydrated() && active && HERO_AMBIENT !== null;
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!playable || !video) return;
+    video.muted = true;
+    // loop decorativo: pausa assim que o hero sai da tela
+    const observer = new IntersectionObserver(
+      ([entry]) => (entry.isIntersecting ? video.play().catch(() => {}) : video.pause()),
+      { threshold: 0.15 }
+    );
+    observer.observe(video);
+    return () => observer.disconnect();
+  }, [playable]);
+
+  if (!playable || !HERO_AMBIENT) return null;
+  return (
+    <video
+      ref={videoRef}
+      src={HERO_AMBIENT}
+      muted
+      loop
+      playsInline
+      preload="auto"
+      disablePictureInPicture
+      disableRemotePlayback
+      aria-hidden
+      onPlaying={() => setPlaying(true)}
+      style={edgeMask}
+      className={`pointer-events-none absolute inset-y-0 -inset-x-4 h-full w-[calc(100%+2rem)] max-w-none object-cover transition-opacity duration-1000 sm:inset-x-0 sm:w-full lg:hidden ${
+        playing ? 'opacity-100' : 'opacity-0'
+      }`}
+    />
+  );
+}
+
+/*
+ * Flutuação lenta dos potes no mobile — o que dá vida à composição sem
+ * depender da rolagem. Durações diferentes deixam os três fora de fase.
+ */
+function Float({ active, duration, delay, children }: { active: boolean; duration: number; delay: number; children: React.ReactNode }) {
+  return (
+    <motion.div
+      animate={active ? { y: [0, -9, 0], rotate: [0, 0.9, 0] } : { y: 0, rotate: 0 }}
+      transition={active ? { duration, delay, ease: 'easeInOut', repeat: Infinity } : { duration: 0.6, ease: EASE }}
+    >
+      {children}
+    </motion.div>
+  );
+}
 
 export function Hero({
   products,
@@ -31,13 +108,20 @@ export function Hero({
   const reduced = useReducedMotion();
   const desktop = useDesktop();
   const still = reduced || !desktop;
+  const inView = useInView(ref, { amount: 0.1 });
+  const floating = !reduced && !desktop && inView;
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start start', 'end start'] });
 
   const textY = useTransform(scrollYProgress, [0, 1], [0, still ? 0 : 90]);
   const textOpacity = useTransform(scrollYProgress, [0, 0.75], [1, still ? 1 : 0.15]);
-  const frontY = useTransform(scrollYProgress, [0, 1], [0, still ? 0 : -70]);
-  const midY = useTransform(scrollYProgress, [0, 1], [0, still ? 0 : -130]);
-  const backY = useTransform(scrollYProgress, [0, 1], [0, still ? 0 : -190]);
+  // no desktop os potes sobem mais rápido que a página; no mobile, com o texto
+  // logo acima, o pote da frente fica ancorado (com o selo) e os de trás ficam
+  // para trás (descem) — profundidade sem nunca subir sobre o texto
+  const depth = (desktopDistance: number, mobileDistance: number) =>
+    reduced ? 0 : desktop ? desktopDistance : mobileDistance;
+  const frontY = useTransform(scrollYProgress, [0, 1], [0, depth(-70, 0)]);
+  const midY = useTransform(scrollYProgress, [0, 1], [0, depth(-130, 28)]);
+  const backY = useTransform(scrollYProgress, [0, 1], [0, depth(-190, 48)]);
   const glowScale = useTransform(scrollYProgress, [0, 1], [1, still ? 1 : 1.25]);
 
   const [mainProduct, sideProduct, thirdProduct] = products;
@@ -124,69 +208,85 @@ export function Hero({
           </motion.dl>
         </motion.div>
 
-        {/* composição de produtos — três planos com profundidades diferentes */}
-        <div className="relative mx-auto h-[42vh] min-h-[17rem] w-full max-w-xl sm:h-[52vh] lg:h-[calc(100svh-12rem)] lg:max-w-none">
-          {thirdProduct ? (
-            <motion.div
-              style={{ y: backY }}
-              initial={{ opacity: 0, y: 40 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1.1, ease: EASE, delay: 0.45 }}
-              className="absolute bottom-[30%] left-0 w-[32%] -rotate-3 sm:w-[29%] lg:w-[31%]"
-            >
-              <Image
-                src={thirdProduct.image.src}
-                alt={thirdProduct.name}
-                width={thirdProduct.image.width}
-                height={thirdProduct.image.height}
-                priority
-                sizes="(max-width: 768px) 32vw, 20vw"
-                className="h-auto w-full drop-shadow-[0_26px_38px_rgba(62,45,15,0.2)]"
-              />
-            </motion.div>
-          ) : null}
+        {/* composição de produtos — três planos com profundidades diferentes.
+            No mobile os potes flutuam e, na rolagem, ficam para trás em vez de
+            subir sobre o texto; atrás deles entra a luz ambiente do Higgsfield. */}
+        <div
+          data-hero-stage
+          className="relative mx-auto h-[42vh] min-h-[17rem] w-full max-w-xl sm:h-[52vh] lg:h-[calc(100svh-12rem)] lg:max-w-none"
+        >
+          <HeroAmbient active={!reduced && !desktop} />
 
-          {sideProduct ? (
-            <motion.div
-              style={{ y: midY }}
-              initial={{ opacity: 0, y: 50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1.1, ease: EASE, delay: 0.35 }}
-              className="absolute bottom-[12%] right-0 w-[33%] sm:w-[30%] lg:w-[32%]"
-            >
-              <Image
-                src={sideProduct.image.src}
-                alt={sideProduct.name}
-                width={sideProduct.image.width}
-                height={sideProduct.image.height}
-                priority
-                sizes="(max-width: 768px) 33vw, 21vw"
-                className="h-auto w-full drop-shadow-[0_30px_45px_rgba(62,45,15,0.22)]"
-              />
-            </motion.div>
-          ) : null}
+          <div data-hero-layers className="absolute inset-0">
+            {thirdProduct ? (
+              <motion.div
+                style={{ y: backY }}
+                initial={{ opacity: 0, y: 40 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1.1, ease: EASE, delay: 0.45 }}
+                className="absolute bottom-[30%] left-0 w-[32%] -rotate-3 sm:w-[29%] lg:w-[31%]"
+              >
+                <Float active={floating} duration={7.4} delay={1.6}>
+                  <Image
+                    src={thirdProduct.image.src}
+                    alt={thirdProduct.name}
+                    width={thirdProduct.image.width}
+                    height={thirdProduct.image.height}
+                    priority
+                    sizes="(max-width: 768px) 32vw, 20vw"
+                    className="h-auto w-full drop-shadow-[0_26px_38px_rgba(62,45,15,0.2)]"
+                  />
+                </Float>
+              </motion.div>
+            ) : null}
 
-          {mainProduct ? (
-            <motion.div
-              style={{ y: frontY }}
-              initial={{ opacity: 0, y: 60, scale: 0.94 }}
-              animate={{ opacity: 1, y: 0, scale: 1 }}
-              transition={{ duration: 1.2, ease: EASE, delay: 0.2 }}
-              className="absolute bottom-[4%] left-[15%] z-10 w-[54%] sm:w-[50%] lg:w-[52%]"
-            >
-              <Image
-                src={mainProduct.image.src}
-                alt={mainProduct.name}
-                width={mainProduct.image.width}
-                height={mainProduct.image.height}
-                priority
-                sizes="(max-width: 768px) 54vw, 33vw"
-                className="h-auto w-full drop-shadow-[0_40px_60px_rgba(62,45,15,0.28)]"
-              />
-            </motion.div>
-          ) : null}
+            {sideProduct ? (
+              <motion.div
+                style={{ y: midY }}
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1.1, ease: EASE, delay: 0.35 }}
+                className="absolute bottom-[12%] right-0 w-[33%] sm:w-[30%] lg:w-[32%]"
+              >
+                <Float active={floating} duration={6.6} delay={1.3}>
+                  <Image
+                    src={sideProduct.image.src}
+                    alt={sideProduct.name}
+                    width={sideProduct.image.width}
+                    height={sideProduct.image.height}
+                    priority
+                    sizes="(max-width: 768px) 33vw, 21vw"
+                    className="h-auto w-full drop-shadow-[0_30px_45px_rgba(62,45,15,0.22)]"
+                  />
+                </Float>
+              </motion.div>
+            ) : null}
+
+            {mainProduct ? (
+              <motion.div
+                style={{ y: frontY }}
+                initial={{ opacity: 0, y: 60, scale: 0.94 }}
+                animate={{ opacity: 1, y: 0, scale: 1 }}
+                transition={{ duration: 1.2, ease: EASE, delay: 0.2 }}
+                className="absolute bottom-[4%] left-[15%] z-10 w-[54%] sm:w-[50%] lg:w-[52%]"
+              >
+                <Float active={floating} duration={5.8} delay={1}>
+                  <Image
+                    src={mainProduct.image.src}
+                    alt={mainProduct.name}
+                    width={mainProduct.image.width}
+                    height={mainProduct.image.height}
+                    priority
+                    sizes="(max-width: 768px) 54vw, 33vw"
+                    className="h-auto w-full drop-shadow-[0_40px_60px_rgba(62,45,15,0.28)]"
+                  />
+                </Float>
+              </motion.div>
+            ) : null}
+          </div>
 
           <motion.span
+            data-hero-badge
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, ease: EASE, delay: 0.7 }}
